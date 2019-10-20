@@ -213,6 +213,21 @@
 <text x="-10.549990625" y="9.94290625" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
 <text x="-10.549990625" y="9.68890625" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="TRIPPLE-MINI-PP75">
+<pad name="B1" x="-6.1" y="-5.46" drill="2.53" rot="R270"/>
+<pad name="B2" x="0" y="-5.46" drill="2.53"/>
+<pad name="B4" x="0" y="5.46" drill="2.53"/>
+<pad name="B3" x="-6.1" y="5.46" drill="2.53"/>
+<pad name="C2" x="0" y="10.42" drill="2.53"/>
+<pad name="C1" x="-6.1" y="10.42" drill="2.53"/>
+<pad name="C3" x="-6.1" y="21.34" drill="2.53"/>
+<pad name="C4" x="0" y="21.34" drill="2.53"/>
+<pad name="A4" x="0" y="-10.42" drill="2.53"/>
+<pad name="A3" x="-6.1" y="-10.42" drill="2.53"/>
+<pad name="A2" x="0" y="-21.34" drill="2.53"/>
+<pad name="A1" x="-6.1" y="-21.34" drill="2.53"/>
+<wire x1="18" y1="23" x2="18" y2="-23" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRV8353RSRGZT">
@@ -464,6 +479,11 @@
 <rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="3PINCONNECTOR">
+<pin name="C" x="0" y="2.54" length="middle"/>
+<pin name="B" x="0" y="0" length="middle"/>
+<pin name="A" x="0" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -731,6 +751,23 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/drv8353r.pdf"&gt; Datasheet
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRIPPLE-MINI-PP75">
+<gates>
+<gate name="G$1" symbol="3PINCONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TRIPPLE-MINI-PP75">
+<connects>
+<connect gate="G$1" pin="A" pad="A1 A2 A3 A4"/>
+<connect gate="G$1" pin="B" pad="B1 B2 B3 B4"/>
+<connect gate="G$1" pin="C" pad="C1 C2 C3 C4"/>
 </connects>
 <technologies>
 <technology name=""/>
