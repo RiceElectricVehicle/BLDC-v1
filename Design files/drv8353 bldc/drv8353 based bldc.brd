@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2801,6 +2801,54 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package3d>
 </packages3d>
 </library>
+<library name="diode" urn="urn:adsk.eagle:library:210">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="C4111-15" urn="urn:adsk.eagle:footprint:43118/1" library_version="8">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 5.3 mm, horizontal, grid 15.24 mm</description>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.27" y2="0.5842" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.5842" x2="1.27" y2="-0.5842" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.5842" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.5842" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.667" x2="-5.08" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.667" x2="5.08" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.667" x2="5.08" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-2.667" x2="-5.08" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.5842" x2="0.381" y2="-0.5842" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="0" x2="6.223" y2="0" width="1.27" layer="51"/>
+<wire x1="-7.62" y1="0" x2="-6.223" y2="0" width="1.27" layer="51"/>
+<wire x1="-0.381" y1="0.5842" x2="0" y2="0.5842" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.5842" x2="0" y2="0" width="0.1524" layer="21"/>
+<pad name="C" x="-7.62" y="0" drill="1.4986" shape="long"/>
+<pad name="A" x="7.62" y="0" drill="1.4986" shape="long"/>
+<text x="-2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-5.08" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="-5.969" y1="-0.635" x2="-5.08" y2="0.635" layer="21"/>
+<rectangle x1="5.08" y1="-0.635" x2="5.969" y2="0.635" layer="21"/>
+<rectangle x1="-4.318" y1="-2.667" x2="-3.302" y2="2.667" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="C4111-15" urn="urn:adsk.eagle:package:43355/2" type="model" library_version="8">
+<description>DIODE
+diameter 5.3 mm, horizontal, grid 15.24 mm</description>
+<packageinstances>
+<packageinstance name="C4111-15"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3070,7 +3118,9 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-44.45" y="-243.84" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-45.25" y="-245.49" size="1.016" layer="27"/>
 </element>
-<element name="U$17" library="REV BLDC" package="DFLS1200" value="DFLS1200" x="-43.18" y="-248.92" smashed="yes"/>
+<element name="U$17" library="REV BLDC" package="DFLS1200" value="DFLS1200" x="-43.18" y="-248.92" smashed="yes">
+<attribute name="SPICEPREFIX" value="B" x="-43.18" y="-248.92" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="3600pF" x="-44.45" y="-252.73" smashed="yes">
 <attribute name="NAME" x="-45.25" y="-252.08" size="1.016" layer="25"/>
 <attribute name="POPULARITY" value="30" x="-44.45" y="-252.73" size="1.778" layer="27" display="off"/>
@@ -3468,6 +3518,21 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-196.215" y="-447.675" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="REV BLDC" package="TRIPPLE-MINI-PP75" value="TRIPPLE-MINI-PP75" x="-215.9" y="-401.32" smashed="yes"/>
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="C4111-15" package3d_urn="urn:adsk.eagle:package:43355/2" value="1N5908" x="-213.36" y="-453.39" smashed="yes">
+<attribute name="NAME" x="-218.44" y="-450.469" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="1" x="-213.36" y="-453.39" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-215.9" y="-455.549" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="C4111-15" package3d_urn="urn:adsk.eagle:package:43355/2" value="1N5908" x="-213.36" y="-461.01" smashed="yes">
+<attribute name="NAME" x="-218.44" y="-458.089" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="1" x="-213.36" y="-461.01" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-215.9" y="-463.169" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="C4111-15" package3d_urn="urn:adsk.eagle:package:43355/2" value="1N5908" x="-213.36" y="-468.63" smashed="yes">
+<attribute name="NAME" x="-218.44" y="-465.709" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="1" x="-213.36" y="-468.63" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-215.9" y="-470.789" size="1.27" layer="27" ratio="10"/>
+</element>
 </elements>
 <signals>
 <signal name="APHASE">
@@ -3486,7 +3551,9 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="A4"/>
 <contactref element="U$1" pad="A3"/>
 <contactref element="U$1" pad="A2"/>
-<wire x1="-215.9" y1="-422.66" x2="-222" y2="-422.66" width="0" layer="19" extent="1-1"/>
+<contactref element="D1" pad="A"/>
+<wire x1="-215.9" y1="-422.66" x2="-205.74" y2="-453.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-222" y1="-422.66" x2="-215.9" y2="-422.66" width="0" layer="19" extent="1-1"/>
 <wire x1="-222" y1="-411.74" x2="-222" y2="-422.66" width="0" layer="19" extent="1-1"/>
 <wire x1="-215.9" y1="-411.74" x2="-222" y2="-411.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-186.69" y1="-394.97" x2="-215.9" y2="-411.74" width="0" layer="19" extent="1-1"/>
@@ -3555,6 +3622,9 @@ design rules under a new name.</description>
 <contactref element="U$23" pad="D3"/>
 <contactref element="U$23" pad="D4"/>
 <contactref element="C37" pad="1"/>
+<contactref element="D1" pad="C"/>
+<contactref element="D2" pad="C"/>
+<contactref element="D3" pad="C"/>
 <wire x1="-44.68" y1="-198.12" x2="-43.45" y2="-201.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.35" y1="-187" x2="-44.68" y2="-198.12" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.3" y1="-220.98" x2="-43.45" y2="-201.93" width="0" layer="19" extent="1-1"/>
@@ -3581,6 +3651,9 @@ design rules under a new name.</description>
 <wire x1="-185.025" y1="-412.75" x2="-176.66" y2="-405.13" width="0" layer="19" extent="1-1"/>
 <wire x1="-188.835" y1="-412.75" x2="-185.025" y2="-412.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-165.099" y1="-411.48" x2="-176.66" y2="-405.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-220.98" y1="-453.39" x2="-188.835" y2="-412.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-220.98" y1="-461.01" x2="-220.98" y2="-453.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-220.98" y1="-468.63" x2="-220.98" y2="-461.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BPHASE">
 <contactref element="U$22" pad="S1"/>
@@ -3598,12 +3671,14 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="B3"/>
 <contactref element="U$1" pad="B1"/>
 <contactref element="U$1" pad="B2"/>
-<wire x1="-215.9" y1="-406.78" x2="-222" y2="-406.78" width="0" layer="19" extent="1-1"/>
-<wire x1="-222" y1="-395.86" x2="-222" y2="-406.78" width="0" layer="19" extent="1-1"/>
-<wire x1="-215.9" y1="-395.86" x2="-222" y2="-395.86" width="0" layer="19" extent="1-1"/>
-<wire x1="-195.58" y1="-400.05" x2="-215.9" y2="-395.86" width="0" layer="19" extent="1-1"/>
-<wire x1="-189.65" y1="-408.94" x2="-195.58" y2="-400.05" width="0" layer="19" extent="1-1"/>
+<contactref element="D2" pad="A"/>
+<wire x1="-189.65" y1="-408.94" x2="-205.74" y2="-461.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-195.58" y1="-400.05" x2="-189.65" y2="-408.94" width="0" layer="19" extent="1-1"/>
 <wire x1="-175.259" y1="-411.48" x2="-189.65" y2="-408.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-215.9" y1="-395.86" x2="-195.58" y2="-400.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-222" y1="-395.86" x2="-215.9" y2="-395.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-222" y1="-406.78" x2="-222" y2="-395.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-215.9" y1="-406.78" x2="-222" y2="-406.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-175.26" y1="-375.1" x2="-195.58" y2="-400.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-176.26" y1="-371.865" x2="-175.26" y2="-375.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-178.26" y1="-371.865" x2="-176.26" y2="-371.865" width="0" layer="19" extent="1-1"/>
@@ -3629,20 +3704,22 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="C3"/>
 <contactref element="U$1" pad="C4"/>
 <contactref element="U$1" pad="C1"/>
-<wire x1="-215.9" y1="-390.9" x2="-222" y2="-390.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-222" y1="-379.98" x2="-222" y2="-390.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-215.9" y1="-379.98" x2="-222" y2="-379.98" width="0" layer="19" extent="1-1"/>
-<wire x1="-194.04" y1="-390.15" x2="-215.9" y2="-390.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-192.04" y1="-390.15" x2="-194.04" y2="-390.15" width="0" layer="19" extent="1-1"/>
-<wire x1="-190.04" y1="-390.15" x2="-192.04" y2="-390.15" width="0" layer="19" extent="1-1"/>
+<contactref element="D3" pad="A"/>
+<wire x1="-184.57" y1="-408.94" x2="-205.74" y2="-468.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-189.23" y1="-400.05" x2="-184.57" y2="-408.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-190.04" y1="-390.15" x2="-189.23" y2="-400.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-192.04" y1="-390.15" x2="-190.04" y2="-390.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-194.04" y1="-390.15" x2="-192.04" y2="-390.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-184.15" y1="-385.26" x2="-190.04" y2="-390.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-185.15" y1="-382.025" x2="-184.15" y2="-385.26" width="0" layer="19" extent="1-1"/>
 <wire x1="-187.15" y1="-382.025" x2="-185.15" y2="-382.025" width="0" layer="19" extent="1-1"/>
 <wire x1="-183.15" y1="-382.025" x2="-185.15" y2="-382.025" width="0" layer="19" extent="1-1"/>
 <wire x1="-181.15" y1="-382.025" x2="-183.15" y2="-382.025" width="0" layer="19" extent="1-1"/>
-<wire x1="-189.23" y1="-400.05" x2="-190.04" y2="-390.15" width="0" layer="19" extent="1-1"/>
-<wire x1="-184.57" y1="-408.94" x2="-189.23" y2="-400.05" width="0" layer="19" extent="1-1"/>
 <wire x1="-167.639" y1="-411.48" x2="-184.57" y2="-408.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-215.9" y1="-390.9" x2="-194.04" y2="-390.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-222" y1="-390.9" x2="-215.9" y2="-390.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-222" y1="-379.98" x2="-222" y2="-390.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-215.9" y1="-379.98" x2="-222" y2="-379.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPC">
 <contactref element="IC1" pad="21"/>
