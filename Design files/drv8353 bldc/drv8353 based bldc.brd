@@ -3886,6 +3886,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-223.139" y="-588.01" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="-223.012" y="-593.979" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
+<element name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="DNP" x="-218.44" y="-596.9" smashed="yes">
+<attribute name="NAME" x="-220.98" y="-595.6046" size="0.9906" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="8" x="-218.44" y="-596.9" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="L" x="-218.44" y="-596.9" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-220.0656" y="-597.3826" size="0.9906" layer="27" ratio="10"/>
+</element>
 </elements>
 <signals>
 <signal name="APHASE">
@@ -4172,6 +4178,7 @@ design rules under a new name.</description>
 <contactref element="L1" pad="2"/>
 <contactref element="BB2" pad="1"/>
 <contactref element="BB2" pad="2"/>
+<contactref element="L2" pad="2"/>
 <wire x1="-45.325" y1="-205.74" x2="-45.325" y2="-209.55" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.45" y1="-201.93" x2="-45.325" y2="-205.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.325" y1="-213.36" x2="-45.325" y2="-209.55" width="0" layer="19" extent="1-1"/>
@@ -4224,6 +4231,7 @@ design rules under a new name.</description>
 <wire x1="-214.63" y1="-474.98" x2="-194.705" y2="-427.99" width="0" layer="19" extent="1-1"/>
 <wire x1="-220.98" y1="-483.87" x2="-214.63" y2="-474.98" width="0" layer="19" extent="1-1"/>
 <wire x1="-205.74" y1="-483.87" x2="-214.63" y2="-474.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-214.63" y1="-596.9" x2="-220.98" y2="-483.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SNA">
 <contactref element="IC1" pad="12"/>
@@ -4236,12 +4244,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="VSENA">
 <contactref element="TVS_DIODE" pad="D0+"/>
-<contactref element="J1" pad="6"/>
 <contactref element="R24" pad="1"/>
 <contactref element="R25" pad="2"/>
 <contactref element="C34" pad="1"/>
-<wire x1="-177.8" y1="-334.01" x2="-41.4925" y2="-162.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-171.03" y1="-403.86" x2="-177.8" y2="-334.01" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="8"/>
+<wire x1="-180.34" y1="-334.01" x2="-41.4925" y2="-162.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-171.03" y1="-403.86" x2="-180.34" y2="-334.01" width="0" layer="19" extent="1-1"/>
 <wire x1="-164.25" y1="-403.86" x2="-171.03" y2="-403.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-164.705" y1="-408.94" x2="-164.25" y2="-403.86" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -4256,12 +4264,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="VSENB">
 <contactref element="TVS_DIODE" pad="D0-"/>
-<contactref element="J1" pad="8"/>
 <contactref element="R27" pad="1"/>
 <contactref element="R26" pad="2"/>
 <contactref element="C35" pad="1"/>
-<wire x1="-180.34" y1="-334.01" x2="-41.4925" y2="-161.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-191.35" y1="-408.94" x2="-180.34" y2="-334.01" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="10"/>
+<wire x1="-182.88" y1="-334.01" x2="-41.4925" y2="-161.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-191.35" y1="-408.94" x2="-182.88" y2="-334.01" width="0" layer="19" extent="1-1"/>
 <wire x1="-194.73" y1="-408.94" x2="-191.35" y2="-408.94" width="0" layer="19" extent="1-1"/>
 <wire x1="-196.455" y1="-412.75" x2="-194.73" y2="-408.94" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -4299,12 +4307,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="VSENC">
 <contactref element="TVS_DIODE" pad="D1+"/>
-<contactref element="J1" pad="10"/>
 <contactref element="R28" pad="1"/>
 <contactref element="R29" pad="2"/>
 <contactref element="C36" pad="1"/>
-<wire x1="-182.88" y1="-334.01" x2="-41.4925" y2="-160.79" width="0" layer="19" extent="1-1"/>
-<wire x1="-186.27" y1="-408.94" x2="-182.88" y2="-334.01" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="12"/>
+<wire x1="-185.42" y1="-334.01" x2="-41.4925" y2="-160.79" width="0" layer="19" extent="1-1"/>
+<wire x1="-186.27" y1="-408.94" x2="-185.42" y2="-334.01" width="0" layer="19" extent="1-1"/>
 <wire x1="-179.49" y1="-408.94" x2="-186.27" y2="-408.94" width="0" layer="19" extent="1-1"/>
 <wire x1="-192.645" y1="-412.75" x2="-186.27" y2="-408.94" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -4347,37 +4355,37 @@ design rules under a new name.</description>
 <contactref element="R18" pad="1"/>
 <contactref element="R19" pad="2"/>
 <contactref element="C24" pad="1"/>
-<contactref element="J1" pad="3"/>
+<contactref element="J1" pad="6"/>
 <wire x1="-71.97" y1="-276.86" x2="-41.4925" y2="-160.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.27" y1="-280.67" x2="-71.97" y2="-276.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-71.995" y1="-284.48" x2="-70.27" y2="-280.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-175.26" y1="-336.55" x2="-71.995" y2="-284.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-177.8" y1="-334.01" x2="-71.995" y2="-284.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISENA">
-<contactref element="J1" pad="16"/>
 <contactref element="R10" pad="1"/>
 <contactref element="C10" pad="1"/>
 <contactref element="TP29" pad="TP"/>
+<contactref element="J1" pad="18"/>
 <wire x1="-196.43" y1="-416.56" x2="-191.375" y2="-424.18" width="0" layer="19" extent="1-1"/>
-<wire x1="-190.5" y1="-334.01" x2="-196.43" y2="-416.56" width="0" layer="19" extent="1-1"/>
+<wire x1="-193.04" y1="-334.01" x2="-196.43" y2="-416.56" width="0" layer="19" extent="1-1"/>
 <wire x1="-222.25" y1="-549.91" x2="-191.375" y2="-424.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISENB">
-<contactref element="J1" pad="14"/>
 <contactref element="R11" pad="1"/>
 <contactref element="C11" pad="1"/>
 <contactref element="TP30" pad="TP"/>
+<contactref element="J1" pad="16"/>
 <wire x1="-192.645" y1="-427.99" x2="-196.43" y2="-424.18" width="0" layer="19" extent="1-1"/>
-<wire x1="-187.96" y1="-334.01" x2="-196.43" y2="-424.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-190.5" y1="-334.01" x2="-196.43" y2="-424.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-222.25" y1="-554.99" x2="-192.645" y2="-427.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISENC">
-<contactref element="J1" pad="12"/>
 <contactref element="R12" pad="1"/>
 <contactref element="C12" pad="1"/>
 <contactref element="TP31" pad="TP"/>
+<contactref element="J1" pad="14"/>
 <wire x1="-196.43" y1="-420.37" x2="-196.455" y2="-427.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-185.42" y1="-334.01" x2="-196.43" y2="-420.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-187.96" y1="-334.01" x2="-196.43" y2="-420.37" width="0" layer="19" extent="1-1"/>
 <wire x1="-222.25" y1="-560.07" x2="-196.455" y2="-427.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOA">
@@ -4570,10 +4578,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="CS">
 <contactref element="IC1" pad="32"/>
-<contactref element="J2" pad="18"/>
 <contactref element="J3" pad="7"/>
-<wire x1="-193.04" y1="-346.71" x2="-34.6" y2="-189.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-214.63" y1="-591.82" x2="-193.04" y2="-346.71" width="0" layer="19" extent="1-1"/>
+<contactref element="J2" pad="4"/>
+<wire x1="-175.26" y1="-346.71" x2="-34.6" y2="-189.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-214.63" y1="-591.82" x2="-175.26" y2="-346.71" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCLK">
 <contactref element="IC1" pad="31"/>
@@ -4598,14 +4606,14 @@ design rules under a new name.</description>
 <wire x1="-187.96" y1="-346.71" x2="-196.43" y2="-328.93" width="0" layer="19" extent="1-1"/>
 <wire x1="-219.71" y1="-591.82" x2="-187.96" y2="-346.71" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="HALLA">
-<contactref element="J2" pad="4"/>
+<signal name="QEPI">
+<contactref element="J2" pad="13"/>
 </signal>
-<signal name="HALLB">
-<contactref element="J2" pad="6"/>
+<signal name="QEPB">
+<contactref element="J2" pad="15"/>
 </signal>
-<signal name="HALLC">
-<contactref element="J2" pad="16"/>
+<signal name="QEPA">
+<contactref element="J2" pad="17"/>
 </signal>
 <signal name="NFAULT">
 <contactref element="IC1" pad="28"/>
@@ -4642,6 +4650,11 @@ design rules under a new name.</description>
 <wire x1="-205.74" y1="-478.79" x2="-34.6" y2="-192.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-220.98" y1="-478.79" x2="-205.74" y2="-478.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-222.25" y1="-474.98" x2="-220.98" y2="-478.79" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PGA_GND">
+<contactref element="J1" pad="3"/>
+<contactref element="L2" pad="1"/>
+<wire x1="-175.26" y1="-336.55" x2="-222.25" y2="-596.9" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
