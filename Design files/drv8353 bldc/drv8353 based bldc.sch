@@ -17873,6 +17873,9 @@ CONN_05x2
 <part name="TP36" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05X2" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38114/1"/>
 <part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="DNP"/>
+<part name="TP37" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="TP38" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="TP39" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -17880,6 +17883,7 @@ CONN_05x2
 <plain>
 <frame x1="-121.92" y1="-154.94" x2="160.02" y2="33.02" columns="8" rows="5" layer="91"/>
 <text x="-99.06" y="-76.2" size="1.778" layer="97">Debug Header</text>
+<text x="-96.52" y="-142.24" size="1.016" layer="97" rot="R180">PGA_OUT test points</text>
 </plain>
 <instances>
 <instance part="TVS_DIODE" gate="G$1" x="91.44" y="-48.26" smashed="yes"/>
@@ -18145,6 +18149,15 @@ CONN_05x2
 <instance part="L2" gate="G$1" x="-83.82" y="-106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="-78.74" y="-107.95" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-78.74" y="-102.87" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="TP37" gate="G$1" x="-96.52" y="-132.08" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" x="-95.25" y="-130.81" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="TP38" gate="G$1" x="-96.52" y="-134.62" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" x="-95.25" y="-133.35" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="TP39" gate="G$1" x="-96.52" y="-139.7" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" x="-95.25" y="-138.43" size="1.778" layer="97" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -18877,9 +18890,9 @@ CONN_05x2
 <label x="10.16" y="-48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="-88.9" y1="-132.08" x2="-93.98" y2="-132.08" width="0.1524" layer="91"/>
-<label x="-104.14" y="-132.08" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="20"/>
+<wire x1="25.4" y1="-144.78" x2="30.48" y2="-144.78" width="0.1524" layer="91"/>
+<label x="30.48" y="-144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -18975,21 +18988,21 @@ CONN_05x2
 <label x="-106.68" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEPI" class="0">
+<net name="HALL_A" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="13"/>
 <wire x1="2.54" y1="-137.16" x2="-2.54" y2="-137.16" width="0.1524" layer="91"/>
 <label x="-10.16" y="-137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEPB" class="0">
+<net name="HALL_B" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="15"/>
 <wire x1="2.54" y1="-139.7" x2="-2.54" y2="-139.7" width="0.1524" layer="91"/>
 <label x="-10.16" y="-139.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="QEPA" class="0">
+<net name="HALL_C" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="17"/>
 <wire x1="2.54" y1="-142.24" x2="-2.54" y2="-142.24" width="0.1524" layer="91"/>
@@ -19009,9 +19022,9 @@ CONN_05x2
 <junction x="48.26" y="-60.96"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="15"/>
-<wire x1="-88.9" y1="-139.7" x2="-93.98" y2="-139.7" width="0.1524" layer="91"/>
-<label x="-104.14" y="-139.7" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="18"/>
+<wire x1="25.4" y1="-142.24" x2="30.48" y2="-142.24" width="0.1524" layer="91"/>
+<label x="30.48" y="-142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -19074,6 +19087,27 @@ CONN_05x2
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="-91.44" y1="-106.68" x2="-96.52" y2="-106.68" width="0.1524" layer="91"/>
 <label x="-106.68" y="-106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="15"/>
+<wire x1="-88.9" y1="-139.7" x2="-93.98" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="TP39" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="11"/>
+<wire x1="-88.9" y1="-134.62" x2="-93.98" y2="-134.62" width="0.1524" layer="91"/>
+<pinref part="TP38" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="-88.9" y1="-132.08" x2="-93.98" y2="-132.08" width="0.1524" layer="91"/>
+<pinref part="TP37" gate="G$1" pin="TP"/>
 </segment>
 </net>
 </nets>
