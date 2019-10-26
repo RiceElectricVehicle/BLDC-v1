@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16212,6 +16212,31 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
 <wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
 </package>
+<package name="B06BHCMKK">
+<description>&lt;b&gt;B06B-HCMKK-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.2" diameter="1.8" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.2" diameter="1.8"/>
+<pad name="3" x="5.08" y="0" drill="1.2" diameter="1.8"/>
+<pad name="4" x="7.62" y="0" drill="1.2" diameter="1.8"/>
+<pad name="5" x="10.16" y="0" drill="1.2" diameter="1.8"/>
+<pad name="6" x="12.7" y="0" drill="1.2" diameter="1.8"/>
+<hole x="12.7" y="2.5" drill="1.2"/>
+<text x="6.35" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="6.35" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.81" y1="6" x2="16.51" y2="6" width="0.2" layer="51"/>
+<wire x1="16.51" y1="6" x2="16.51" y2="-6" width="0.2" layer="51"/>
+<wire x1="16.51" y1="-6" x2="-3.81" y2="-6" width="0.2" layer="51"/>
+<wire x1="-3.81" y1="-6" x2="-3.81" y2="6" width="0.2" layer="51"/>
+<wire x1="-3.81" y1="6" x2="16.51" y2="6" width="0.1" layer="21"/>
+<wire x1="16.51" y1="6" x2="16.51" y2="-6" width="0.1" layer="21"/>
+<wire x1="16.51" y1="-6" x2="-3.81" y2="-6" width="0.1" layer="21"/>
+<wire x1="-3.81" y1="-6" x2="-3.81" y2="6" width="0.1" layer="21"/>
+<wire x1="-4.81" y1="7" x2="17.51" y2="7" width="0.1" layer="51"/>
+<wire x1="17.51" y1="7" x2="17.51" y2="-7" width="0.1" layer="51"/>
+<wire x1="17.51" y1="-7" x2="-4.81" y2="-7" width="0.1" layer="51"/>
+<wire x1="-4.81" y1="-7" x2="-4.81" y2="7" width="0.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SSQ-110-01-G-D">
@@ -16254,6 +16279,20 @@ Source: AVX .. aphvc.pdf</description>
 <pin name="ON/!OFF" x="0" y="-5.08" length="middle"/>
 <pin name="BYPASS" x="35.56" y="0" length="middle" rot="R180"/>
 <pin name="VOUT" x="35.56" y="-2.54" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="B06B-HCMKK">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="3" x="0" y="-2.54" length="middle"/>
+<pin name="5" x="0" y="-5.08" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="6" x="20.32" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -16323,6 +16362,35 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2992.pdf"&gt; Datasheet &
 <attribute name="MANUFACTURER_PART_NUMBER" value="LP2992IM5-5.0/NOPB" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="926-2992IM5-5.0/NOPB" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=926-2992IM5-5.0%2FNOPB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B06B-HCMKK" prefix="J">
+<description>&lt;b&gt;Automotive Connectors 6P AIT Header Top Position (BLK)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B06B-HCMKK.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B06B-HCMKK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B06BHCMKK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Automotive Connectors 6P AIT Header Top Position (BLK)" constant="no"/>
+<attribute name="HEIGHT" value="13.7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B06B-HCMKK" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="306-B06B-HCMKK" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=306-B06B-HCMKK" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -17876,6 +17944,7 @@ CONN_05x2
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2"/>
 <part name="BB1" library="busbar" library_urn="urn:adsk.eagle:library:112" deviceset="TE3/2" device="" package3d_urn="urn:adsk.eagle:package:5178/1"/>
 <part name="BB2" library="busbar" library_urn="urn:adsk.eagle:library:112" deviceset="TE3/2" device="" package3d_urn="urn:adsk.eagle:package:5178/1"/>
+<part name="J4" library="SamacSys_Parts" deviceset="B06B-HCMKK" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19779,6 +19848,10 @@ CONN_05x2
 <attribute name="VALUE" x="197.104" y="0.381" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY7" gate="GND" x="134.62" y="-12.7" smashed="yes"/>
+<instance part="J4" gate="G$1" x="48.26" y="-17.78" smashed="yes">
+<attribute name="NAME" x="64.77" y="-10.16" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="64.77" y="-12.7" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19842,6 +19915,11 @@ CONN_05x2
 <segment>
 <pinref part="C27" gate="G$1" pin="1"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="6"/>
+<wire x1="68.58" y1="-22.86" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
+<label x="78.74" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSENVM" class="0">
@@ -19961,6 +20039,34 @@ CONN_05x2
 <wire x1="182.88" y1="-2.54" x2="185.42" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="-2.54" x2="185.42" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HALL_B" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="4"/>
+<wire x1="68.58" y1="-20.32" x2="78.74" y2="-20.32" width="0.1524" layer="91"/>
+<label x="78.74" y="-20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HALL_A" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="3"/>
+<wire x1="48.26" y1="-20.32" x2="38.1" y2="-20.32" width="0.1524" layer="91"/>
+<label x="27.94" y="-20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HALL_C" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="5"/>
+<wire x1="48.26" y1="-22.86" x2="38.1" y2="-22.86" width="0.1524" layer="91"/>
+<label x="27.94" y="-22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="-17.78" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
+<label x="78.74" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
