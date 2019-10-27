@@ -1,0 +1,11 @@
+#include "driverlib.h"
+#include "device.h"
+
+void main(void)
+{
+    Device_init();
+    Device_initGPIO();
+    Interrupt_initModule();     // init PIE registers to
+    Interrupt_initVectorTable();
+
+}

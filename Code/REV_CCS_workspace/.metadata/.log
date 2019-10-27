@@ -1,0 +1,2163 @@
+!SESSION 2019-09-29 23:05:15.293 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.egit.core 2 0 2019-09-29 23:05:33.853
+!MESSAGE Builtin LFS support not present/detected
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.jgit.lfs.BuiltinLFS cannot be found by org.eclipse.egit.core_5.0.0.201806131550-r
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:508)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.eclipse.egit.core.Activator.registerBuiltinLFS(Activator.java:279)
+	at org.eclipse.egit.core.Activator.start(Activator.java:212)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.egit.ui.Activator$RepositoryChangeScanner.<init>(Activator.java:921)
+	at org.eclipse.egit.ui.Activator.setupRepoChangeScanner(Activator.java:1034)
+	at org.eclipse.egit.ui.Activator.start(Activator.java:336)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:609)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:177)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:931)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:60)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:174)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$34.runWithException(Workbench.java:2378)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:32)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:95)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2373)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1654)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2859)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+
+!ENTRY com.ti.common.core 1 0 2019-09-29 23:05:34.669
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-09-29 23:05:34.679
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.event 4 0 2019-09-29 23:05:43.219
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/application/ApplicationElement/tags/ADD] {ChangedElement=org.eclipse.e4.primaryDataStack=org.eclipse.e4.ui.model.application.ui.basic.impl.PartStackImpl@23cfdfa2 (tags: [org.eclipse.e4.primaryDataStack, EditorStack, active, Maximized], contributorURI: null) (widget: CTabFolder {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer@193f3306, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.primaryDataStack=org.eclipse.e4.ui.model.application.ui.basic.impl.PartStackImpl@23cfdfa2 (tags: [org.eclipse.e4.primaryDataStack, EditorStack, active, Maximized], contributorURI: null) (widget: CTabFolder {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer@193f3306, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null), AttName=tags, EventType=ADD, Position=3, Widget=CTabFolder {}, NewValue=Maximized}, AttName=tags, EventType=ADD, Position=3, Widget=CTabFolder {}, NewValue=Maximized} to handler org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler@650997b0
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalArgumentException: 
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:65)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:304)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:304)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.setIntroStandby(WorkbenchIntroManager.java:200)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.showIntro(WorkbenchIntroManager.java:138)
+	at org.eclipse.ui.application.WorkbenchWindowAdvisor.openIntro(WorkbenchWindowAdvisor.java:190)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.openIntro(IDEWorkbenchWindowAdvisor.java:572)
+	at org.eclipse.ui.internal.WorkbenchWindow.setup(WorkbenchWindow.java:782)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1005)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:137)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:93)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:74)
+	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1507)
+	at org.eclipse.ui.internal.Workbench.getActiveWorkbenchWindow(Workbench.java:1478)
+	at com.ti.ccstudio.debug.ui.targetStatus.TargetStatusManager.addStatusBar(TargetStatusManager.java:379)
+	at com.ti.ccstudio.debug.ui.targetStatus.statusBar.TargetStatusBar.fill(TargetStatusBar.java:44)
+	at com.ti.ccstudio.debug.ui.targetStatus.statusBar.CCSStatusBar.createControl(CCSStatusBar.java:39)
+	at org.eclipse.ui.menus.WorkbenchWindowControlContribution.delegateCreateControl(WorkbenchWindowControlContribution.java:105)
+	at org.eclipse.ui.internal.menus.CompatibilityWorkbenchWindowControlContribution.construct(CompatibilityWorkbenchWindowControlContribution.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1005)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:137)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:412)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:345)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:214)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:108)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:51)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolControlContribution.createControl(ToolControlContribution.java:53)
+	at org.eclipse.jface.action.ControlContribution.fill(ControlContribution.java:101)
+	at org.eclipse.jface.action.ToolBarManager.update(ToolBarManager.java:343)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.subscribeTopicUpdateToBeRendered(ToolBarManagerRenderer.java:213)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:346)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarContributionRecord.updateVisibility(ToolBarContributionRecord.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer$2.changed(ToolBarManagerRenderer.java:479)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.runAndTrack(EclipseContext.java:344)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.processAddition(ToolBarManagerRenderer.java:471)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.generateContributions(ToolBarManagerRenderer.java:447)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.processContribution(ToolBarManagerRenderer.java:416)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget(ToolBarManagerRenderer.java:376)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1012)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeChildrenHandler(PartRenderingEngine.java:308)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:88)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.processAddition(ContributionsAnalyzer.java:441)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.addTrimContributions(TrimBarRenderer.java:164)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:136)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:557)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:541)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:722)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:686)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:778)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:743)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:727)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1096)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+Caused by: java.lang.IllegalArgumentException: 
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:47)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElementsRecursive(ModelServiceImpl.java:160)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElements(ModelServiceImpl.java:411)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElements(ModelServiceImpl.java:397)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.getActivePerspective(ModelServiceImpl.java:976)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.getElementsToMinimize(MinMaxAddon.java:719)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.maximize(MinMaxAddon.java:690)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:381)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 150 more
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-29 23:05:43.960
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-29 23:05:44.135
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-09-29 23:05:44.295
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-09-29 23:05:47.123
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/LouisSmidt/workspace_v9
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.293
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.493
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.563
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.593
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.763
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.773
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.783
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.803
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.803
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-09-29 23:05:47.823
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.132
+!MESSAGE >>1569816362131 Ta: (ResourceExplorerPlugin::start discoverCCSPort()) took 3
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.141
+!MESSAGE Plugin start call t.start()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.158
+!MESSAGE >>1569816362158 Tb: (ResourceExplorerPlugin::new Thread to start plugin 19
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.200
+!MESSAGE REX 1569816362162 [A:plugin start] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.243
+!MESSAGE REX [OS:plugin start] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.274
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.286
+!MESSAGE REX 1569816362284 Tz: ResourceExplorerPage::createMainArea took 3
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.294
+!MESSAGE REX 1569816362293 Launching Browser
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.302
+!MESSAGE REX [A-] ResourceExplorerPlugin.p == null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.324
+!MESSAGE REX attempt_process_cleanup = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.650
+!MESSAGE REX 1569816362650 Tz: ResourceExplorerPage::createBrowser took 348
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.666
+!MESSAGE REX Using browser port 55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:02.672
+!MESSAGE REX 1569816362671 server starting page: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.051
+!MESSAGE REX 1569816363051 [killServerProcesses] 
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.057
+!MESSAGE REX 1569816363057 Tc: Utilities::startServer preamble895
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.063
+!MESSAGE REX 1569816363063 [D:plugin start] ccs_eclipse_folder: file:/C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.068
+!MESSAGE REX 1569816363068 [E:plugin start] ccs_eclipse_folder: C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.129
+!MESSAGE REX 1569816363129 Ti: Utilities::proxy 57
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.136
+!MESSAGE REX 1569816363136 These are the commands [C:\ti\ccs910\ccs\tirex/node.exe, app.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/dinfra-desktop/dinfra.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/dconfig_localserver.json, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/app_localserver_win.json, --ccs_port=52715, --myHttpPort=55432, --logsDirUncaughtException=C:\Users\LOUISS~1\AppData\Local\TEXASI~1\CCS\ccs910\0\dmp\, --ccsVersion=9.1.0.00010, --tirexPluginVersion=4.1.0.201905081124]
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.141
+!MESSAGE REX 1569816363141 Td: Utilities::before pb.start() 79
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.162
+!MESSAGE REX 1569816363161 Te: Utilities::before isAlive loop 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.173
+!MESSAGE REX 1569816363173 Tf: Utilities::after ResourceExplorerPlugin.p.isAlive() loop 0
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.183
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.193
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:03.925
+!MESSAGE REX 1569816363924 [] setUrl: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:05.811
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:05.880
+!MESSAGE REX 1569816365880 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:06.393
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:10.056
+!MESSAGE REX 1569816370056 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:10.565
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:10.573
+!MESSAGE REX 1569816370573 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:11.227
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:11.234
+!MESSAGE REX 1569816371233 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:11.751
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:11.772
+!MESSAGE REX 1569816371766 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:12.289
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:12.300
+!MESSAGE REX 1569816372300 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:12.808
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:12.819
+!MESSAGE REX 1569816372819 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:13.333
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:13.346
+!MESSAGE REX 1569816373345 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:13.858
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:13.869
+!MESSAGE REX 1569816373869 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:14.379
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:14.462
+!MESSAGE REX 1569816374462 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:14.491
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:14.496
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:14.503
+!MESSAGE REX 1569816374502 Tg: Utilities::after server isAlive 11320
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:14.510
+!MESSAGE REX 1569816374510 Th: Utilities::refreshEditor 2
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:14.517
+!MESSAGE REX Sending 'POST' request to URL : http://127.0.0.1:55432/localpkg/scan
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:14.544
+!MESSAGE REX 1569816374544 Utilities::sendPost Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:06:14.572
+!MESSAGE REX 1569816374572 Changing URL to http://localhost:55432/loading
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.843
+!MESSAGE REX OpenExplorerHandler:: Open Explorer
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.851
+!MESSAGE REX OpenExplorerHandler:: just_started_plugin = false
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.858
+!MESSAGE REX OpenExplorerHandler:: Call startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.864
+!MESSAGE REX 1569816895864 [A:menu] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.871
+!MESSAGE REX [OS:menu] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.877
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.882
+!MESSAGE REX 1569816895882 [B:menu] process handle != null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.890
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.896
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.906
+!MESSAGE REX 1569816895905 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.912
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.916
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.922
+!MESSAGE REX [A-] server_up = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.927
+!MESSAGE REX attempt_process_cleanup = false
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:55.931
+!MESSAGE REX 1569816895931 Tc: Utilities::startServer preamble67
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.741
+!MESSAGE REX OpenExplorerHandler:: Open Explorer
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.749
+!MESSAGE REX OpenExplorerHandler:: just_started_plugin = false
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.755
+!MESSAGE REX OpenExplorerHandler:: Call startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.761
+!MESSAGE REX 1569816899761 [A:menu] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.777
+!MESSAGE REX 1569816899774 Tz: ResourceExplorerPage::createMainArea took 1
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.783
+!MESSAGE REX 1569816899783 Launching Browser
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.813
+!MESSAGE REX [OS:menu] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.825
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.836
+!MESSAGE REX 1569816899836 [B:menu] process handle != null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.847
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.866
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.873
+!MESSAGE REX 1569816899873 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.884
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.888
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.893
+!MESSAGE REX [A-] server_up = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.899
+!MESSAGE REX attempt_process_cleanup = false
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.908
+!MESSAGE REX 1569816899907 Tc: Utilities::startServer preamble146
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.978
+!MESSAGE REX 1569816899978 Tz: ResourceExplorerPage::createBrowser took 189
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.987
+!MESSAGE REX Using browser port 55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.993
+!MESSAGE REX 1569816899992 server starting page: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:14:59.998
+!MESSAGE REX Sending 'POST' request to URL : http://127.0.0.1:55432/localpkg/scan
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:15:00.023
+!MESSAGE REX 1569816900022 Utilities::sendPost Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:15:00.029
+!MESSAGE REX 1569816900028 [ready] setUrl: http://localhost:55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:19:46.018
+!MESSAGE >>1569817186018  killing node server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:19:46.028
+!MESSAGE REX Sending 'GET' request to URL : http://localhost:55432/api/exit
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-29 23:19:46.048
+!MESSAGE REX 1569817186048 Utilities::sendGet Response Code from local server: 200
+!SESSION 2019-10-09 15:48:15.316 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-09 15:48:26.858
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-09 15:48:26.870
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.560
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.570
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.575
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.581
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.587
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.613
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.644
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.673
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.700
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-09 15:48:44.813
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:44.936
+!MESSAGE >>1570654124935 Ta: (ResourceExplorerPlugin::start discoverCCSPort()) took 2851
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:44.948
+!MESSAGE Plugin start call t.start()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:44.954
+!MESSAGE >>1570654124953 Tb: (ResourceExplorerPlugin::new Thread to start plugin 11
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:44.960
+!MESSAGE REX 1570654124953 [A:plugin start] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:44.967
+!MESSAGE REX [OS:plugin start] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:44.975
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:44.984
+!MESSAGE REX [A-] ResourceExplorerPlugin.p == null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:44.989
+!MESSAGE REX attempt_process_cleanup = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:45.329
+!MESSAGE REX 1570654125329 [killServerProcesses] 
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:45.335
+!MESSAGE REX 1570654125335 Tc: Utilities::startServer preamble382
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:45.341
+!MESSAGE REX 1570654125341 [D:plugin start] ccs_eclipse_folder: file:/C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:45.346
+!MESSAGE REX 1570654125346 [E:plugin start] ccs_eclipse_folder: C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:45.396
+!MESSAGE REX 1570654125396 Tz: ResourceExplorerPage::createMainArea took 8
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:45.406
+!MESSAGE REX 1570654125405 Launching Browser
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:45.576
+!MESSAGE REX 1570654125576 Ti: Utilities::proxy 224
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:45.649
+!MESSAGE REX 1570654125648 These are the commands [C:\ti\ccs910\ccs\tirex/node.exe, app.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/dinfra-desktop/dinfra.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/dconfig_localserver.json, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/app_localserver_win.json, --ccs_port=50169, --myHttpPort=55432, --logsDirUncaughtException=C:\Users\LOUISS~1\AppData\Local\TEXASI~1\CCS\ccs910\0\dmp\, --ccsVersion=9.1.0.00010, --tirexPluginVersion=4.1.0.201905081124]
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:45.655
+!MESSAGE REX 1570654125654 Td: Utilities::before pb.start() 314
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:48.065
+!MESSAGE REX 1570654128064 Te: Utilities::before isAlive loop 2403
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:48.072
+!MESSAGE REX 1570654128072 Tf: Utilities::after ResourceExplorerPlugin.p.isAlive() loop 1
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:48.086
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:48.133
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:50.195
+!MESSAGE REX 1570654130194 Tz: ResourceExplorerPage::createBrowser took 4773
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:50.211
+!MESSAGE REX Using browser port 55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:50.240
+!MESSAGE REX 1570654130239 server starting page: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:50.719
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:51.483
+!MESSAGE REX 1570654131483 [] setUrl: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:53.521
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-09 15:48:55.487
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-09 15:48:55.569
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-09 15:48:55.575
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:56.117
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:48:58.780
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:01.660
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:04.663
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:07.428
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:08.629
+!MESSAGE REX 1570654148628 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:09.169
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:09.178
+!MESSAGE REX 1570654149178 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:09.684
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:09.696
+!MESSAGE REX 1570654149695 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:10.202
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:10.214
+!MESSAGE REX 1570654150213 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:10.721
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:10.735
+!MESSAGE REX 1570654150735 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:11.241
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:11.284
+!MESSAGE REX 1570654151284 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:11.814
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:16.668
+!MESSAGE REX 1570654156668 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:17.181
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:17.190
+!MESSAGE REX 1570654157190 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:17.698
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:17.735
+!MESSAGE REX 1570654157734 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:18.260
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:18.272
+!MESSAGE REX 1570654158271 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:18.278
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:18.284
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:18.299
+!MESSAGE REX 1570654158298 Tg: Utilities::after server isAlive 30213
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:18.314
+!MESSAGE REX 1570654158313 Th: Utilities::refreshEditor 8
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:18.324
+!MESSAGE REX Sending 'POST' request to URL : http://127.0.0.1:55432/localpkg/scan
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:18.348
+!MESSAGE REX 1570654158348 Utilities::sendPost Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:49:18.381
+!MESSAGE REX 1570654158381 Changing URL to http://localhost:55432
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-09 15:49:34.954
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/LouisSmidt/workspace_v9
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:54:51.838
+!MESSAGE >>1570654491838  killing node server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:54:51.848
+!MESSAGE REX Sending 'GET' request to URL : http://localhost:55432/api/exit
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:54:51.868
+!MESSAGE REX 1570654491868 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-09 15:54:51.948
+!MESSAGE REX 1570654491948 Monitor thread discovered server process problem. Have set error page
+!SESSION 2019-10-19 19:13:32.776 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-19 19:13:45.756
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-19 19:13:45.826
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:01.789
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:01.799
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:01.799
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:01.809
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:01.819
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:01.839
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:01.869
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:01.899
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:01.929
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-19 19:14:02.019
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.139
+!MESSAGE >>1571530442129 Ta: (ResourceExplorerPlugin::start discoverCCSPort()) took 2590
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.149
+!MESSAGE Plugin start call t.start()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.159
+!MESSAGE >>1571530442149 Tb: (ResourceExplorerPlugin::new Thread to start plugin 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.159
+!MESSAGE REX 1571530442149 [A:plugin start] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.169
+!MESSAGE REX [OS:plugin start] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.169
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.179
+!MESSAGE REX [A-] ResourceExplorerPlugin.p == null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.179
+!MESSAGE REX attempt_process_cleanup = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.519
+!MESSAGE REX 1571530442519 Tz: ResourceExplorerPage::createMainArea took 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.529
+!MESSAGE REX 1571530442529 Launching Browser
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.539
+!MESSAGE REX 1571530442539 [killServerProcesses] 
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.539
+!MESSAGE REX 1571530442539 Tc: Utilities::startServer preamble390
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.549
+!MESSAGE REX 1571530442549 [D:plugin start] ccs_eclipse_folder: file:/C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.569
+!MESSAGE REX 1571530442569 [E:plugin start] ccs_eclipse_folder: C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.679
+!MESSAGE REX 1571530442679 Ti: Utilities::proxy 100
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.689
+!MESSAGE REX 1571530442689 These are the commands [C:\ti\ccs910\ccs\tirex/node.exe, app.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/dinfra-desktop/dinfra.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/dconfig_localserver.json, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/app_localserver_win.json, --ccs_port=50134, --myHttpPort=55432, --logsDirUncaughtException=C:\Users\LOUISS~1\AppData\Local\TEXASI~1\CCS\ccs910\0\dmp\, --ccsVersion=9.1.0.00010, --tirexPluginVersion=4.1.0.201905081124]
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.689
+!MESSAGE REX 1571530442689 Td: Utilities::before pb.start() 140
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.709
+!MESSAGE REX 1571530442709 Te: Utilities::before isAlive loop 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.709
+!MESSAGE REX 1571530442709 Tf: Utilities::after ResourceExplorerPlugin.p.isAlive() loop 0
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.719
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:02.759
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:05.299
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:06.679
+!MESSAGE REX 1571530446679 Tz: ResourceExplorerPage::createBrowser took 4150
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:06.689
+!MESSAGE REX Using browser port 55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:06.699
+!MESSAGE REX 1571530446699 server starting page: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:07.905
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:07.935
+!MESSAGE REX 1571530447935 [] setUrl: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:10.837
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-19 19:14:10.899
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-19 19:14:11.024
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-19 19:14:11.030
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:13.698
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:16.496
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:17.569
+!MESSAGE REX 1571530457569 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:18.076
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:22.911
+!MESSAGE REX 1571530462911 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:23.426
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:23.479
+!MESSAGE REX 1571530463479 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:24.025
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:24.035
+!MESSAGE REX 1571530464035 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:24.045
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:24.060
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:24.072
+!MESSAGE REX 1571530464072 Tg: Utilities::after server isAlive 21353
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:24.082
+!MESSAGE REX 1571530464081 Th: Utilities::refreshEditor 4
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:24.087
+!MESSAGE REX Sending 'POST' request to URL : http://127.0.0.1:55432/localpkg/scan
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:24.125
+!MESSAGE REX 1571530464124 Utilities::sendPost Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-19 19:14:24.161
+!MESSAGE REX 1571530464161 Changing URL to http://localhost:55432
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-19 19:14:45.913
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/LouisSmidt/workspace_v9
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:53:45.804
+!MESSAGE >>1571604825804  killing node server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:53:45.904
+!MESSAGE REX Sending 'GET' request to URL : http://localhost:55432/api/exit
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:53:45.924
+!MESSAGE REX 1571604825924 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:53:45.964
+!MESSAGE REX 1571604825934 Monitor thread discovered server process problem. Have set error page
+!SESSION 2019-10-20 15:54:12.567 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-20 15:54:20.187
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-20 15:54:20.187
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:30.833
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:30.843
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:30.853
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:30.853
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:30.863
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:30.883
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:30.913
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:30.943
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:30.963
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-20 15:54:31.043
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.123
+!MESSAGE >>1571604871123 Ta: (ResourceExplorerPlugin::start discoverCCSPort()) took 2190
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.133
+!MESSAGE Plugin start call t.start()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.143
+!MESSAGE >>1571604871143 Tb: (ResourceExplorerPlugin::new Thread to start plugin 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.143
+!MESSAGE REX 1571604871143 [A:plugin start] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.153
+!MESSAGE REX [OS:plugin start] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.153
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.163
+!MESSAGE REX [A-] ResourceExplorerPlugin.p == null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.163
+!MESSAGE REX attempt_process_cleanup = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.483
+!MESSAGE REX 1571604871483 Tz: ResourceExplorerPage::createMainArea took 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.483
+!MESSAGE REX 1571604871483 Launching Browser
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.513
+!MESSAGE REX 1571604871513 [killServerProcesses] 
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.523
+!MESSAGE REX 1571604871523 Tc: Utilities::startServer preamble380
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.523
+!MESSAGE REX 1571604871523 [D:plugin start] ccs_eclipse_folder: file:/C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.533
+!MESSAGE REX 1571604871533 [E:plugin start] ccs_eclipse_folder: C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.623
+!MESSAGE REX 1571604871623 Ti: Utilities::proxy 90
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.633
+!MESSAGE REX 1571604871633 These are the commands [C:\ti\ccs910\ccs\tirex/node.exe, app.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/dinfra-desktop/dinfra.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/dconfig_localserver.json, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/app_localserver_win.json, --ccs_port=51823, --myHttpPort=55432, --logsDirUncaughtException=C:\Users\LOUISS~1\AppData\Local\TEXASI~1\CCS\ccs910\0\dmp\, --ccsVersion=9.1.0.00010, --tirexPluginVersion=4.1.0.201905081124]
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.633
+!MESSAGE REX 1571604871633 Td: Utilities::before pb.start() 110
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.643
+!MESSAGE REX 1571604871643 Te: Utilities::before isAlive loop 0
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.653
+!MESSAGE REX 1571604871653 Tf: Utilities::after ResourceExplorerPlugin.p.isAlive() loop 0
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.663
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:31.693
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:34.233
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:34.323
+!MESSAGE REX 1571604874323 Tz: ResourceExplorerPage::createBrowser took 2830
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:34.323
+!MESSAGE REX Using browser port 55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:34.333
+!MESSAGE REX 1571604874333 server starting page: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:35.563
+!MESSAGE REX 1571604875563 [] setUrl: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:36.851
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-20 15:54:37.141
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-20 15:54:37.221
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-20 15:54:37.441
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:44.109
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:48.729
+!MESSAGE REX 1571604888729 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.239
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.249
+!MESSAGE REX 1571604889249 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.779
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.799
+!MESSAGE REX 1571604889799 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.819
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.829
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.859
+!MESSAGE REX 1571604889859 Tg: Utilities::after server isAlive 18196
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.889
+!MESSAGE REX 1571604889889 Th: Utilities::refreshEditor 20
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.899
+!MESSAGE REX Sending 'POST' request to URL : http://127.0.0.1:55432/localpkg/scan
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.939
+!MESSAGE REX 1571604889939 Utilities::sendPost Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 15:54:49.971
+!MESSAGE REX 1571604889971 Changing URL to http://localhost:55432
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-20 15:55:04.906
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/LouisSmidt/workspace_v9
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-10-20 23:47:34.256
+!MESSAGE Connection to http://software-dl.ti.com/ccs/non-esd/dvt/ccs6.0/p2.index failed on Connection refused: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-10-20 23:47:38.520
+!MESSAGE Connection to http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2win32/content.xml.xz failed on Connection refused: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-10-20 23:47:48.522
+!MESSAGE Connection to http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/p2.index failed on Connection refused: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-10-20 23:47:48.918
+!MESSAGE Unable to connect to repository http://software-dl.ti.com/ccs/non-esd/dvt/ccs6.0/content.xml
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:120)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-10-20 23:47:58.702
+!MESSAGE Connection to http://software-dl.ti.com/ccs/non-esd/dvt/ccs6.0/p2.index failed on Connection refused: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-10-20 23:48:03.134
+!MESSAGE Unable to connect to repository http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/artifacts.xml
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:120)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 23:57:51.253
+!MESSAGE >>1571633871253  killing node server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 23:57:51.263
+!MESSAGE REX Sending 'GET' request to URL : http://localhost:55432/api/exit
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 23:57:51.333
+!MESSAGE REX 1571633871333 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-20 23:57:51.623
+!MESSAGE REX 1571633871623 Monitor thread discovered server process problem. Have set error page
+!SESSION 2019-10-23 15:46:29.768 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-23 15:46:49.609
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-23 15:46:49.619
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:00.883
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:00.893
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:00.903
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:00.903
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:00.913
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:00.933
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:00.963
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:00.993
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:01.023
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-23 15:47:01.113
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.233
+!MESSAGE >>1571863621233 Ta: (ResourceExplorerPlugin::start discoverCCSPort()) took 2390
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.243
+!MESSAGE Plugin start call t.start()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.253
+!MESSAGE >>1571863621253 Tb: (ResourceExplorerPlugin::new Thread to start plugin 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.253
+!MESSAGE REX 1571863621253 [A:plugin start] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.273
+!MESSAGE REX [OS:plugin start] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.273
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.283
+!MESSAGE REX [A-] ResourceExplorerPlugin.p == null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.293
+!MESSAGE REX attempt_process_cleanup = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.603
+!MESSAGE REX 1571863621603 Tz: ResourceExplorerPage::createMainArea took 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.623
+!MESSAGE REX 1571863621613 Launching Browser
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.913
+!MESSAGE REX 1571863621913 [killServerProcesses] 
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.913
+!MESSAGE REX 1571863621913 Tc: Utilities::startServer preamble660
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.913
+!MESSAGE REX 1571863621913 [D:plugin start] ccs_eclipse_folder: file:/C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:01.923
+!MESSAGE REX 1571863621923 [E:plugin start] ccs_eclipse_folder: C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:02.333
+!MESSAGE REX 1571863622333 Ti: Utilities::proxy 410
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:02.453
+!MESSAGE REX 1571863622453 These are the commands [C:\ti\ccs910\ccs\tirex/node.exe, app.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/dinfra-desktop/dinfra.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/dconfig_localserver.json, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/app_localserver_win.json, --ccs_port=50126, --myHttpPort=55432, --logsDirUncaughtException=C:\Users\LOUISS~1\AppData\Local\TEXASI~1\CCS\ccs910\0\dmp\, --ccsVersion=9.1.0.00010, --tirexPluginVersion=4.1.0.201905081124]
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:02.453
+!MESSAGE REX 1571863622453 Td: Utilities::before pb.start() 540
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:02.543
+!MESSAGE REX 1571863622543 Te: Utilities::before isAlive loop 80
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:02.603
+!MESSAGE REX 1571863622603 Tf: Utilities::after ResourceExplorerPlugin.p.isAlive() loop 0
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:02.613
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:02.683
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:04.723
+!MESSAGE REX 1571863624723 Tz: ResourceExplorerPage::createBrowser took 3100
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:04.733
+!MESSAGE REX Using browser port 55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:04.733
+!MESSAGE REX 1571863624733 server starting page: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:05.662
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:05.973
+!MESSAGE REX 1571863625973 [] setUrl: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-23 15:47:07.273
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-23 15:47:07.423
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-23 15:47:07.459
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:08.177
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:11.075
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:13.654
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:16.276
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:16.873
+!MESSAGE REX 1571863636872 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:17.386
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:20.885
+!MESSAGE REX 1571863640885 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:21.392
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:21.404
+!MESSAGE REX 1571863641404 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:21.907
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:21.944
+!MESSAGE REX 1571863641944 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:22.454
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:22.463
+!MESSAGE REX 1571863642463 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:22.470
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:22.490
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:22.525
+!MESSAGE REX 1571863642525 Tg: Utilities::after server isAlive 19912
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:22.535
+!MESSAGE REX 1571863642535 Th: Utilities::refreshEditor 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:22.545
+!MESSAGE REX Sending 'POST' request to URL : http://127.0.0.1:55432/localpkg/scan
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:22.581
+!MESSAGE REX 1571863642581 Utilities::sendPost Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 15:47:22.620
+!MESSAGE REX 1571863642620 Changing URL to http://localhost:55432
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-23 15:47:34.078
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/LouisSmidt/workspace_v9
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-23 16:09:01.186
+!MESSAGE Indexed 'REV_bldc' (1 sources, 0 headers) in 0.412 sec: 2 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ui 2 2 2019-10-23 16:09:20.348
+!MESSAGE com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-23 16:09:28.880
+!MESSAGE DS_ERROR: IcePick_C_0: Error connecting to the target: (Error -2131 @ 0x0) Unable to access device register. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-23 16:09:29.195
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -2131 @ 0x0)
+Unable to access device register. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK).
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-23 16:10:24.557
+!MESSAGE DS_ERROR: IcePick_C_0: Error connecting to the target: (Error -2131 @ 0x0) Unable to access device register. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK). (Emulation package 8.2.0.00004) 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-23 16:10:24.790
+!MESSAGE DS_ERROR: Error connecting to the target:
+(Error -2131 @ 0x0)
+Unable to access device register. Reset the device, and retry the operation. If error persists, confirm configuration, power-cycle the board, and/or try more reliable JTAG settings (e.g. lower TCLK).
+(Emulation package 8.2.0.00004)
+
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.402
+!MESSAGE REX OpenExplorerHandler:: Open Explorer
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.413
+!MESSAGE REX OpenExplorerHandler:: just_started_plugin = false
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.422
+!MESSAGE REX OpenExplorerHandler:: Call startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.432
+!MESSAGE REX 1571865477432 [A:menu] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.442
+!MESSAGE REX [OS:menu] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.452
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.482
+!MESSAGE REX 1571865477472 Tz: ResourceExplorerPage::createMainArea took 0
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.482
+!MESSAGE REX 1571865477482 [B:menu] process handle != null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.492
+!MESSAGE REX 1571865477482 Launching Browser
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.502
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.512
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.522
+!MESSAGE REX 1571865477522 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.532
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.542
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.542
+!MESSAGE REX [A-] server_up = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.562
+!MESSAGE REX attempt_process_cleanup = false
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:57.562
+!MESSAGE REX 1571865477562 Tc: Utilities::startServer preamble130
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:58.182
+!MESSAGE REX 1571865478182 Tz: ResourceExplorerPage::createBrowser took 680
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:58.182
+!MESSAGE REX Using browser port 55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:58.192
+!MESSAGE REX 1571865478192 server starting page: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:58.202
+!MESSAGE REX Sending 'POST' request to URL : http://127.0.0.1:55432/localpkg/scan
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:58.241
+!MESSAGE REX 1571865478241 Utilities::sendPost Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 16:17:58.247
+!MESSAGE REX 1571865478247 [ready] setUrl: http://localhost:55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 23:40:22.859
+!MESSAGE >>1571892022859  killing node server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 23:40:22.869
+!MESSAGE REX Sending 'GET' request to URL : http://localhost:55432/api/exit
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-23 23:40:22.879
+!MESSAGE REX 1571892022879 Utilities::sendGet Response Code from local server: 200
+!SESSION 2019-10-25 22:32:54.862 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-25 22:33:01.880
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-25 22:33:01.920
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:15.819
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:15.827
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:15.833
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:15.838
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:15.850
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:15.880
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:15.938
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:16.000
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:16.044
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-25 22:33:16.158
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:16.289
+!MESSAGE >>1572060796288 Ta: (ResourceExplorerPlugin::start discoverCCSPort()) took 2985
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:16.312
+!MESSAGE Plugin start call t.start()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:16.317
+!MESSAGE >>1572060796317 Tb: (ResourceExplorerPlugin::new Thread to start plugin 12
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:16.326
+!MESSAGE REX 1572060796324 [A:plugin start] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:16.335
+!MESSAGE REX [OS:plugin start] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:16.344
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:16.358
+!MESSAGE REX [A-] ResourceExplorerPlugin.p == null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:16.371
+!MESSAGE REX attempt_process_cleanup = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:17.138
+!MESSAGE REX 1572060797138 Tz: ResourceExplorerPage::createMainArea took 18
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:17.143
+!MESSAGE REX 1572060797142 Launching Browser
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:17.873
+!MESSAGE REX 1572060797873 [killServerProcesses] 
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:17.935
+!MESSAGE REX 1572060797934 Tc: Utilities::startServer preamble1610
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:17.941
+!MESSAGE REX 1572060797941 [D:plugin start] ccs_eclipse_folder: file:/C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:18.038
+!MESSAGE REX 1572060798038 [E:plugin start] ccs_eclipse_folder: C:/ti/ccs910/ccs/eclipse/
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:18.772
+!MESSAGE REX 1572060798772 Ti: Utilities::proxy 730
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:18.927
+!MESSAGE REX 1572060798927 These are the commands [C:\ti\ccs910\ccs\tirex/node.exe, app.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/dinfra-desktop/dinfra.js, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/dconfig_localserver.json, C:\ti\ccs910\ccs\tirex\ti-rex-core/config/app_localserver_win.json, --ccs_port=58644, --myHttpPort=55432, --logsDirUncaughtException=C:\Users\LOUISS~1\AppData\Local\TEXASI~1\CCS\ccs910\0\dmp\, --ccsVersion=9.1.0.00010, --tirexPluginVersion=4.1.0.201905081124]
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:18.963
+!MESSAGE REX 1572060798963 Td: Utilities::before pb.start() 1023
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:18.981
+!MESSAGE REX 1572060798981 Te: Utilities::before isAlive loop 11
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:19.020
+!MESSAGE REX 1572060799020 Tf: Utilities::after ResourceExplorerPlugin.p.isAlive() loop 0
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:19.041
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:19.102
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:22.039
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:22.799
+!MESSAGE REX 1572060802799 Tz: ResourceExplorerPage::createBrowser took 5652
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:22.849
+!MESSAGE REX Using browser port 55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:22.859
+!MESSAGE REX 1572060802859 server starting page: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:24.099
+!MESSAGE REX 1572060804098 [] setUrl: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:24.938
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-25 22:33:25.963
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-25 22:33:26.140
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-25 22:33:26.338
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:27.952
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:31.052
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:33.847
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:36.617
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:37.837
+!MESSAGE REX 1572060817837 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:38.347
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:38.437
+!MESSAGE REX 1572060818437 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:38.947
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:44.919
+!MESSAGE REX 1572060824919 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:45.439
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:45.539
+!MESSAGE REX 1572060825529 Utilities::sendGet Response Code from local server: 503
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:46.159
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:46.179
+!MESSAGE REX 1572060826179 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:46.199
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:46.199
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:46.249
+!MESSAGE REX 1572060826249 Tg: Utilities::after server isAlive 27209
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:46.259
+!MESSAGE REX 1572060826259 Th: Utilities::refreshEditor 10
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:46.269
+!MESSAGE REX Sending 'POST' request to URL : http://127.0.0.1:55432/localpkg/scan
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:46.329
+!MESSAGE REX 1572060826329 Utilities::sendPost Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:33:46.410
+!MESSAGE REX 1572060826409 Changing URL to http://localhost:55432
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-25 22:33:51.230
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/LouisSmidt/workspace_v9
+
+!ENTRY com.ti.ccstudio.webcontent 4 0 2019-10-25 22:33:59.411
+!MESSAGE Module Closed
+!STACK 0
+org.json.JSONException: Module Closed
+	at com.ti.cloudagent.communication.Socket$WebSocket.<init>(Socket.java:58)
+	at com.ti.cloudagent.communication.Socket.<init>(Socket.java:146)
+	at com.ti.cloudagent.communication.JSONInterface.<init>(JSONInterface.java:22)
+	at com.ti.cloudagent.Agent.<init>(Agent.java:114)
+	at com.ti.cloudagent.Agent.instance(Agent.java:43)
+	at com.ti.ccstudio.webcontent.cloudagent.CloudAgent.getAgent(CloudAgent.java:37)
+	at com.ti.ccstudio.webcontent.cloudagent.CloudAgent.<init>(CloudAgent.java:25)
+	at com.ti.ccstudio.webcontent.cloudagent.CloudAgent.<clinit>(CloudAgent.java:18)
+	at com.ti.ccstudio.webcontent.internal.ABrowserExtension.init(ABrowserExtension.java:29)
+	at com.ti.ccstudio.webcontent.cloudagent.CloudAgentBrowserExtension.init(CloudAgentBrowserExtension.java:24)
+	at com.ti.ccstudio.webcontent.internal.CommonBrowserExtensionContributor.init(CommonBrowserExtensionContributor.java:29)
+	at com.ti.browser.internal.TIBrowser$1.run(TIBrowser.java:100)
+	at com.ti.chromium.browser.JxBrowser$3.onScriptContextCreated(JxBrowser.java:343)
+	at com.teamdev.jxbrowser.chromium.Browser$d.b(SourceFile:3647)
+	at com.teamdev.jxbrowser.chromium.Browser$d.onMessageReceived(SourceFile:5616)
+	at com.teamdev.jxbrowser.chromium.internal.ipc.q.a(SourceFile:1084)
+	at com.teamdev.jxbrowser.chromium.internal.ipc.r.run(SourceFile:68)
+	at com.teamdev.jxbrowser.chromium.internal.r.run(SourceFile:79)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.370
+!MESSAGE REX OpenExplorerHandler:: Open Explorer
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.380
+!MESSAGE REX OpenExplorerHandler:: just_started_plugin = false
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.390
+!MESSAGE REX OpenExplorerHandler:: Call startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.400
+!MESSAGE REX 1572061008390 [A:menu] Starting Server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.410
+!MESSAGE REX [OS:menu] win32
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.430
+!MESSAGE REX 1572061008430 Tz: ResourceExplorerPage::createMainArea took 0
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.440
+!MESSAGE REX [A] startServer()
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.440
+!MESSAGE REX 1572061008440 Launching Browser
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.450
+!MESSAGE REX 1572061008440 [B:menu] process handle != null
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.460
+!MESSAGE REX pollServerState for up or ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.470
+!MESSAGE REX Sending 'GET' request to URL : http://127.0.0.1:55432/api/serverstate
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.480
+!MESSAGE REX 1572061008480 Utilities::sendGet Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.500
+!MESSAGE REX [serverStatus] ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.520
+!MESSAGE REX serverState is ready
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.520
+!MESSAGE REX [A-] server_up = true
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.530
+!MESSAGE REX attempt_process_cleanup = false
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.530
+!MESSAGE REX 1572061008530 Tc: Utilities::startServer preamble140
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.866
+!MESSAGE REX 1572061008866 Tz: ResourceExplorerPage::createBrowser took 416
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.876
+!MESSAGE REX Using browser port 55432
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.886
+!MESSAGE REX 1572061008886 server starting page: file:/C:/ti/ccs910/ccs/eclipse/..\tirex\ti-rex-core\public\plugin\serverstarting.html
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.896
+!MESSAGE REX Sending 'POST' request to URL : http://127.0.0.1:55432/localpkg/scan
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.930
+!MESSAGE REX 1572061008930 Utilities::sendPost Response Code from local server: 200
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-25 22:36:48.936
+!MESSAGE REX 1572061008936 [ready] setUrl: http://localhost:55432
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-25 22:39:03.103
+!MESSAGE Indexed 'empty_driverlib_project' (2 sources, 80 headers) in 1.98 sec: 5,724 declarations; 20,459 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.0076%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-25 22:52:11.944
+!MESSAGE Indexed 'gpio_ex1_setup' (2 sources, 80 headers) in 1.64 sec: 5,732 declarations; 20,849 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.0075%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-25 22:59:49.867
+!MESSAGE Indexed 'gpio_ex3_external_interrupt' (2 sources, 80 headers) in 1.19 sec: 5,737 declarations; 20,556 references; 0 unresolved inclusions; 6 syntax errors; 2 unresolved names (0.0076%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-25 23:00:35.940
+!MESSAGE Indexed 'REV_bldc' (2 sources, 80 headers) in 1.01 sec: 5,724 declarations; 20,459 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.0076%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-25 23:01:46.378
+!MESSAGE Indexed 'timer_ex1_cputimers' (2 sources, 80 headers) in 0.993 sec: 5,752 declarations; 20,582 references; 0 unresolved inclusions; 8 syntax errors; 2 unresolved names (0.0076%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-25 23:05:08.773
+!MESSAGE Indexed 'spi_ex3_loopback_dma' (2 sources, 80 headers) in 1.06 sec: 5,743 declarations; 20,590 references; 0 unresolved inclusions; 6 syntax errors; 2 unresolved names (0.0076%)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 11:07:55.679
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalArgumentException: 
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:65)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:196)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:725)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:456)
+	at org.eclipse.ui.internal.WorkbenchPage.setPartState(WorkbenchPage.java:4470)
+	at org.eclipse.ui.internal.WorkbenchPage.setPartState(WorkbenchPage.java:4441)
+	at com.ti.ccstudio.project.ui.internal.ProjectStateListener$5.run(ProjectStateListener.java:461)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3906)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3537)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:125)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:99)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:144)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:273)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:202)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:308)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2237)
+	at org.eclipse.core.internal.resources.ProjectPathVariableManager.setURIValue(ProjectPathVariableManager.java:363)
+	at com.ti.common.project.core.internal.services.AProjectService.makePortable(AProjectService.java:570)
+	at com.ti.common.project.core.internal.services.AProjectService.makePortable(AProjectService.java:520)
+	at com.ti.ccstudio.project.ui.webcontent.internal.common.PathResolver.makePortable(PathResolver.java:87)
+	at com.ti.ccstudio.project.ui.webcontent.internal.servlets.ProjectImportServlet.importProject(ProjectImportServlet.java:234)
+	at com.ti.ccstudio.project.ui.webcontent.internal.servlets.ProjectImportServlet.access$4(ProjectImportServlet.java:143)
+	at com.ti.ccstudio.project.ui.webcontent.internal.servlets.ProjectImportServlet$1.handle(ProjectImportServlet.java:125)
+	at com.ti.ccstudio.project.ui.webcontent.internal.common.BaseUIApiServlet.doGetInUIThread(BaseUIApiServlet.java:95)
+	at com.ti.ccstudio.project.ui.webcontent.internal.common.BaseUIApiServlet$1.run(BaseUIApiServlet.java:71)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3906)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3537)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+Caused by: java.lang.IllegalArgumentException: 
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:47)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElementsRecursive(ModelServiceImpl.java:160)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElements(ModelServiceImpl.java:411)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElements(ModelServiceImpl.java:397)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.getActivePerspective(ModelServiceImpl.java:976)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.getElementsToRestore(MinMaxAddon.java:907)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.restore(MinMaxAddon.java:660)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:385)
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 70 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-26 11:07:57.257
+!MESSAGE Indexed 'adc_ex1_soc_software' (2 sources, 80 headers) in 1.69 sec: 5,736 declarations; 20,582 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.0076%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-26 11:08:03.947
+!MESSAGE Indexed 'adc_ex2_soc_epwm' (2 sources, 80 headers) in 0.838 sec: 5,743 declarations; 20,573 references; 0 unresolved inclusions; 4 syntax errors; 2 unresolved names (0.0076%)
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-27 13:12:52.633
+!MESSAGE >>1572199972633  killing node server
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-27 13:12:52.643
+!MESSAGE REX Sending 'GET' request to URL : http://localhost:55432/api/exit
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-10-27 13:12:52.703
+!MESSAGE REX 1572199972703 Utilities::sendGet Response Code from local server: 200
+!SESSION 2019-10-27 13:49:19.909 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2019-10-27 13:49:23.427
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2019-10-27 13:49:23.437
+!MESSAGE debugServerDir=C:/ti/ccs910/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-27 13:49:47.465
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-27 13:49:47.655
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-27 13:49:47.795
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2019-10-27 13:49:49.395
+!MESSAGE CCS IDE session started!
+	CCS build: 9.1.0.00010
+	CCS location: C:/ti/ccs910/ccs
+	Workspace location: C:/Users/LouisSmidt/workspace_v9
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:51.225
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:51.235
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:51.245
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:51.385
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:51.395
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:51.555
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:51.605
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:51.795
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:51.905
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2019-10-27 13:49:52.155
+!MESSAGE CloudTrace interface loaded

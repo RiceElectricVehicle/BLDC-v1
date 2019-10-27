@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="com.ti.ccstudio.project.ui.wizards.project.NewCCSProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.ti.common.ui.new"/>
+		</list>
+	</section>
+	<section name="MemoryDumperFillAction">
+		<item value="TIXDS110" key="com.ti.ccstudio.system.setup.ui.editors.connectionType"/>
+		<item value="Texas Instruments XDS110 USB Debug Probe" key="com.ti.ccstudio.system.setup.ui.editors.connectionName"/>
+	</section>
+</section>

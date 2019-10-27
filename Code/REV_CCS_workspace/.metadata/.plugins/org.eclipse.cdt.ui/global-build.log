@@ -1,0 +1,204 @@
+
+**** Build of configuration Debug for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "REV_bldc.out"
+Invoking: C2000 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"REV_bldc.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="REV_bldc_linkInfo.xml" --rom_model -o "REV_bldc.out" "./main.obj" "../280049C_RAM_lnk.cmd"  -llibc.a 
+<Linking>
+Finished building target: "REV_bldc.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+gmake[1]: 'REV_bldc.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+gmake[1]: 'REV_bldc.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+Building file: "../REV_bldc_6step.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="REV_bldc_6step.d_raw"  "../REV_bldc_6step.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'REV_bldc_6step.obj' failed
+"../REV_bldc_6step.c", line 45: error #20: identifier "NFAULT_ISR" is undefined
+"../REV_bldc_6step.c", line 73: error #18: expected a ")"
+"../REV_bldc_6step.c", line 91: error #20: identifier "group" is undefined
+"../REV_bldc_6step.c", line 92: error #66: expected a ";"
+4 errors detected in the compilation of "../REV_bldc_6step.c".
+gmake: *** [REV_bldc_6step.obj] Error 1
+Building file: "../device/f28004x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="device/f28004x_codestartbranch.d_raw" --obj_directory="device"  "../device/f28004x_codestartbranch.asm"
+Finished building: "../device/f28004x_codestartbranch.asm"
+ 
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --obj_directory="device"  "../device/device.c"
+Finished building: "../device/device.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+Building file: "../REV_bldc_6step.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="REV_bldc_6step.d_raw"  "../REV_bldc_6step.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'REV_bldc_6step.obj' failed
+"../REV_bldc_6step.c", line 7: warning #225-D: function "setupGPIO" declared implicitly
+"../REV_bldc_6step.c", line 13: warning #161-D: declaration is incompatible with previous "setupGPIO" (declared at line 7)
+"../REV_bldc_6step.c", line 46: error #20: identifier "NFAULT_ISR" is undefined
+"../REV_bldc_6step.c", line 74: error #18: expected a ")"
+"../REV_bldc_6step.c", line 92: error #20: identifier "group" is undefined
+"../REV_bldc_6step.c", line 93: error #66: expected a ";"
+4 errors detected in the compilation of "../REV_bldc_6step.c".
+gmake: *** [REV_bldc_6step.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+Building file: "../REV_bldc_6step.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="REV_bldc_6step.d_raw"  "../REV_bldc_6step.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'REV_bldc_6step.obj' failed
+"../REV_bldc_6step.c", line 7: warning #225-D: function "setupGPIO" declared implicitly
+"../REV_bldc_6step.c", line 18: warning #161-D: declaration is incompatible with previous "setupGPIO" (declared at line 7)
+"../REV_bldc_6step.c", line 79: error #18: expected a ")"
+"../REV_bldc_6step.c", line 97: error #20: identifier "group" is undefined
+"../REV_bldc_6step.c", line 98: error #66: expected a ";"
+3 errors detected in the compilation of "../REV_bldc_6step.c".
+gmake: *** [REV_bldc_6step.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+Building file: "../REV_bldc_6step.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="REV_bldc_6step.d_raw"  "../REV_bldc_6step.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'REV_bldc_6step.obj' failed
+"../REV_bldc_6step.c", line 7: warning #225-D: function "setupGPIO" declared implicitly
+"../REV_bldc_6step.c", line 18: warning #161-D: declaration is incompatible with previous "setupGPIO" (declared at line 7)
+"../REV_bldc_6step.c", line 79: error #18: expected a ")"
+"../REV_bldc_6step.c", line 97: error #20: identifier "group" is undefined
+2 errors detected in the compilation of "../REV_bldc_6step.c".
+gmake: *** [REV_bldc_6step.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+Building file: "../REV_bldc_6step.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="REV_bldc_6step.d_raw"  "../REV_bldc_6step.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'REV_bldc_6step.obj' failed
+"../REV_bldc_6step.c", line 7: warning #225-D: function "setupGPIO" declared implicitly
+"../REV_bldc_6step.c", line 18: warning #161-D: declaration is incompatible with previous "setupGPIO" (declared at line 7)
+"../REV_bldc_6step.c", line 79: error #18: expected a ")"
+"../REV_bldc_6step.c", line 97: error #20: identifier "INT_XINT_1" is undefined
+2 errors detected in the compilation of "../REV_bldc_6step.c".
+gmake: *** [REV_bldc_6step.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+Building file: "../REV_bldc_6step.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="REV_bldc_6step.d_raw"  "../REV_bldc_6step.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'REV_bldc_6step.obj' failed
+"../REV_bldc_6step.c", line 7: warning #225-D: function "setupGPIO" declared implicitly
+"../REV_bldc_6step.c", line 18: warning #161-D: declaration is incompatible with previous "setupGPIO" (declared at line 7)
+"../REV_bldc_6step.c", line 79: error #18: expected a ")"
+1 error detected in the compilation of "../REV_bldc_6step.c".
+gmake: *** [REV_bldc_6step.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+Building file: "../REV_bldc_6step.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="REV_bldc_6step.d_raw"  "../REV_bldc_6step.c"
+"../REV_bldc_6step.c", line 7: warning #225-D: function "setupGPIO" declared implicitly
+"../REV_bldc_6step.c", line 18: warning #161-D: declaration is incompatible with previous "setupGPIO" (declared at line 7)
+Finished building: "../REV_bldc_6step.c"
+ 
+Building target: "REV_bldc.out"
+Invoking: C2000 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"REV_bldc.map" --stack_size=0x100 --warn_sections -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="REV_bldc_linkInfo.xml" --entry_point=code_start --rom_model -o "REV_bldc.out" "./REV_bldc_6step.obj" "./device/device.obj" "./device/f28004x_codestartbranch.obj" "../28004x_generic_ram_lnk.cmd" "C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib/ccs/Debug/driverlib.lib"  -llibc.a 
+<Linking>
+Finished building target: "REV_bldc.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project REV_bldc ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 2 all -O 
+ 
+Building file: "../REV_bldc_6step.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc" --include_path="C:/Users/LouisSmidt/workspace_v9/REV_bldc/device" --include_path="C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="REV_bldc_6step.d_raw"  "../REV_bldc_6step.c"
+Finished building: "../REV_bldc_6step.c"
+ 
+Building target: "REV_bldc.out"
+Invoking: C2000 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"REV_bldc.map" --stack_size=0x100 --warn_sections -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-c2000_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="REV_bldc_linkInfo.xml" --entry_point=code_start --rom_model -o "REV_bldc.out" "./REV_bldc_6step.obj" "./device/device.obj" "./device/f28004x_codestartbranch.obj" "../28004x_generic_ram_lnk.cmd" "C:/ti/C2000Ware_2_00_00_03_Software/driverlib/f28004x/driverlib/ccs/Debug/driverlib.lib"  -llibc.a 
+<Linking>
+Finished building target: "REV_bldc.out"
+ 
+
+**** Build Finished ****

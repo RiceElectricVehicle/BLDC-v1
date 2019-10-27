@@ -1,0 +1,98 @@
+#include "driverlib.h"
+#include "device.h"
+
+void main(void) {
+    Device_init();
+    Device_initGPIO();
+    setupGPIO();
+    Interrupt_initModule();         // init PIE register, disable cpu interrupts
+    Interrupt_initVectorTable();    //
+}
+
+//
+// Function Prototypes
+//
+__interrupt void NFAULT_ISR(void);
+
+
+void setupGPIO(void) {
+
+    /*
+     * SPI pinout:
+     * 33 -> CS
+     * 31 -> MISO
+     * 24 -> MOSI
+     * 22 -> SCLK
+    */
+
+    GPIO_setPadConfig(33, GPIO_PIN_TYPE_PULLUP);
+    GPIO_setPadConfig(31, GPIO_PIN_TYPE_PULLUP);
+    GPIO_setPadConfig(24, GPIO_PIN_TYPE_PULLUP);
+    GPIO_setPadConfig(22, GPIO_PIN_TYPE_PULLUP);
+    GPIO_setQualificationMode(33, GPIO_QUAL_ASYNC); // peripheral input, don't sync to SYSCLKOUT
+    GPIO_setQualificationMode(31, GPIO_QUAL_ASYNC);
+    GPIO_setQualificationMode(24, GPIO_QUAL_ASYNC);
+    GPIO_setQualificationMode(22, GPIO_QUAL_ASYNC);
+    GPIO_setPinConfig(GPIO_33_SPISTEB);
+    GPIO_setPinConfig(GPIO_31_SPISOMIB);
+    GPIO_setPinConfig(GPIO_24_SPISIMOB);
+    GPIO_setPinConfig(GPIO_22_SPICLKB);
+
+
+    // DRV Enable -> 12
+    GPIO_setPinConfig(DEVICE_CFG_DRV_ENABLE);
+    GPIO_setPadConfig(DRV_ENABLE_GPIO_PIN, GPIO_PIN_TYPE_PULLUP);
+
+
+    // DRV nFAULT -> 34
+    GPIO_setPinConfig(DEVICE_CFG_NFAULT);
+    GPIO_setDirectionMode(DRV_NFAULT_GPIO_PIN, GPIO_DIR_MODE_IN);
+
+    Interrupt_register(INT_XINT1, &NFAULT_ISR);     // assign interrupt handler for nFAULT to function in this file
+    Interrupt_enable(INT_XINT1);                    // enable an XINT interrupt
+    GPIO_setInterruptPin(DRV_NFAULT_GPIO_PIN, GPIO_INT_XINT1);  //assign DRV enable pin to that XINT interrupt
+    GPIO_setInterruptType(GPIO_INT_XINT1, GPIO_INT_TYPE_FALLING_EDGE);  //set everything on XINT1 to use falling edge
+
+
+    /* DRV PWM Output Pinmap:
+     * 0 -> INHA
+     * 1 -> INLA
+     * 6 -> INHB
+     * 7 -> INLB
+     * 2 -> INHC
+     * 3 -> INLC
+     */
+    GPIO_setPinConfig(GPIO_0_EPWM1A);
+    GPIO_setPinConfig(GPIO_1_EPWM1B);
+    GPIO_setPinConfig(GPIO_6_EPWM4A);
+    GPIO_setPinConfig(GPIO_7_EPWM4B);
+    GPIO_setPinConfig(GPIO_2_EPWM2A);
+    GPIO_setPinConfig(GPIO_3_EPWM2B);
+
+
+    // Hall Sensor Inputs (For now, using GPIO not QEP for inputs) :
+    // 26 -> HALL A
+    // 15 -> HALL B
+    // 14 -> HALL C
+
+    GPIO_setPinConfig(GPIO_26_GPIO26);
+    GPIO_setPinConfig(GPIO_15_GPIO15;
+    GPIO_setPinConfig(GPIO_14_GPIO14);
+    GPIO_setDirectionMode(26, GPIO_DIR_MODE_IN);
+    GPIO_setDirectionMode(15, GPIO_DIR_MODE_IN);
+    GPIO_setDirectionMode(14, GPIO_DIR_MODE_IN);
+    GPIO_setQualificationPeriod(26, 2);            // Qualification period = SYSCLKOUT/2
+    GPIO_setQualificationPeriod(15, 2);
+    GPIO_setQualificationPeriod(14, 2);
+    GPIO_setQualificationMode(26, GPIO_QUAL_6SAMPLE);   // 6 consistent samples before qualification
+    GPIO_setQualificationMode(15, GPIO_QUAL_6SAMPLE);
+    GPIO_setQualificationMode(14, GPIO_QUAL_6SAMPLE);
+
+
+}
+
+__interrupt void NFAULT_ISR(void){
+    // Do this on falling edge of nFault
+
+    Interrupt_clearACKGroup(INTERRUPT_ACK_GROUP1);
+}
