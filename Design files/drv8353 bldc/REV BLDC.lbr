@@ -337,6 +337,12 @@
 <wire x1="17.51" y1="-7" x2="-4.81" y2="-7" width="0.1" layer="51"/>
 <wire x1="-4.81" y1="-7" x2="-4.81" y2="7" width="0.1" layer="51"/>
 </package>
+<package name="KEYSTONE_MAXI_FUSE_CLIP_3555">
+<pad name="A2" x="-6.35" y="0" drill="3.8608"/>
+<pad name="B1" x="6.35" y="0" drill="3.8608"/>
+<pad name="A1" x="-14.6812" y="0" drill="3.8608"/>
+<pad name="B2" x="14.6812" y="0" drill="3.8608"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRV8353RSRGZT">
@@ -607,6 +613,19 @@
 <pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
 <pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
 <pin name="6" x="20.32" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="FUSE">
+<wire x1="-5.08" y1="0" x2="-3.556" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-1.4986" x2="2.4892" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.5992" y1="1.4912" x2="-3.048" y2="1.7272" width="0.254" layer="94" curve="-46.337037" cap="flat"/>
+<wire x1="-3.048" y1="1.7272" x2="-2.496" y2="1.491" width="0.254" layer="94" curve="-46.403624" cap="flat"/>
+<wire x1="0.4572" y1="-1.778" x2="0.8965" y2="-1.4765" width="0.254" layer="94" curve="63.169357" cap="flat"/>
+<wire x1="-0.0178" y1="-1.508" x2="0.4572" y2="-1.7778" width="0.254" layer="94" curve="64.986119" cap="flat"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -923,6 +942,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B06B-HCMKK.pd
 <attribute name="MOUSER_PART_NUMBER" value="306-B06B-HCMKK" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=306-B06B-HCMKK" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KEYSTONE_MAXI_FUSE_3555">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KEYSTONE_MAXI_FUSE_CLIP_3555">
+<connects>
+<connect gate="G$1" pin="1" pad="A1 A2"/>
+<connect gate="G$1" pin="2" pad="B1 B2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

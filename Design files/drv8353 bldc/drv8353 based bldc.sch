@@ -314,6 +314,12 @@
 <smd name="D0+" x="0.4175" y="-1" dx="0.565" dy="0.2" layer="1" roundness="40" thermals="no"/>
 <smd name="D0-" x="0.4175" y="-0.5" dx="0.565" dy="0.2" layer="1" roundness="40" thermals="no"/>
 </package>
+<package name="KEYSTONE_MAXI_FUSE_CLIP_3555">
+<pad name="A2" x="-6.35" y="0" drill="3.8608"/>
+<pad name="B1" x="6.35" y="0" drill="3.8608"/>
+<pad name="A1" x="-14.6812" y="0" drill="3.8608"/>
+<pad name="B2" x="14.6812" y="0" drill="3.8608"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NMOS-FET-E">
@@ -503,6 +509,19 @@
 <pin name="NC3" x="-17.78" y="-12.7" length="middle"/>
 <pin name="NC2" x="-17.78" y="-10.16" length="middle"/>
 <pin name="NC1" x="-17.78" y="-7.62" length="middle"/>
+</symbol>
+<symbol name="FUSE">
+<wire x1="-5.08" y1="0" x2="-3.556" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-1.4986" x2="2.4892" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.5992" y1="1.4912" x2="-3.048" y2="1.7272" width="0.254" layer="94" curve="-46.337037" cap="flat"/>
+<wire x1="-3.048" y1="1.7272" x2="-2.496" y2="1.491" width="0.254" layer="94" curve="-46.403624" cap="flat"/>
+<wire x1="0.4572" y1="-1.778" x2="0.8965" y2="-1.4765" width="0.254" layer="94" curve="63.169357" cap="flat"/>
+<wire x1="-0.0178" y1="-1.508" x2="0.4572" y2="-1.7778" width="0.254" layer="94" curve="64.986119" cap="flat"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -715,6 +734,22 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv8353r"&gt; Datasheet &lt;/a&gt;
 <connect gate="G$1" pin="NC2" pad="P$6"/>
 <connect gate="G$1" pin="NC3" pad="P$7"/>
 <connect gate="G$1" pin="NC4" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KEYSTONE_MAXI_FUSE_3555">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KEYSTONE_MAXI_FUSE_CLIP_3555">
+<connects>
+<connect gate="G$1" pin="1" pad="A1 A2"/>
+<connect gate="G$1" pin="2" pad="B1 B2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17611,116 +17646,6 @@ CONN_05x2
 </deviceset>
 </devicesets>
 </library>
-<library name="special" urn="urn:adsk.eagle:library:367">
-<description>&lt;b&gt;Special Devices&lt;/b&gt;&lt;p&gt;
-7-segment displays, switches, heatsinks, crystals, transformers, etc.&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="FUSE" urn="urn:adsk.eagle:footprint:26551/1" library_version="3">
-<description>&lt;B&gt;FUSE&lt;/B&gt;&lt;p&gt;
-5 x 20 mm</description>
-<wire x1="-11.43" y1="1.905" x2="-12.7" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-12.7" y1="-1.905" x2="-12.7" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-12.7" y1="-1.905" x2="-11.43" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-10.795" y1="2.54" x2="-10.795" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-10.795" y1="3.81" x2="-6.985" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="2.54" x2="-6.985" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-10.795" y1="-2.54" x2="-10.795" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="-3.81" x2="-10.795" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="-3.81" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="1.905" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.905" x2="-5.08" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-6.35" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="1.905" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.08" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="6.35" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="2.54" x2="6.985" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="3.81" x2="10.795" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="10.795" y1="2.54" x2="10.795" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-2.54" x2="6.985" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="10.795" y1="-3.81" x2="6.985" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="10.795" y1="-3.81" x2="10.795" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="1.905" x2="12.7" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="12.7" y1="1.905" x2="12.7" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="12.7" y1="-1.905" x2="11.43" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="2.794" x2="5.715" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-2.794" x2="5.715" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.524" x2="5.08" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.524" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.524" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="0.127" width="0.1524" layer="21"/>
-<pad name="1" x="-11.43" y="0" drill="1.3208" shape="long"/>
-<pad name="2" x="11.43" y="0" drill="1.3208" shape="long"/>
-<text x="-5.08" y="3.302" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-12.065" y1="1.905" x2="-10.795" y2="3.175" layer="21"/>
-<rectangle x1="-12.065" y1="-3.175" x2="-10.795" y2="-1.905" layer="21"/>
-<rectangle x1="-11.43" y1="-2.54" x2="-10.795" y2="2.54" layer="51"/>
-<rectangle x1="-6.985" y1="1.905" x2="-5.715" y2="3.175" layer="21"/>
-<rectangle x1="-6.985" y1="-3.175" x2="-5.715" y2="-1.905" layer="21"/>
-<rectangle x1="-6.985" y1="-2.54" x2="-6.35" y2="2.54" layer="21"/>
-<rectangle x1="-10.795" y1="0.762" x2="-6.985" y2="2.54" layer="21"/>
-<rectangle x1="-10.795" y1="-2.54" x2="-6.985" y2="-0.762" layer="21"/>
-<rectangle x1="5.715" y1="1.905" x2="6.985" y2="3.175" layer="21"/>
-<rectangle x1="5.715" y1="-3.175" x2="6.985" y2="-1.905" layer="21"/>
-<rectangle x1="6.35" y1="-2.54" x2="6.985" y2="2.54" layer="21"/>
-<rectangle x1="10.795" y1="1.905" x2="12.065" y2="3.175" layer="21"/>
-<rectangle x1="10.795" y1="-3.175" x2="12.065" y2="-1.905" layer="21"/>
-<rectangle x1="10.795" y1="-2.54" x2="11.43" y2="2.54" layer="51"/>
-<rectangle x1="6.985" y1="0.762" x2="10.795" y2="2.54" layer="21"/>
-<rectangle x1="6.985" y1="-2.54" x2="10.795" y2="-0.762" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="FUSE" urn="urn:adsk.eagle:package:26650/1" type="box" library_version="3">
-<description>FUSE
-5 x 20 mm</description>
-<packageinstances>
-<packageinstance name="FUSE"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="FUSE" urn="urn:adsk.eagle:symbol:26550/1" library_version="3">
-<wire x1="-5.08" y1="0" x2="-3.556" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.524" x2="-2.54" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.889" y1="-1.4986" x2="2.4892" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.5992" y1="1.4912" x2="-3.048" y2="1.7272" width="0.254" layer="94" curve="-46.337037" cap="flat"/>
-<wire x1="-3.048" y1="1.7272" x2="-2.496" y2="1.491" width="0.254" layer="94" curve="-46.403624" cap="flat"/>
-<wire x1="0.4572" y1="-1.778" x2="0.8965" y2="-1.4765" width="0.254" layer="94" curve="63.169357" cap="flat"/>
-<wire x1="-0.0178" y1="-1.508" x2="0.4572" y2="-1.7778" width="0.254" layer="94" curve="64.986119" cap="flat"/>
-<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" function="dot" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FUSE" urn="urn:adsk.eagle:component:26684/2" prefix="F" uservalue="yes" library_version="3">
-<description>&lt;B&gt;FUSE&lt;/B&gt;&lt;p&gt;
-5 x 20 mm</description>
-<gates>
-<gate name="G$1" symbol="FUSE" x="12.7" y="0"/>
-</gates>
-<devices>
-<device name="" package="FUSE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26650/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="7" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="busbar" urn="urn:adsk.eagle:library:112">
 <description>&lt;b&gt;Schroff Current Bus Bars for 19-Inch Racks &lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -17930,7 +17855,7 @@ CONN_05x2
 <part name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="U$18" library="REV BLDC" deviceset="RADIALK16" device="" value="330 uF"/>
 <part name="U$19" library="REV BLDC" deviceset="RADIALK16" device="" value="330 uF"/>
-<part name="F1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="FUSE" device="" package3d_urn="urn:adsk.eagle:package:26650/1"/>
+<part name="F1" library="REV BLDC" deviceset="KEYSTONE_MAXI_FUSE_3555" device=""/>
 <part name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$1" library="REV BLDC" deviceset="TRIPPLE-MINI-PP75" device=""/>
@@ -19821,7 +19746,7 @@ CONN_05x2
 </instance>
 <instance part="F1" gate="G$1" x="60.96" y="71.12" smashed="yes">
 <attribute name="NAME" x="55.88" y="73.66" size="1.778" layer="95"/>
-<attribute name="VALUE" x="55.88" y="67.31" size="1.778" layer="96"/>
+<attribute name="VALUE" x="38.1" y="77.47" size="1.778" layer="96"/>
 </instance>
 <instance part="TP16" gate="G$1" x="68.58" y="73.66" smashed="yes">
 <attribute name="NAME" x="67.31" y="74.93" size="1.778" layer="95"/>
