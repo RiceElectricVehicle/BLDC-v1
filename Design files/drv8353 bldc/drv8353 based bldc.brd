@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3079,6 +3079,47 @@ CONN_05x2
 </package3d>
 </packages3d>
 </library>
+<library name="switch" urn="urn:adsk.eagle:library:380">
+<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
+Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="RDT1034" urn="urn:adsk.eagle:footprint:27571/1" library_version="3">
+<description>&lt;b&gt;PUSH SWITCH&lt;/b&gt;&lt;p&gt;
+www.radiohm.com</description>
+<wire x1="-4.4" y1="4.85" x2="4.4" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="4.4" x2="4.85" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="4.4" y1="-4.85" x2="-4.4" y2="-4.85" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="-4.4" x2="-4.85" y2="4.4" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="4.15" x2="3.7" y2="4.15" width="0.2032" layer="21"/>
+<wire x1="4.15" y1="3.7" x2="4.15" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="3.7" y1="-4.15" x2="-3.7" y2="-4.15" width="0.2032" layer="21"/>
+<wire x1="-4.15" y1="-3.7" x2="-4.15" y2="3.7" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="4.4" x2="-4.4" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="-4.15" y1="3.7" x2="-3.7" y2="4.15" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="4.4" x2="4.4" y2="4.85" width="0.2032" layer="21"/>
+<wire x1="4.15" y1="3.7" x2="3.7" y2="4.15" width="0.2032" layer="21"/>
+<wire x1="4.85" y1="-4.4" x2="4.4" y2="-4.85" width="0.2032" layer="21"/>
+<wire x1="4.15" y1="-3.7" x2="3.7" y2="-4.15" width="0.2032" layer="21"/>
+<wire x1="-4.85" y1="-4.4" x2="-4.4" y2="-4.85" width="0.2032" layer="21"/>
+<wire x1="-4.15" y1="-3.7" x2="-3.7" y2="-4.15" width="0.2032" layer="21"/>
+<pad name="B" x="0.65" y="1.9" drill="0.8"/>
+<pad name="A1" x="-3.175" y="0.635" drill="0.8"/>
+<pad name="A" x="3.175" y="-0.635" drill="0.8"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RDT1034" urn="urn:adsk.eagle:package:27704/1" type="box" library_version="3">
+<description>PUSH SWITCH
+www.radiohm.com</description>
+<packageinstances>
+<packageinstance name="RDT1034"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3920,6 +3961,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-171.7802" y="-772.6172" size="1.27" layer="27" rot="R90" align="center"/>
 <attribute name="VALUE" x="-214.9602" y="-772.6172" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
+<element name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" package="RDT1034" package3d_urn="urn:adsk.eagle:package:27704/1" value="RDT1034" x="-220.98" y="-786.13" smashed="yes">
+<attribute name="NAME" x="-224.79" y="-783.59" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="4" x="-220.98" y="-786.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-224.79" y="-789.94" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="APHASE">
@@ -4583,13 +4629,15 @@ design rules under a new name.</description>
 <contactref element="LDO" pad="5"/>
 <contactref element="C29" pad="2"/>
 <contactref element="U$2" pad="1"/>
-<wire x1="-45.325" y1="-273.05" x2="-34.6" y2="-192.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-194.73" y1="-328.93" x2="-45.325" y2="-273.05" width="0" layer="19" extent="1-1"/>
-<wire x1="-194.73" y1="-441.96" x2="-194.73" y2="-328.93" width="0" layer="19" extent="1-1"/>
-<wire x1="-194.73" y1="-445.77" x2="-194.73" y2="-441.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-219.48" y1="-712.47" x2="-194.73" y2="-445.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-212.11" y1="-722.95" x2="-219.48" y2="-712.47" width="0" layer="19" extent="1-1"/>
-<wire x1="-222.25" y1="-755.65" x2="-212.11" y2="-722.95" width="0" layer="19" extent="1-1"/>
+<contactref element="S1" pad="B"/>
+<wire x1="-222.25" y1="-755.65" x2="-220.33" y2="-784.23" width="0" layer="19" extent="1-1"/>
+<wire x1="-212.11" y1="-722.95" x2="-222.25" y2="-755.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-219.48" y1="-712.47" x2="-212.11" y2="-722.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-194.73" y1="-445.77" x2="-219.48" y2="-712.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-194.73" y1="-441.96" x2="-194.73" y2="-445.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-194.73" y1="-328.93" x2="-194.73" y2="-441.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.325" y1="-273.05" x2="-194.73" y2="-328.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.6" y1="-192.75" x2="-45.325" y2="-273.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENABLE">
 <contactref element="IC1" pad="33"/>
@@ -4713,6 +4761,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="3.3V">
 <contactref element="J4" pad="2"/>
+</signal>
+<signal name="N$20">
+<contactref element="S1" pad="A1"/>
+<contactref element="S1" pad="A"/>
+<contactref element="U$2" pad="13"/>
+<wire x1="-217.805" y1="-786.765" x2="-224.155" y2="-785.495" width="0" layer="19" extent="1-1"/>
+<wire x1="-176.53" y1="-773.43" x2="-217.805" y2="-786.765" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
