@@ -2,10 +2,28 @@
 #include "device.h"
 
 //
+// Macros
+//
+#define ADC_TO_DUTY_CYCLE(ADC_IN)       ADC_IN / 3.3
+
+//
+// Global variables
+//
+
+struct hall_sensor_t {
+    uint32_t A;
+    uint32_t B;
+    uint32_t C;
+} halls;
+
+//
 // Function Prototypes
 //
 __interrupt void NFAULT_ISR(void);
 void setupGPIO(void);
+void initADC(void);
+void initEPWM(void);
+
 
 void main(void) {
     Device_init();
@@ -15,7 +33,20 @@ void main(void) {
     setupGPIO();                    // set up GPIO and Interrupt handlers for BLDC
 
 
+    while(1) {
+        // get hall sensor positions
+        halls.A = GPIO_readPin(26);
+        halls.B = GPIO_readPin(15);
+        halls.C = GPIO_readPin(14);
 
+          // write the
+        GPIO_writePin(INLA, halls.A);
+        GPIO_writePin(INHB, halls.B);
+        GPIO_writePin(INLB, halls.C);
+
+        ADC_TO_DUTY_CYCLE(ADC_readResult(resultBase, socNumber))
+
+    }
 
 
 }
@@ -94,14 +125,22 @@ void setupGPIO(void) {
     GPIO_setDirectionMode(26, GPIO_DIR_MODE_IN);
     GPIO_setDirectionMode(15, GPIO_DIR_MODE_IN);
     GPIO_setDirectionMode(14, GPIO_DIR_MODE_IN);
-    GPIO_setQualificationPeriod(26, 2);            // Qualification period = SYSCLKOUT/2
-    GPIO_setQualificationPeriod(15, 2);
-    GPIO_setQualificationPeriod(14, 2);
+    GPIO_setQualificationPeriod(24, 2);            // Qualification period = SYSCLKOUT/2
+    GPIO_setQualificationPeriod(8, 2);
     GPIO_setQualificationMode(26, GPIO_QUAL_6SAMPLE);   // 6 consistent samples before qualification
     GPIO_setQualificationMode(15, GPIO_QUAL_6SAMPLE);
     GPIO_setQualificationMode(14, GPIO_QUAL_6SAMPLE);
 
 
+}
+
+void initADC(void) {
+    ADC_setVREF(ADCC_BASE, ADC_REFERENCE_INTERNAL, ADC_REFERENCE_3_3V);         // set ADC_C VREF to internal 3.3V (potentiometer ADC channel)
+    ADC_setPrescaler(ADCC_BASE, ADC_CLK_DIV_8_0);
+    ADC_setInterruptPulseMode(ADCC_BASE, ADC_PULSE_END_OF_CONV);
+
+    ADC_enableConverter(ADCC_BASE);     // power on ADC
+    DEVICE_DELAY_US(1000);  // recommended delay to allow ADC to start up
 
 }
 

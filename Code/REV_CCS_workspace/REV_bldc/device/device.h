@@ -66,6 +66,12 @@
 #define DRV_NFAULT_GPIO_PIN         34U
 #define DEVICE_CFG_NFAULT           GPIO_34_GPIO34  // "pinConfig" for nFAULT
 
+#define INHA                        0U
+#define INLA                        1U
+#define INHB                        6U
+#define INLB                        7U
+#define INHC                        2U
+#define INLC                        3U
 
 //
 // LEDs
