@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.8.0_144" class="java.beans.XMLDecoder">
+<java version="1.8.0_112" class="java.beans.XMLDecoder">
  <object class="com.ti.dvt.datamodel.solution.SolutionManager$PersistState" id="SolutionManager$PersistState0">
   <void class="com.ti.dvt.datamodel.solution.SolutionManager$PersistState" method="getField">
    <string>defaultSolution</string>
    <void method="set">
     <object idref="SolutionManager$PersistState0"/>
-    <string>C:\ti\ccs910\ccs\ccs_base\dvt_4.1.0.201905081124\CodeGen\solutions\CodeGenCoverage</string>
+    <string>/Applications/ti/ccs920/ccs/ccs_base/dvt_4.1.0.201908221230/CodeGen/solutions/CodeGenCoverage</string>
    </void>
   </void>
  </object>
@@ -14,10 +14,10 @@
  <void id="ArrayList0" method="get">
   <object idref="SolutionManager$PersistState0"/>
   <void method="add">
-   <string>C:\Users\LouisSmidt\workspace_v9\dvt\AnalysisSolutionsTemp\AnalysisSolution1572202194275\null</string>
+   <string>/Users/louissmidt/Documents/eagle/projects/BLDC-v1/Code/REV_CCS_workspace/dvt/AnalysisSolutionsTemp/AnalysisSolution1572276032602/null</string>
   </void>
   <void method="add">
-   <string>C:\ti\ccs910\ccs\ccs_base\dvt_4.1.0.201905081124\CodeGen\solutions\CodeGenCoverage</string>
+   <string>/Applications/ti/ccs920/ccs/ccs_base/dvt_4.1.0.201908221230/CodeGen/solutions/CodeGenCoverage</string>
   </void>
  </void>
 </void>

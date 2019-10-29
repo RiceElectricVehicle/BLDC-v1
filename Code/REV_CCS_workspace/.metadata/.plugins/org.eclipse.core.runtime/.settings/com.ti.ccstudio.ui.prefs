@@ -1,6 +1,6 @@
-CCStudioUIStartup.CCS_IMAGE_INFO=C\:/Users/LouisSmidt/workspace_v9|C\:/ti/ccs910/ccs|9.1.0.00010
-com.ti.ccstudio.ui.CCS_INSTALL_LOCATION=C\:/ti/ccs910/ccs
-com.ti.ccstudio.ui.CCS_VERSION=9.1.0.00010
-com.ti.ccstudio.ui.CCS_WORKSPACE_LOCATION=C\:/Users/LouisSmidt/workspace_v9
+CCStudioUIStartup.CCS_IMAGE_INFO=/Users/louissmidt/Documents/eagle/projects/BLDC-v1/Code/REV_CCS_workspace|/Applications/ti/ccs920/ccs|9.2.0.00013
+com.ti.ccstudio.ui.CCS_INSTALL_LOCATION=/Applications/ti/ccs920/ccs
+com.ti.ccstudio.ui.CCS_VERSION=9.2.0.00013
+com.ti.ccstudio.ui.CCS_WORKSPACE_LOCATION=/Users/louissmidt/Documents/eagle/projects/BLDC-v1/Code/REV_CCS_workspace
 com.ti.ccstudio.ui.IS_NOT_FIRST_CCS_LAUNCH=true
 eclipse.preferences.version=1
