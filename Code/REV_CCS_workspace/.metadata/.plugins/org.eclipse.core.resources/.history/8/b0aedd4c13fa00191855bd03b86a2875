@@ -21,8 +21,7 @@ struct hall_sensor_t {
 //
 __interrupt void NFAULT_ISR(void);
 void setupGPIO(void);
-void initADC_Drive(void);
-void initADC_Input(void);
+void initADC(void);
 void initEPWM(void);
 
 
@@ -137,26 +136,12 @@ void setupGPIO(void) {
 
 void initADC_Drive(void) {
     ADC_setVREF(ADCC_BASE, ADC_REFERENCE_INTERNAL, ADC_REFERENCE_3_3V);         // set ADC_C VREF to internal 3.3V (potentiometer ADC channel)
-    ADC_setPrescaler(ADCC_BASE, ADC_CLK_DIV_2_0);
+    ADC_setPrescaler(ADCC_BASE, ADC_CLK_DIV_8_0);
     ADC_setInterruptPulseMode(ADCC_BASE, ADC_PULSE_END_OF_CONV);
 
     ADC_enableConverter(ADCC_BASE);     // power on ADC
     DEVICE_DELAY_US(1000);  // recommended delay to allow ADC to start up
 
-    EPWM_disableADCTrigger(EPWM1_BASE, EPWM_SOC_A);     // disable EPWM SOC
-    EPWM_setADCTriggerSource(EPWM1_BASE, EPWM_SOC_A, EPWM_SOC_TBCTR_U_CMPA);       // set ADC to trigger from EPWM SOC 1
-    EPWM_setADCTriggerEventPrescale(EPWM1_BASE, EPWM_SOC_A, 1);                    // configure SOC 1 prescaler
-
-
-}
-
-void initADC_Input(void){
-        ADC_setVREF(ADCB_BASE, ADC_REFERENCE_INTERNAL, ADC_REFERENCE_3_3V);         // set ADC_C VREF to internal 3.3V (potentiometer ADC channel)
-        ADC_setPrescaler(ADCB_BASE, ADC_CLK_DIV_8_0);
-        ADC_setInterruptPulseMode(ADCB_BASE, ADC_PULSE_END_OF_CONV);
-
-        ADC_enableConverter(ADCB_BASE);     // power on ADC
-        DEVICE_DELAY_US(1000);  // recommended delay to allow ADC to start up
 }
 
 __interrupt void NFAULT_ISR(void){

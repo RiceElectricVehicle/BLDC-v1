@@ -143,9 +143,11 @@ void initADC_Drive(void) {
     ADC_enableConverter(ADCC_BASE);     // power on ADC
     DEVICE_DELAY_US(1000);  // recommended delay to allow ADC to start up
 
-    EPWM_disableADCTrigger(EPWM1_BASE, EPWM_SOC_A);     // disable EPWM SOC
-    EPWM_setADCTriggerSource(EPWM1_BASE, EPWM_SOC_A, EPWM_SOC_TBCTR_U_CMPA);       // set ADC to trigger from EPWM SOC 1
-    EPWM_setADCTriggerEventPrescale(EPWM1_BASE, EPWM_SOC_A, 1);                    // configure SOC 1 prescaler
+    EPWM_disableADCTrigger(EPWM1_BASE, EPWM_SOC_A);
+    EPWM_setADCTriggerSource(EPWM1_BASE, EPWM_SOC_A, EPWM_SOC_TBCTR_U_CMPA);
+    EPWM_setADCTriggerEventPrescale(EPWM1_BASE, EPWM_SOC_A, 1);
+
+    EPWM_setCounterCompareValue(base, compModule, compCount)
 
 
 }
