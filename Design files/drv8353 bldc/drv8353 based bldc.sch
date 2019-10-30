@@ -19941,7 +19941,7 @@ unfilled</description>
 <pinref part="C17" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="RCL" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="RCL"/>
 <wire x1="12.7" y1="-22.86" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
@@ -19957,7 +19957,7 @@ unfilled</description>
 <pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="BST" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="BST"/>
 <pinref part="C18" gate="G$1" pin="2"/>
@@ -19965,7 +19965,7 @@ unfilled</description>
 <wire x1="15.24" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="SW" class="0">
 <segment>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="-5.08" x2="-12.7" y2="-5.08" width="0.1524" layer="91"/>
@@ -20005,7 +20005,7 @@ unfilled</description>
 <label x="-60.96" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="FB" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="FB"/>
 <wire x1="7.62" y1="-22.86" x2="7.62" y2="-20.32" width="0.1524" layer="91"/>
