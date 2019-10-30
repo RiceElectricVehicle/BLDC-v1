@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2625,14 +2625,14 @@ Metric Code Size 3225</description>
 </package>
 <package name="PQFN88">
 <smd name="DT" x="0" y="0.82" dx="7" dy="5.5" layer="1" thermals="no"/>
-<smd name="G" x="-3" y="-4.07" dx="1.25" dy="1.28" layer="1"/>
-<smd name="S1" x="-1" y="-4.07" dx="1.25" dy="1.28" layer="1"/>
-<smd name="S2" x="1" y="-4.07" dx="1.25" dy="1.28" layer="1"/>
-<smd name="S3" x="3" y="-4.07" dx="1.25" dy="1.28" layer="1"/>
-<smd name="D1" x="-3" y="4.055" dx="1.25" dy="1.33" layer="1"/>
-<smd name="D2" x="-1" y="4.055" dx="1.25" dy="1.33" layer="1"/>
-<smd name="D3" x="1" y="4.055" dx="1.25" dy="1.33" layer="1"/>
-<smd name="D4" x="3" y="4.055" dx="1.25" dy="1.33" layer="1"/>
+<smd name="G" x="-3" y="-4.07" dx="1.25" dy="1.28" layer="1" thermals="no"/>
+<smd name="S1" x="-1" y="-4.07" dx="1.25" dy="1.28" layer="1" thermals="no"/>
+<smd name="S2" x="1" y="-4.07" dx="1.25" dy="1.28" layer="1" thermals="no"/>
+<smd name="S3" x="3" y="-4.07" dx="1.25" dy="1.28" layer="1" thermals="no"/>
+<smd name="D1" x="-3" y="4.055" dx="1.25" dy="1.33" layer="1" thermals="no"/>
+<smd name="D2" x="-1" y="4.055" dx="1.25" dy="1.33" layer="1" thermals="no"/>
+<smd name="D3" x="1" y="4.055" dx="1.25" dy="1.33" layer="1" thermals="no"/>
+<smd name="D4" x="3" y="4.055" dx="1.25" dy="1.33" layer="1" thermals="no"/>
 <wire x1="-4.2" y1="4.25" x2="-4.2" y2="-4.25" width="0.1524" layer="21"/>
 <wire x1="4.2" y1="4.25" x2="4.2" y2="-4.25" width="0.1524" layer="21"/>
 </package>
@@ -2798,10 +2798,10 @@ Metric Code Size 3225</description>
 <smd name="P$2" x="-0.001" y="0" dx="0.1" dy="0.1" layer="1" roundness="100" stop="no" thermals="no"/>
 </package>
 <package name="VISH_CSM3637_.002-2">
-<smd name="I1" x="-3.735" y="-1.145" dx="2.95" dy="7.62" layer="1"/>
-<smd name="I2" x="3.735" y="-1.145" dx="2.95" dy="7.62" layer="1"/>
-<smd name="E2" x="3.735" y="4.155" dx="2.95" dy="1.68" layer="1"/>
-<smd name="E1" x="-3.735" y="4.155" dx="2.95" dy="1.68" layer="1"/>
+<smd name="I1" x="-3.735" y="-1.145" dx="2.95" dy="7.62" layer="1" thermals="no"/>
+<smd name="I2" x="3.735" y="-1.145" dx="2.95" dy="7.62" layer="1" thermals="no"/>
+<smd name="E2" x="3.735" y="4.155" dx="2.95" dy="1.68" layer="1" thermals="no"/>
+<smd name="E1" x="-3.735" y="4.155" dx="2.95" dy="1.68" layer="1" thermals="no"/>
 </package>
 </packages>
 </library>
