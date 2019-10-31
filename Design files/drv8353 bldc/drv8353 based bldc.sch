@@ -20137,13 +20137,13 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <attribute name="NAME" x="13.97" y="-24.13" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="16.51" y="-26.67" size="1.778" layer="97"/>
 </instance>
-<instance part="U$3" gate="G$1" x="-55.88" y="12.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="-54.3814" y="16.51" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-59.182" y="16.51" size="1.778" layer="96" rot="R270"/>
+<instance part="U$3" gate="G$1" x="-55.88" y="12.7" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-54.3814" y="8.89" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="-59.182" y="8.89" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="U$4" gate="G$1" x="27.94" y="12.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.4386" y="16.51" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="24.638" y="16.51" size="1.778" layer="96" rot="R270"/>
+<instance part="U$4" gate="G$1" x="27.94" y="12.7" smashed="yes" rot="MR90">
+<attribute name="NAME" x="29.4386" y="8.89" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="24.638" y="8.89" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="U$5" gate="G$1" x="104.14" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="105.6386" y="16.51" size="1.778" layer="95" rot="R270"/>
@@ -20270,7 +20270,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<wire x1="-55.88" y1="7.62" x2="-55.88" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="-38.1" y1="7.62" x2="-38.1" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
@@ -20285,7 +20284,8 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="-27.94" y1="5.08" x2="-38.1" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-38.1" y="5.08"/>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="I2"/>
+<pinref part="U$3" gate="G$1" pin="I1"/>
+<wire x1="-55.88" y1="7.62" x2="-55.88" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="66.04" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
@@ -20299,7 +20299,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="45.72" y1="5.08" x2="40.64" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="5.08" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="5.08" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="7.62" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="7.62" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
 <junction x="45.72" y="5.08"/>
@@ -20308,7 +20307,8 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="TP27" gate="G$1" pin="TP"/>
 <junction x="40.64" y="5.08"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
-<pinref part="U$4" gate="G$1" pin="I2"/>
+<pinref part="U$4" gate="G$1" pin="I1"/>
+<wire x1="27.94" y1="7.62" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="124.46" y1="66.04" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
@@ -20330,7 +20330,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="111.76" y1="5.08" x2="111.76" y2="0" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 <pinref part="U$5" gate="G$1" pin="I2"/>
-<wire x1="104.14" y1="5.08" x2="104.14" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="7.62" x2="104.14" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -20354,9 +20354,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <junction x="-66.04" y="5.08"/>
 <wire x1="-66.04" y1="5.08" x2="-71.12" y2="5.08" width="0.1524" layer="91"/>
 <label x="-71.12" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="E2"/>
-<wire x1="-60.96" y1="10.16" x2="-60.96" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="5.08" x2="-66.04" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="E1"/>
+<wire x1="-60.96" y1="10.16" x2="-60.96" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VSENA" class="0">
@@ -20405,9 +20405,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="15.24" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
 <junction x="15.24" y="5.08"/>
 <label x="10.16" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="E2"/>
-<wire x1="22.86" y1="10.16" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="5.08" x2="15.24" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="E1"/>
+<wire x1="22.86" y1="10.16" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GLB" class="0">
@@ -20444,7 +20444,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <label x="86.36" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="99.06" y1="5.08" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="E2"/>
-<wire x1="99.06" y1="10.16" x2="99.06" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="5.08" x2="99.06" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GLC" class="0">
@@ -20533,22 +20533,22 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="-66.04" y1="20.32" x2="-66.04" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="20.32" x2="-71.12" y2="20.32" width="0.1524" layer="91"/>
 <label x="-71.12" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="E1"/>
-<wire x1="-60.96" y1="15.24" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="20.32" x2="-66.04" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-66.04" y="20.32"/>
+<pinref part="U$3" gate="G$1" pin="E2"/>
+<wire x1="-60.96" y1="15.24" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="I1"/>
 <pinref part="U$20" gate="G$1" pin="S2"/>
-<wire x1="-55.88" y1="17.78" x2="-55.88" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$20" gate="G$1" pin="S1"/>
 <wire x1="-58.42" y1="22.86" x2="-55.88" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-55.88" y="22.86"/>
 <pinref part="U$20" gate="G$1" pin="S3"/>
 <wire x1="-55.88" y1="22.86" x2="-53.34" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="I2"/>
+<wire x1="-55.88" y1="17.78" x2="-55.88" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPB" class="0">
@@ -20557,10 +20557,10 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="15.24" y1="17.78" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="20.32" x2="10.16" y2="20.32" width="0.1524" layer="91"/>
 <label x="10.16" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="E1"/>
-<wire x1="22.86" y1="15.24" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 <junction x="15.24" y="20.32"/>
+<pinref part="U$4" gate="G$1" pin="E2"/>
+<wire x1="22.86" y1="15.24" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -20571,8 +20571,8 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$21" gate="G$1" pin="S1"/>
 <wire x1="27.94" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <junction x="27.94" y="22.86"/>
-<pinref part="U$4" gate="G$1" pin="I1"/>
-<wire x1="27.94" y1="22.86" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="I2"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPC" class="0">
@@ -20584,7 +20584,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="99.06" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 <junction x="91.44" y="20.32"/>
 <pinref part="U$5" gate="G$1" pin="E1"/>
-<wire x1="99.06" y1="20.32" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="15.24" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -20596,7 +20596,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$24" gate="G$1" pin="S3"/>
 <wire x1="104.14" y1="22.86" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="I1"/>
-<wire x1="104.14" y1="17.78" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="22.86" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="APHASE" class="0">
