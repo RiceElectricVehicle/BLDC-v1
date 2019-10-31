@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -105,6 +108,7 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
@@ -462,10 +466,10 @@
 <smd name="E1" x="-3.735" y="4.155" dx="2.95" dy="1.68" layer="1" thermals="no"/>
 </package>
 <package name="MINI-PP75">
-<pad name="B1" x="-6.1" y="-5.46" drill="2.53" rot="R270"/>
-<pad name="B2" x="0" y="-5.46" drill="2.53"/>
-<pad name="B4" x="0" y="5.46" drill="2.53"/>
-<pad name="B3" x="-6.1" y="5.46" drill="2.53"/>
+<pad name="B1" x="-6.1" y="-5.46" drill="2.53" rot="R270" thermals="no"/>
+<pad name="B2" x="0" y="-5.46" drill="2.53" thermals="no"/>
+<pad name="B4" x="0" y="5.46" drill="2.53" thermals="no"/>
+<pad name="B3" x="-6.1" y="5.46" drill="2.53" thermals="no"/>
 <wire x1="18" y1="9" x2="18" y2="-9" width="0.127" layer="21"/>
 </package>
 <package name="MELF-MLL34" urn="urn:adsk.eagle:footprint:26286/1">

@@ -424,10 +424,10 @@
 <smd name="E1" x="-3.735" y="4.155" dx="2.95" dy="1.68" layer="1" thermals="no"/>
 </package>
 <package name="MINI-PP75">
-<pad name="B1" x="-6.1" y="-5.46" drill="2.53" rot="R270"/>
-<pad name="B2" x="0" y="-5.46" drill="2.53"/>
-<pad name="B4" x="0" y="5.46" drill="2.53"/>
-<pad name="B3" x="-6.1" y="5.46" drill="2.53"/>
+<pad name="B1" x="-6.1" y="-5.46" drill="2.53" rot="R270" thermals="no"/>
+<pad name="B2" x="0" y="-5.46" drill="2.53" thermals="no"/>
+<pad name="B4" x="0" y="5.46" drill="2.53" thermals="no"/>
+<pad name="B3" x="-6.1" y="5.46" drill="2.53" thermals="no"/>
 <wire x1="18" y1="9" x2="18" y2="-9" width="0.127" layer="21"/>
 </package>
 <package name="SOD123" urn="urn:adsk.eagle:footprint:26291/1" locally_modified="yes">
