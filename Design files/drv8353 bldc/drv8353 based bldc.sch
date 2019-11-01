@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -251,14 +251,14 @@
 <smd name="GND" x="1.45" y="0" dx="0.9" dy="1.4" layer="1"/>
 </package>
 <package name="MINI-SB-50">
-<pad name="-2" x="0" y="-3.7465" drill="2.54"/>
-<pad name="-4" x="0" y="-14.6685" drill="2.54"/>
-<pad name="+4" x="0" y="3.7465" drill="2.54"/>
-<pad name="+2" x="0" y="14.6685" drill="2.54"/>
-<pad name="+1" x="-6.096" y="14.6685" drill="2.54"/>
-<pad name="+3" x="-6.096" y="3.7465" drill="2.54"/>
-<pad name="-1" x="-6.096" y="-3.7465" drill="2.54"/>
-<pad name="-3" x="-6.096" y="-14.6685" drill="2.54"/>
+<pad name="-2" x="0" y="-3.7465" drill="2.54" thermals="no"/>
+<pad name="-4" x="0" y="-14.6685" drill="2.54" thermals="no"/>
+<pad name="+4" x="0" y="3.7465" drill="2.54" thermals="no"/>
+<pad name="+2" x="0" y="14.6685" drill="2.54" thermals="no"/>
+<pad name="+1" x="-6.096" y="14.6685" drill="2.54" thermals="no"/>
+<pad name="+3" x="-6.096" y="3.7465" drill="2.54" thermals="no"/>
+<pad name="-1" x="-6.096" y="-3.7465" drill="2.54" thermals="no"/>
+<pad name="-3" x="-6.096" y="-14.6685" drill="2.54" thermals="no"/>
 <wire x1="17.78" y1="15.24" x2="17.78" y2="-15.24" width="0.127" layer="21"/>
 </package>
 <package name="SM_RADIAL_K16_1PRIMARY">
@@ -300,10 +300,10 @@
 <smd name="D0-" x="0.4175" y="-0.5" dx="0.565" dy="0.2" layer="1" roundness="40" thermals="no"/>
 </package>
 <package name="KEYSTONE_MAXI_FUSE_CLIP_3555">
-<pad name="A2" x="-6.35" y="0" drill="3.8608"/>
-<pad name="B1" x="6.35" y="0" drill="3.8608"/>
-<pad name="A1" x="-14.6812" y="0" drill="3.8608"/>
-<pad name="B2" x="14.6812" y="0" drill="3.8608"/>
+<pad name="A2" x="-6.35" y="0" drill="3.8608" thermals="no"/>
+<pad name="B1" x="6.35" y="0" drill="3.8608" thermals="no"/>
+<pad name="A1" x="-14.6812" y="0" drill="3.8608" thermals="no"/>
+<pad name="B2" x="14.6812" y="0" drill="3.8608" thermals="no"/>
 </package>
 <package name="BOOSTER_DOCK">
 <description>&lt;b&gt;SAMTEC_SSQ-110-01-G-D&lt;/b&gt;&lt;br&gt;
@@ -18701,6 +18701,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="vdrain" width="0" drill="0">
+<clearance class="1" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="IC1" library="REV BLDC" deviceset="DRV8353RSRGZT" device=""/>
@@ -19341,7 +19344,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="TP6" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="VDRAIN" class="0">
+<net name="VDRAIN" class="1">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VDRAIN"/>
 <label x="-15.24" y="-53.34" size="1.778" layer="95"/>
@@ -20161,7 +20164,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <busses>
 </busses>
 <nets>
-<net name="VDRAIN" class="0">
+<net name="VDRAIN" class="1">
 <segment>
 <pinref part="U$14" gate="G$1" pin="DT"/>
 <junction x="-60.96" y="68.58"/>
@@ -20812,7 +20815,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <busses>
 </busses>
 <nets>
-<net name="VDRAIN" class="0">
+<net name="VDRAIN" class="1">
 <segment>
 <wire x1="45.72" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="71.12" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
