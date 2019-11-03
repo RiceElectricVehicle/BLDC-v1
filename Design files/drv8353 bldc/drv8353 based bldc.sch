@@ -19430,27 +19430,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$2" gate="G$1" pin="23"/>
 </segment>
 </net>
-<net name="ISENA" class="0">
-<segment>
-<wire x1="-45.72" y1="-137.16" x2="-43.18" y2="-137.16" width="0.1524" layer="91"/>
-<label x="-43.18" y="-137.16" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="29"/>
-</segment>
-</net>
-<net name="ISENB" class="0">
-<segment>
-<wire x1="-45.72" y1="-134.62" x2="-22.86" y2="-134.62" width="0.1524" layer="91"/>
-<label x="-22.86" y="-134.62" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="ISENC" class="0">
-<segment>
-<wire x1="-45.72" y1="-132.08" x2="-43.18" y2="-132.08" width="0.1524" layer="91"/>
-<label x="-43.18" y="-132.08" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="27"/>
-</segment>
-</net>
 <net name="SOA" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SOA"/>
@@ -19806,9 +19785,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$2" gate="G$1" pin="15"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-88.9" x2="71.12" y2="-88.9" width="0.1524" layer="91"/>
-<label x="68.58" y="-88.9" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="-91.44" x2="71.12" y2="-91.44" width="0.1524" layer="91"/>
+<label x="68.58" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -19826,9 +19805,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$2" gate="G$1" pin="14"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="-91.44" x2="71.12" y2="-91.44" width="0.1524" layer="91"/>
-<label x="68.58" y="-91.44" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-88.9" x2="71.12" y2="-88.9" width="0.1524" layer="91"/>
+<label x="68.58" y="-88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HALL_A" class="0">
@@ -19967,6 +19946,27 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="-50.8" y1="-96.52" x2="-55.88" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ISENA" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="27"/>
+<wire x1="-45.72" y1="-132.08" x2="-43.18" y2="-132.08" width="0.1524" layer="91"/>
+<label x="-43.18" y="-132.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ISENB" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="28"/>
+<wire x1="-45.72" y1="-134.62" x2="-22.86" y2="-134.62" width="0.1524" layer="91"/>
+<label x="-22.86" y="-134.62" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ISENC" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="29"/>
+<wire x1="-45.72" y1="-137.16" x2="-43.18" y2="-137.16" width="0.1524" layer="91"/>
+<label x="-43.18" y="-137.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
