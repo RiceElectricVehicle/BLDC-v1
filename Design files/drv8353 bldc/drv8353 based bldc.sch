@@ -18832,7 +18832,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value=".01 uF"/>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210K" package3d_urn="urn:adsk.eagle:package:23683/2" value="4.7 uF"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="BB1" library="busbar" library_urn="urn:adsk.eagle:library:112" deviceset="TE3/2" device="" package3d_urn="urn:adsk.eagle:package:5178/1"/>
 <part name="BB2" library="busbar" library_urn="urn:adsk.eagle:library:112" deviceset="TE3/2" device="" package3d_urn="urn:adsk.eagle:package:5178/1"/>
 <part name="J4" library="SamacSys_Parts" deviceset="B06B-HCMKK" device=""/>
 <part name="U$2" library="REV BLDC" deviceset="BOOSTER_DOCK" device=""/>
@@ -18855,6 +18854,8 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="U$8" library="REV BLDC" deviceset="MINI-PP75" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
+<part name="TP40" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="TP41" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19060,10 +19061,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <instance part="TP39" gate="G$1" x="-76.2" y="-134.62" smashed="yes" rot="R90">
 <attribute name="TP_SIGNAL_NAME" x="-74.93" y="-133.35" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="BB1" gate="1" x="119.38" y="-93.98" smashed="yes">
-<attribute name="NAME" x="116.84" y="-90.17" size="1.778" layer="95"/>
-<attribute name="VALUE" x="116.84" y="-92.71" size="1.778" layer="96"/>
-</instance>
 <instance part="BB2" gate="1" x="119.38" y="-104.14" smashed="yes">
 <attribute name="NAME" x="116.84" y="-100.33" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.84" y="-102.87" size="1.778" layer="96"/>
@@ -19108,6 +19105,14 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <instance part="R5" gate="G$1" x="-45.72" y="-96.52" smashed="yes">
 <attribute name="NAME" x="-49.53" y="-95.0214" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-49.53" y="-99.822" size="1.778" layer="96"/>
+</instance>
+<instance part="TP40" gate="G$1" x="-68.58" y="-81.28" smashed="yes">
+<attribute name="NAME" x="-69.85" y="-80.01" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-67.31" y="-82.55" size="1.778" layer="97"/>
+</instance>
+<instance part="TP41" gate="G$1" x="-68.58" y="-93.98" smashed="yes">
+<attribute name="NAME" x="-69.85" y="-92.71" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-67.31" y="-95.25" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
@@ -19862,15 +19867,12 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <label x="48.26" y="-63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BB1" gate="1" pin="P@1"/>
-<pinref part="BB1" gate="1" pin="P@2"/>
-<wire x1="116.84" y1="-96.52" x2="121.92" y2="-96.52" width="0.1524" layer="91"/>
-<label x="119.38" y="-96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="-83.82" x2="-73.66" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-83.82" x2="-68.58" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-81.28" y="-83.82" size="1.778" layer="95"/>
+<pinref part="TP40" gate="G$1" pin="TP"/>
+<wire x1="-68.58" y1="-83.82" x2="-73.66" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-83.82"/>
 </segment>
 </net>
 <net name="PGA_GND" class="0">
@@ -19881,8 +19883,11 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 </segment>
 <segment>
 <pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="-96.52" x2="-73.66" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="-96.52" x2="-68.58" y2="-96.52" width="0.1524" layer="91"/>
 <label x="-83.82" y="-96.52" size="1.778" layer="95"/>
+<pinref part="TP41" gate="G$1" pin="TP"/>
+<wire x1="-68.58" y1="-96.52" x2="-73.66" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-96.52"/>
 </segment>
 </net>
 <net name="N$17" class="0">
