@@ -20899,6 +20899,11 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="180.34" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
 <label x="187.96" y="68.58" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TVS_DIODE" gate="G$1" pin="NC1"/>
+<wire x1="144.78" y1="48.26" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
+<label x="132.08" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$15" class="0">
 <segment>
@@ -20931,27 +20936,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$8" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="VSENA" class="0">
-<segment>
-<pinref part="TVS_DIODE" gate="G$1" pin="D1+"/>
-<wire x1="144.78" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
-<label x="129.54" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VSENB" class="0">
-<segment>
-<pinref part="TVS_DIODE" gate="G$1" pin="D1-"/>
-<wire x1="144.78" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<label x="129.54" y="68.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VSENC" class="0">
-<segment>
-<pinref part="TVS_DIODE" gate="G$1" pin="D2+"/>
-<wire x1="180.34" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
-<label x="187.96" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VBUCK" class="0">
 <segment>
 <pinref part="LDO" gate="G$1" pin="IN"/>
@@ -20976,6 +20960,11 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="195.58" y1="0" x2="195.58" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="195.58" y="-5.08"/>
 <label x="203.2" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="-15.24" x2="55.88" y2="-15.24" width="0.1524" layer="91"/>
+<label x="55.88" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -21021,11 +21010,40 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <label x="5.08" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="VSENA" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-15.24" x2="55.88" y2="-15.24" width="0.1524" layer="91"/>
-<label x="55.88" y="-15.24" size="1.778" layer="95"/>
+<pinref part="TVS_DIODE" gate="G$1" pin="D2+"/>
+<wire x1="180.34" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
+<label x="187.96" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TVS_DIODE" gate="G$1" pin="NC2"/>
+<wire x1="144.78" y1="45.72" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
+<label x="132.08" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VSENC" class="0">
+<segment>
+<pinref part="TVS_DIODE" gate="G$1" pin="D1+"/>
+<wire x1="144.78" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
+<label x="129.54" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TVS_DIODE" gate="G$1" pin="NC4"/>
+<wire x1="144.78" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
+<label x="132.08" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VSENB" class="0">
+<segment>
+<pinref part="TVS_DIODE" gate="G$1" pin="D1-"/>
+<wire x1="144.78" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
+<label x="129.54" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TVS_DIODE" gate="G$1" pin="NC3"/>
+<wire x1="144.78" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
+<label x="132.08" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
