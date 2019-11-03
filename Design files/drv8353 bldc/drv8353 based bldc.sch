@@ -19264,11 +19264,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="11"/>
-<wire x1="78.74" y1="-101.6" x2="71.12" y2="-101.6" width="0.1524" layer="91"/>
-<label x="68.58" y="-101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="12"/>
 <wire x1="93.98" y1="-101.6" x2="96.52" y2="-101.6" width="0.1524" layer="91"/>
 <label x="96.52" y="-101.6" size="1.778" layer="95"/>
@@ -19282,6 +19277,11 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="-96.52" x2="-35.56" y2="-96.52" width="0.1524" layer="91"/>
 <label x="-35.56" y="-96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="-88.9" x2="96.52" y2="-88.9" width="0.1524" layer="91"/>
+<label x="96.52" y="-88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SNA" class="0">
@@ -19500,9 +19500,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$2" gate="G$1" pin="37"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="93.98" y1="-91.44" x2="96.52" y2="-91.44" width="0.1524" layer="91"/>
-<label x="96.52" y="-91.44" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="8"/>
+<wire x1="93.98" y1="-96.52" x2="96.52" y2="-96.52" width="0.1524" layer="91"/>
+<label x="96.52" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INHC" class="0">
@@ -19518,9 +19518,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$2" gate="G$1" pin="36"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="-88.9" x2="96.52" y2="-88.9" width="0.1524" layer="91"/>
-<label x="96.52" y="-88.9" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="6"/>
+<wire x1="93.98" y1="-93.98" x2="96.52" y2="-93.98" width="0.1524" layer="91"/>
+<label x="96.52" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INLC" class="0">
@@ -19536,9 +19536,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$2" gate="G$1" pin="35"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="10"/>
-<wire x1="93.98" y1="-99.06" x2="96.52" y2="-99.06" width="0.1524" layer="91"/>
-<label x="96.52" y="-99.06" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="93.98" y1="-91.44" x2="96.52" y2="-91.44" width="0.1524" layer="91"/>
+<label x="96.52" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INHB" class="0">
@@ -19553,9 +19553,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$2" gate="G$1" pin="38"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="93.98" y1="-93.98" x2="96.52" y2="-93.98" width="0.1524" layer="91"/>
-<label x="96.52" y="-93.98" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="7"/>
+<wire x1="78.74" y1="-96.52" x2="71.12" y2="-96.52" width="0.1524" layer="91"/>
+<label x="68.58" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INLA" class="0">
@@ -19587,9 +19587,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$2" gate="G$1" pin="40"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="8"/>
-<wire x1="93.98" y1="-96.52" x2="96.52" y2="-96.52" width="0.1524" layer="91"/>
-<label x="96.52" y="-96.52" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="11"/>
+<wire x1="78.74" y1="-101.6" x2="71.12" y2="-101.6" width="0.1524" layer="91"/>
+<label x="68.58" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -19751,9 +19751,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="U$2" gate="G$1" pin="19"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="78.74" y1="-96.52" x2="71.12" y2="-96.52" width="0.1524" layer="91"/>
-<label x="68.58" y="-96.52" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="10"/>
+<wire x1="93.98" y1="-99.06" x2="96.52" y2="-99.06" width="0.1524" layer="91"/>
+<label x="96.52" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
