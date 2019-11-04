@@ -18744,8 +18744,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="U$23" library="REV BLDC" deviceset="NVMTS1D2N08H" device=""/>
 <part name="U$24" library="REV BLDC" deviceset="NVMTS1D2N08H" device=""/>
 <part name="TP17" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP18" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP19" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
 <part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1000 pF"/>
 <part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1000 pF"/>
@@ -18762,10 +18760,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="383k"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="9.76k"/>
 <part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value=".047uF"/>
-<part name="TP23" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP24" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP25" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP26" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP27" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP28" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -18853,6 +18847,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
 <part name="TP40" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="TP18" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19098,6 +19093,10 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <instance part="TP40" gate="G$1" x="-68.58" y="-81.28" smashed="yes">
 <attribute name="NAME" x="-69.85" y="-80.01" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="-67.31" y="-82.55" size="1.778" layer="97"/>
+</instance>
+<instance part="TP18" gate="G$1" x="48.26" y="-71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="-72.39" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="46.99" y="-69.85" size="1.778" layer="97" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -19420,6 +19419,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="IC1" gate="G$1" pin="SOA"/>
 <wire x1="43.18" y1="-68.58" x2="48.26" y2="-68.58" width="0.1524" layer="91"/>
 <label x="48.26" y="-68.58" size="1.778" layer="95"/>
+<pinref part="TP18" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="SOB" class="0">
@@ -19955,14 +19955,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <attribute name="NAME" x="-31.75" y="49.53" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="-29.21" y="46.99" size="1.778" layer="97"/>
 </instance>
-<instance part="TP18" gate="G$1" x="-66.04" y="60.96" smashed="yes">
-<attribute name="NAME" x="-67.31" y="62.23" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-64.77" y="59.69" size="1.778" layer="97"/>
-</instance>
-<instance part="TP19" gate="G$1" x="-66.04" y="30.48" smashed="yes">
-<attribute name="NAME" x="-67.31" y="31.75" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-64.77" y="29.21" size="1.778" layer="97"/>
-</instance>
 <instance part="C30" gate="G$1" x="-38.1" y="71.12" smashed="yes">
 <attribute name="NAME" x="-36.576" y="71.501" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-36.576" y="66.421" size="1.778" layer="96"/>
@@ -20026,22 +20018,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <instance part="C36" gate="G$1" x="139.7" y="15.24" smashed="yes">
 <attribute name="NAME" x="141.224" y="15.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="141.224" y="10.541" size="1.778" layer="96"/>
-</instance>
-<instance part="TP23" gate="G$1" x="17.78" y="60.96" smashed="yes">
-<attribute name="NAME" x="16.51" y="62.23" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="19.05" y="59.69" size="1.778" layer="97"/>
-</instance>
-<instance part="TP24" gate="G$1" x="93.98" y="60.96" smashed="yes">
-<attribute name="NAME" x="92.71" y="62.23" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="95.25" y="59.69" size="1.778" layer="97"/>
-</instance>
-<instance part="TP25" gate="G$1" x="17.78" y="30.48" smashed="yes">
-<attribute name="NAME" x="16.51" y="31.75" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="19.05" y="29.21" size="1.778" layer="97"/>
-</instance>
-<instance part="TP26" gate="G$1" x="93.98" y="30.48" smashed="yes">
-<attribute name="NAME" x="92.71" y="31.75" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="95.25" y="29.21" size="1.778" layer="97"/>
 </instance>
 <instance part="TP27" gate="G$1" x="40.64" y="7.62" smashed="yes">
 <attribute name="NAME" x="36.83" y="1.27" size="1.778" layer="95"/>
@@ -20217,20 +20193,14 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <net name="GHA" class="0">
 <segment>
 <pinref part="U$14" gate="G$1" pin="G"/>
-<wire x1="-60.96" y1="58.42" x2="-66.04" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="TP18" gate="G$1" pin="TP"/>
-<wire x1="-66.04" y1="58.42" x2="-71.12" y2="58.42" width="0.1524" layer="91"/>
-<junction x="-66.04" y="58.42"/>
+<wire x1="-60.96" y1="58.42" x2="-71.12" y2="58.42" width="0.1524" layer="91"/>
 <label x="-71.12" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GLA" class="0">
 <segment>
 <pinref part="U$20" gate="G$1" pin="G"/>
-<wire x1="-60.96" y1="27.94" x2="-66.04" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="TP19" gate="G$1" pin="TP"/>
-<wire x1="-66.04" y1="27.94" x2="-71.12" y2="27.94" width="0.1524" layer="91"/>
-<junction x="-66.04" y="27.94"/>
+<wire x1="-60.96" y1="27.94" x2="-71.12" y2="27.94" width="0.1524" layer="91"/>
 <label x="-71.12" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -20348,10 +20318,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <net name="GHB" class="0">
 <segment>
 <pinref part="U$22" gate="G$1" pin="G"/>
-<wire x1="22.86" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="TP23" gate="G$1" pin="TP"/>
-<wire x1="17.78" y1="58.42" x2="10.16" y2="58.42" width="0.1524" layer="91"/>
-<junction x="17.78" y="58.42"/>
+<wire x1="22.86" y1="58.42" x2="10.16" y2="58.42" width="0.1524" layer="91"/>
 <label x="10.16" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -20384,10 +20351,7 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <net name="GLB" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="G"/>
-<wire x1="22.86" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="TP25" gate="G$1" pin="TP"/>
-<wire x1="17.78" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
-<junction x="17.78" y="27.94"/>
+<wire x1="22.86" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
 <label x="10.16" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -20421,20 +20385,14 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <net name="GLC" class="0">
 <segment>
 <pinref part="U$24" gate="G$1" pin="G"/>
-<wire x1="99.06" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="TP26" gate="G$1" pin="TP"/>
-<wire x1="93.98" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
-<junction x="93.98" y="27.94"/>
+<wire x1="99.06" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 <label x="86.36" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GHC" class="0">
 <segment>
 <pinref part="U$23" gate="G$1" pin="G"/>
-<wire x1="99.06" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="TP24" gate="G$1" pin="TP"/>
-<wire x1="93.98" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
-<junction x="93.98" y="58.42"/>
+<wire x1="99.06" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
 <label x="86.36" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>

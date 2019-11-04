@@ -3723,131 +3723,95 @@ einem neuen Namen ab.</description>
 <attribute name="POPULARITY" value="48" x="132.9738" y="-32.2692" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="54.2338" y="63.8698" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="21.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="22.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-11.938" y="-112.014" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="19.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="22.0992" size="1.016" layer="27"/>
+<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="54.356" y="89.7128" smashed="yes">
+<attribute name="NAME" x="53.721" y="90.7288" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="140.716" y="-43.6372" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="53.721" y="87.8078" size="1" layer="37"/>
+<attribute name="VALUE" x="53.7198" y="90.476" size="1.016" layer="27"/>
 </element>
-<element name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="66.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="67.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-5.588" y="-56.854" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="64.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="67.0992" size="1.016" layer="27"/>
+<element name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="59.0296" y="89.196" smashed="yes">
+<attribute name="NAME" x="58.3946" y="90.212" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="151.7396" y="-33.994" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="58.3946" y="87.291" size="1" layer="37"/>
+<attribute name="VALUE" x="58.3934" y="89.9592" size="1.016" layer="27"/>
 </element>
-<element name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="71.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="72.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-17.018" y="-62.014" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="69.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="72.0992" size="1.016" layer="27"/>
+<element name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="61.1124" y="90.6654" smashed="yes">
+<attribute name="NAME" x="60.4774" y="91.6814" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="142.3924" y="-42.6846" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="60.4774" y="88.7604" size="1" layer="37"/>
+<attribute name="VALUE" x="60.4762" y="91.4286" size="1.016" layer="27"/>
 </element>
-<element name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="76.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="77.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="0.762" y="-46.854" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="74.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="77.0992" size="1.016" layer="27"/>
+<element name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="68.453" y="95.3606" smashed="yes">
+<attribute name="NAME" x="67.818" y="96.3766" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="167.513" y="-27.8294" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="67.818" y="93.4556" size="1" layer="37"/>
+<attribute name="VALUE" x="67.8168" y="96.1238" size="1.016" layer="27"/>
 </element>
-<element name="TP13" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="81.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="82.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="7.112" y="-41.854" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="79.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="82.0992" size="1.016" layer="27"/>
+<element name="TP13" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-93.726" y="150.0176" smashed="yes">
+<attribute name="NAME" x="-94.361" y="151.0336" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="11.684" y="26.8276" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="-94.361" y="148.1126" size="1" layer="37"/>
+<attribute name="VALUE" x="-94.3622" y="150.7808" size="1.016" layer="27"/>
 </element>
-<element name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="86.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="87.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="13.462" y="-36.854" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="84.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="87.0992" size="1.016" layer="27"/>
+<element name="TP14" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="72.3138" y="58.5738" smashed="yes">
+<attribute name="NAME" x="71.6788" y="59.5898" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="184.0738" y="-64.6162" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="71.6788" y="56.6688" size="1" layer="37"/>
+<attribute name="VALUE" x="71.6776" y="58.067" size="1.016" layer="27"/>
 </element>
-<element name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="91.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="92.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-80.518" y="-36.934" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="89.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="92.0992" size="1.016" layer="27"/>
+<element name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="58.8264" y="75.3848" smashed="yes">
+<attribute name="NAME" x="58.1914" y="76.4008" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="76.6064" y="-52.8852" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="58.1914" y="73.4798" size="1" layer="37"/>
+<attribute name="VALUE" x="58.1902" y="76.148" size="1.016" layer="27"/>
 </element>
-<element name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="96.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="97.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-74.168" y="-31.934" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="94.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="97.0992" size="1.016" layer="27"/>
+<element name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="60.6806" y="31.2104" smashed="yes">
+<attribute name="NAME" x="60.0456" y="32.2264" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="84.8106" y="-97.0596" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="60.0456" y="29.3054" size="1" layer="37"/>
+<attribute name="VALUE" x="60.0444" y="31.9736" size="1.016" layer="27"/>
 </element>
-<element name="TP17" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="101.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="102.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-67.818" y="-26.934" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="99.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="102.0992" size="1.016" layer="27"/>
+<element name="TP17" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="64.7954" y="72.7356" smashed="yes">
+<attribute name="NAME" x="64.1604" y="73.7516" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="95.2754" y="-55.5344" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="64.1604" y="70.8306" size="1" layer="37"/>
+<attribute name="VALUE" x="64.1592" y="73.4988" size="1.016" layer="27"/>
 </element>
-<element name="TP18" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="106.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="107.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-61.468" y="-21.934" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="104.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="107.0992" size="1.016" layer="27"/>
+<element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="55.372" y="91.106" smashed="yes">
+<attribute name="NAME" x="54.737" y="92.122" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="146.812" y="-42.244" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="54.737" y="89.201" size="1" layer="37"/>
+<attribute name="VALUE" x="54.7358" y="91.8692" size="1.016" layer="27"/>
 </element>
-<element name="TP19" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="111.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="112.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-55.118" y="-16.934" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="109.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="112.0992" size="1.016" layer="27"/>
+<element name="TP20" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="74.8792" y="7.5732" smashed="yes">
+<attribute name="NAME" x="74.2442" y="8.5892" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="124.4092" y="-120.6968" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="74.2442" y="5.6682" size="1" layer="37"/>
+<attribute name="VALUE" x="75.513" y="5.7964" size="1.016" layer="27"/>
 </element>
-<element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="26.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="27.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-6.858" y="-107.014" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="24.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="27.0992" size="1.016" layer="27"/>
+<element name="TP21" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="62.0776" y="87.3762" smashed="yes">
+<attribute name="NAME" x="61.4426" y="88.3922" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="117.9576" y="-40.8938" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="61.4426" y="85.4712" size="1" layer="37"/>
+<attribute name="VALUE" x="61.4414" y="88.1394" size="1.016" layer="27"/>
 </element>
-<element name="TP20" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="116.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="117.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-48.768" y="-11.934" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="114.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="117.0992" size="1.016" layer="27"/>
+<element name="TP22" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="96.9518" y="107.1844" smashed="yes">
+<attribute name="NAME" x="96.3168" y="108.2004" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="159.1818" y="-21.0856" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="96.3168" y="105.2794" size="1" layer="37"/>
+<attribute name="VALUE" x="96.3156" y="107.9476" size="1.016" layer="27"/>
 </element>
-<element name="TP21" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="121.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="122.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-42.418" y="-6.934" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="119.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="122.0992" size="1.016" layer="27"/>
+<element name="TP27" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="72.517" y="112.2454" smashed="yes">
+<attribute name="NAME" x="71.882" y="113.2614" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="166.497" y="-16.0246" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="71.882" y="110.3404" size="1" layer="37"/>
+<attribute name="VALUE" x="71.8808" y="113.0086" size="1.016" layer="27"/>
 </element>
-<element name="TP22" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="126.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="127.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-36.068" y="-1.934" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="124.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="127.0992" size="1.016" layer="27"/>
-</element>
-<element name="TP23" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="131.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="132.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-29.718" y="3.066" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="129.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="132.0992" size="1.016" layer="27"/>
-</element>
-<element name="TP24" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="136.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="137.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-23.368" y="8.066" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="134.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="137.0992" size="1.016" layer="27"/>
-</element>
-<element name="TP25" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="141.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="142.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-17.018" y="13.066" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="139.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="142.0992" size="1.016" layer="27"/>
-</element>
-<element name="TP26" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="146.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="147.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-10.668" y="18.066" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="144.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="147.0992" size="1.016" layer="27"/>
-</element>
-<element name="TP27" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="151.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="152.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-4.318" y="23.066" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="149.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="152.0992" size="1.016" layer="27"/>
-</element>
-<element name="TP28" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="156.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="157.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="2.032" y="28.066" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="154.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="157.0992" size="1.016" layer="27"/>
+<element name="TP28" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="71.8312" y="72.135" smashed="yes">
+<attribute name="NAME" x="71.1962" y="73.151" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="172.1612" y="-56.135" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="71.1962" y="70.23" size="1" layer="37"/>
+<attribute name="VALUE" x="71.195" y="72.8982" size="1.016" layer="27"/>
 </element>
 <element name="TP29" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="161.336" smashed="yes">
 <attribute name="NAME" x="-98.933" y="162.352" size="1.016" layer="25" ratio="10"/>
@@ -3855,11 +3819,11 @@ einem neuen Namen ab.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="159.431" size="1" layer="37"/>
 <attribute name="VALUE" x="-98.9342" y="162.0992" size="1.016" layer="27"/>
 </element>
-<element name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="31.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="32.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-1.778" y="-102.014" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="29.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="32.0992" size="1.016" layer="27"/>
+<element name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="56.2864" y="87.6224" smashed="yes">
+<attribute name="NAME" x="55.6514" y="88.6384" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="152.8064" y="-45.7276" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="55.6514" y="85.7174" size="1" layer="37"/>
+<attribute name="VALUE" x="55.6502" y="88.3856" size="1.016" layer="27"/>
 </element>
 <element name="TP30" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="166.336" smashed="yes">
 <attribute name="NAME" x="-98.933" y="167.352" size="1.016" layer="25" ratio="10"/>
@@ -3867,41 +3831,41 @@ einem neuen Namen ab.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="164.431" size="1" layer="37"/>
 <attribute name="VALUE" x="-98.9342" y="167.0992" size="1.016" layer="27"/>
 </element>
-<element name="TP31" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="171.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="172.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-74.168" y="37.986" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="169.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="172.0992" size="1.016" layer="27"/>
+<element name="TP31" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-95.758" y="172.606" smashed="yes">
+<attribute name="NAME" x="-96.393" y="173.622" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="-71.628" y="39.256" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="-96.393" y="170.701" size="1" layer="37"/>
+<attribute name="VALUE" x="-96.3942" y="173.3692" size="1.016" layer="27"/>
 </element>
-<element name="TP32" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="176.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="177.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-67.818" y="42.986" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="174.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="177.0992" size="1.016" layer="27"/>
+<element name="TP32" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="96.9264" y="53.8064" smashed="yes">
+<attribute name="NAME" x="96.2914" y="54.8224" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="127.4064" y="-79.5436" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="96.2914" y="51.9014" size="1" layer="37"/>
+<attribute name="VALUE" x="96.2902" y="54.5696" size="1.016" layer="27"/>
 </element>
-<element name="TP33" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="181.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="182.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-61.468" y="47.986" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="179.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="182.0992" size="1.016" layer="27"/>
+<element name="TP33" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="61.6458" y="77.9834" smashed="yes">
+<attribute name="NAME" x="61.0108" y="78.9994" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="98.4758" y="-55.3666" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="61.0108" y="76.0784" size="1" layer="37"/>
+<attribute name="VALUE" x="61.0096" y="78.7466" size="1.016" layer="27"/>
 </element>
-<element name="TP34" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="186.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="187.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-55.118" y="52.986" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="184.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="187.0992" size="1.016" layer="27"/>
+<element name="TP34" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="62.865" y="79.7576" smashed="yes">
+<attribute name="NAME" x="62.23" y="80.7736" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="106.045" y="-53.5924" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="62.23" y="77.8526" size="1" layer="37"/>
+<attribute name="VALUE" x="62.2288" y="80.5208" size="1.016" layer="27"/>
 </element>
-<element name="TP35" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="191.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="192.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-48.768" y="57.986" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="189.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="192.0992" size="1.016" layer="27"/>
+<element name="TP35" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="62.7634" y="81.2778" smashed="yes">
+<attribute name="NAME" x="62.1284" y="82.2938" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="112.2934" y="-52.0722" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="62.1284" y="79.3728" size="1" layer="37"/>
+<attribute name="VALUE" x="62.1272" y="82.041" size="1.016" layer="27"/>
 </element>
-<element name="TP36" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="196.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="197.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-42.418" y="62.986" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="194.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="197.0992" size="1.016" layer="27"/>
+<element name="TP36" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="63.1444" y="73.781" smashed="yes">
+<attribute name="NAME" x="62.5094" y="74.797" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="119.0244" y="-59.569" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="62.5094" y="71.876" size="1" layer="37"/>
+<attribute name="VALUE" x="62.5082" y="74.5442" size="1.016" layer="27"/>
 </element>
 <element name="TP37" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="201.336" smashed="yes">
 <attribute name="NAME" x="-98.933" y="202.352" size="1.016" layer="25" ratio="10"/>
@@ -3915,47 +3879,47 @@ einem neuen Namen ab.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="204.431" size="1" layer="37"/>
 <attribute name="VALUE" x="-98.9342" y="207.0992" size="1.016" layer="27"/>
 </element>
-<element name="TP39" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="211.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="212.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-23.368" y="77.986" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="209.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="212.0992" size="1.016" layer="27"/>
+<element name="TP39" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-96.6978" y="194.0386" smashed="yes">
+<attribute name="NAME" x="-97.3328" y="195.0546" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="-21.7678" y="60.6886" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="-97.3328" y="192.1336" size="1" layer="37"/>
+<attribute name="VALUE" x="-97.334" y="194.8018" size="1.016" layer="27"/>
 </element>
-<element name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="36.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="37.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="3.302" y="-97.014" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="34.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="37.0992" size="1.016" layer="27"/>
+<element name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="61.9252" y="82.437" smashed="yes">
+<attribute name="NAME" x="61.2902" y="83.453" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="163.5252" y="-50.913" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="61.2902" y="80.532" size="1" layer="37"/>
+<attribute name="VALUE" x="61.289" y="83.2002" size="1.016" layer="27"/>
 </element>
-<element name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="41.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="42.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="8.382" y="-92.014" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="39.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="42.0992" size="1.016" layer="27"/>
+<element name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="62.2554" y="83.881" smashed="yes">
+<attribute name="NAME" x="61.6204" y="84.897" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="168.9354" y="-49.469" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="61.6204" y="81.976" size="1" layer="37"/>
+<attribute name="VALUE" x="61.6192" y="84.6442" size="1.016" layer="27"/>
 </element>
-<element name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="46.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="47.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="13.462" y="-87.014" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="44.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="47.0992" size="1.016" layer="27"/>
+<element name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="96.8756" y="80.5498" smashed="yes">
+<attribute name="NAME" x="96.2406" y="81.5658" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="208.6356" y="-52.8002" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="96.2406" y="78.6448" size="1" layer="37"/>
+<attribute name="VALUE" x="96.2394" y="81.313" size="1.016" layer="27"/>
 </element>
-<element name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="51.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="52.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-81.788" y="-87.094" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="49.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="52.0992" size="1.016" layer="27"/>
+<element name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="60.9346" y="85.5498" smashed="yes">
+<attribute name="NAME" x="60.2996" y="86.5658" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="77.4446" y="-52.8802" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="60.2996" y="83.6448" size="1" layer="37"/>
+<attribute name="VALUE" x="60.2984" y="86.313" size="1.016" layer="27"/>
 </element>
-<element name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="56.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="57.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-76.708" y="-82.094" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="54.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="57.0992" size="1.016" layer="27"/>
+<element name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="64.516" y="88.848" smashed="yes">
+<attribute name="NAME" x="63.881" y="89.864" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="86.106" y="-49.582" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="63.881" y="86.943" size="1" layer="37"/>
+<attribute name="VALUE" x="63.8798" y="89.6112" size="1.016" layer="27"/>
 </element>
-<element name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="-98.298" y="61.336" smashed="yes">
-<attribute name="NAME" x="-98.933" y="62.352" size="1.016" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="-71.628" y="-77.094" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-98.933" y="59.431" size="1" layer="37"/>
-<attribute name="VALUE" x="-98.9342" y="62.0992" size="1.016" layer="27"/>
+<element name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="62.8904" y="89.6062" smashed="yes">
+<attribute name="NAME" x="62.2554" y="90.6222" size="1.016" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="89.5604" y="-48.8238" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="62.2554" y="87.7012" size="1" layer="37"/>
+<attribute name="VALUE" x="62.2542" y="90.3694" size="1.016" layer="27"/>
 </element>
 <element name="TVS_DIODE" library="REV BLDC" package="TPD4S010DQAR" value="TPD4S010DQAR" x="59.308" y="115.0062" smashed="yes" rot="R30"/>
 <element name="U$14" library="REV BLDC" package="PQFN88" value="NVMTS1D2N08H" x="86.7688" y="45.0618" smashed="yes" rot="R90"/>
@@ -4001,11 +3965,17 @@ einem neuen Namen ab.</description>
 <attribute name="SPICEPREFIX" value="C" x="79.0448" y="47.0408" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="80.3148" y="49.5808" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="TP40" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="0" y="-32.512" smashed="yes">
-<attribute name="NAME" x="-0.635" y="-31.496" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="0" y="-32.512" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="-0.635" y="-34.417" size="1" layer="37"/>
-<attribute name="VALUE" x="-0.635" y="-33.274" size="0.0254" layer="27"/>
+<element name="TP40" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="64.9478" y="99.822" smashed="yes">
+<attribute name="NAME" x="64.3128" y="100.838" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="64.9478" y="99.822" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="64.3128" y="97.917" size="1" layer="37"/>
+<attribute name="VALUE" x="64.3128" y="99.06" size="0.0254" layer="27"/>
+</element>
+<element name="TP18" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="52.8828" y="91.4146" smashed="yes">
+<attribute name="NAME" x="52.2478" y="92.4306" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="19" x="52.8828" y="91.4146" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="52.8828" y="91.4146" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="52.2478" y="90.6526" size="0.0254" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -4033,7 +4003,7 @@ einem neuen Namen ab.</description>
 <wire x1="72.3138" y1="73.5632" x2="72.3138" y2="69.15038125" width="0.3048" layer="15"/>
 <wire x1="72.3138" y1="69.15038125" x2="74.53518125" y2="66.929" width="0.3048" layer="15"/>
 <wire x1="79.6802" y1="64.6474" x2="80.0128" y2="64.3148" width="0.3048" layer="15"/>
-<wire x1="-98.298" y1="186.336" x2="57.9396625" y2="80.754915625" width="0" layer="19" extent="1-1"/>
+<wire x1="61.3938" y1="79.3058" x2="62.865" y2="79.7576" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPB" airwireshidden="yes">
 <contactref element="TP5" pad="TP"/>
@@ -4058,7 +4028,7 @@ einem neuen Namen ab.</description>
 <wire x1="83.3358" y1="77.5058" x2="82.3198" y2="77.5058" width="0.3048" layer="1"/>
 <wire x1="82.3198" y1="77.5058" x2="80.8466" y2="78.979" width="0.3048" layer="1"/>
 <wire x1="80.8466" y1="78.979" x2="80.11" y2="78.979" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="41.336" x2="57.9396625" y2="82.52268125" width="0" layer="19" extent="1-1"/>
+<wire x1="61.8998" y1="83.6168" x2="62.2554" y2="83.881" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPC">
 <contactref element="TP10" pad="TP"/>
@@ -4084,12 +4054,11 @@ einem neuen Namen ab.</description>
 <wire x1="57.816515625" y1="88.00908125" x2="57.96350625" y2="88.00908125" width="0.3048" layer="1"/>
 <wire x1="58.6880125" y1="88.7335875" x2="57.96350625" y2="88.00908125" width="0.3048" layer="1"/>
 <wire x1="83.2778" y1="107.5598" x2="82.9818" y2="107.1118" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="66.336" x2="55.4647875" y2="84.99755625" width="0" layer="19" extent="1-1"/>
+<wire x1="59.0296" y1="89.196" x2="58.6880125" y2="88.7335875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GHA">
 <contactref element="TP36" pad="TP"/>
 <contactref element="U$14" pad="G"/>
-<contactref element="TP18" pad="TP"/>
 <contactref element="IC1" pad="8"/>
 <wire x1="90.8388" y1="42.0618" x2="90.4528" y2="41.6758" width="0.3048" layer="1"/>
 <wire x1="56.879003125" y1="79.69425625" x2="57.655459375" y2="78.9178" width="0.3048" layer="1"/>
@@ -4100,13 +4069,11 @@ einem neuen Namen ab.</description>
 <wire x1="63.6778" y1="55.4228" x2="63.6778" y2="69.0118" width="0.4064" layer="1"/>
 <wire x1="63.6778" y1="69.0118" x2="63.6778" y2="73.9648" width="0.3048" layer="1"/>
 <wire x1="63.6778" y1="73.9648" x2="58.7248" y2="78.9178" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="106.336" x2="56.879003125" y2="79.69425625" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="196.336" x2="-98.298" y2="106.336" width="0" layer="19" extent="1-1"/>
+<wire x1="56.879003125" y1="79.69425625" x2="63.1444" y2="73.781" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GLA">
 <contactref element="TP33" pad="TP"/>
 <contactref element="U$20" pad="G"/>
-<contactref element="TP19" pad="TP"/>
 <contactref element="IC1" pad="10"/>
 <wire x1="88.0488" y1="62.9358" x2="87.7878" y2="62.9358" width="0.3048" layer="1"/>
 <wire x1="57.586109375" y1="80.4013625" x2="58.155271875" y2="79.8322" width="0.3048" layer="1"/>
@@ -4115,8 +4082,7 @@ einem neuen Namen ab.</description>
 <wire x1="88.0488" y1="65.2148" x2="86.4108" y2="66.8528" width="0.3048" layer="1"/>
 <wire x1="86.4108" y1="66.8528" x2="72.0829625" y2="66.8528" width="0.3048" layer="1"/>
 <wire x1="72.0829625" y1="66.8528" x2="59.1035625" y2="79.8322" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="111.336" x2="57.586109375" y2="80.4013625" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="181.336" x2="-98.298" y2="111.336" width="0" layer="19" extent="1-1"/>
+<wire x1="57.586109375" y1="80.4013625" x2="61.6458" y2="77.9834" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C16" pad="1"/>
@@ -5463,7 +5429,6 @@ einem neuen Namen ab.</description>
 <via x="68.58" y="86.995" extent="1-16" drill="0.4"/>
 <via x="66.04" y="87.0204" extent="1-16" drill="0.4"/>
 <via x="63.4492" y="86.995" extent="1-16" drill="0.4"/>
-<via x="62.23" y="86.995" extent="1-16" drill="0.4"/>
 <via x="71.1708" y="86.995" extent="1-16" drill="0.4"/>
 <via x="12.192" y="62.2808" extent="1-16" drill="0.4"/>
 <via x="9.652" y="59.7154" extent="1-16" drill="0.4"/>
@@ -5497,10 +5462,7 @@ einem neuen Namen ab.</description>
 <via x="10.414" y="94.8436" extent="1-16" drill="0.2"/>
 <via x="8.89" y="93.98" extent="1-16" drill="0.2"/>
 <via x="15.8242" y="85.5218" extent="1-16" drill="0.2"/>
-<wire x1="-98.298" y1="151.336" x2="-98.298" y2="156.336" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="116.336" x2="-98.298" y2="151.336" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="86.336" x2="-98.298" y2="116.336" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="115.57" x2="-98.298" y2="116.336" width="0" layer="19" extent="1-1"/>
+<via x="54.0512" y="87.2744" extent="1-16" drill="0.254"/>
 <wire x1="48.0438" y1="72.7788" x2="48.0108" y2="74.9304" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SNA">
@@ -5529,7 +5491,7 @@ einem neuen Namen ab.</description>
 <wire x1="71.8058" y1="69.0118" x2="74.3458" y2="66.4718" width="0.3048" layer="15"/>
 <wire x1="77.955" y1="66.4718" x2="79.223" y2="65.2038" width="0.3048" layer="15"/>
 <wire x1="74.3458" y1="66.4718" x2="77.955" y2="66.4718" width="0.3048" layer="15"/>
-<wire x1="-98.298" y1="191.336" x2="58.293215625" y2="81.10846875" width="0" layer="19" extent="1-1"/>
+<wire x1="62.8396" y1="80.977315625" x2="62.7634" y2="81.2778" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSENA">
 <contactref element="U$2" pad="24"/>
@@ -5553,7 +5515,6 @@ einem neuen Namen ab.</description>
 <signal name="GHB" airwireshidden="yes">
 <contactref element="TP8" pad="TP"/>
 <contactref element="U$22" pad="G"/>
-<contactref element="TP23" pad="TP"/>
 <contactref element="IC1" pad="17"/>
 <wire x1="90.8148" y1="84.8978" x2="90.8148" y2="84.768225" width="0.3048" layer="1"/>
 <wire x1="90.8148" y1="84.768225" x2="89.506575" y2="83.46" width="0.3048" layer="1"/>
@@ -5561,8 +5522,7 @@ einem neuen Namen ab.</description>
 <wire x1="56.879003125" y1="83.583340625" x2="61.6368625" y2="88.3412" width="0.3048" layer="1"/>
 <wire x1="61.6368625" y1="88.3412" x2="72.136" y2="88.3412" width="0.3048" layer="1"/>
 <wire x1="72.136" y1="88.3412" x2="77.0172" y2="83.46" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="56.336" x2="56.879003125" y2="83.583340625" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="131.336" x2="-98.298" y2="56.336" width="0" layer="19" extent="1-1"/>
+<wire x1="56.879003125" y1="83.583340625" x2="64.516" y2="88.848" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSENB">
 <contactref element="U$2" pad="25"/>
@@ -5604,12 +5564,11 @@ einem neuen Namen ab.</description>
 <wire x1="79.1424" y1="78.979" x2="78.355" y2="78.979" width="0.3048" layer="1"/>
 <wire x1="75.8658" y1="77.5058" x2="76.8818" y2="77.5058" width="0.3048" layer="1"/>
 <wire x1="78.355" y1="78.979" x2="76.8818" y2="77.5058" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="36.336" x2="58.293215625" y2="82.169128125" width="0" layer="19" extent="1-1"/>
+<wire x1="61.8998" y1="82.6826" x2="61.9252" y2="82.437" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GLB" airwireshidden="yes">
 <contactref element="TP7" pad="TP"/>
 <contactref element="U$21" pad="G"/>
-<contactref element="TP25" pad="TP"/>
 <contactref element="IC1" pad="15"/>
 <wire x1="88.0658" y1="76.1468" x2="87.662" y2="76.5506" width="0.3048" layer="1"/>
 <wire x1="88.0658" y1="76.1468" x2="88.0618" y2="76.1508" width="0.3048" layer="1"/>
@@ -5619,8 +5578,7 @@ einem neuen Namen ab.</description>
 <wire x1="86.1568" y1="81.0768" x2="75.9968" y2="81.0768" width="0.3048" layer="1"/>
 <wire x1="57.586109375" y1="82.876234375" x2="60.739675" y2="86.0298" width="0.3048" layer="1"/>
 <wire x1="60.739675" y1="86.0298" x2="71.0438" y2="86.0298" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="51.336" x2="57.586109375" y2="82.876234375" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="141.336" x2="-98.298" y2="51.336" width="0" layer="19" extent="1-1"/>
+<wire x1="57.586109375" y1="82.876234375" x2="60.9346" y2="85.5498" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDRAIN" class="1">
 <contactref element="C22" pad="1"/>
@@ -5999,12 +5957,11 @@ einem neuen Namen ab.</description>
 <wire x1="57.8358" y1="89.6423875" x2="57.482953125" y2="89.6423875" width="0.3048" layer="1"/>
 <wire x1="56.57908125" y1="89.246515625" x2="56.57908125" y2="86.82856875" width="0.3048" layer="1"/>
 <wire x1="56.57908125" y1="86.82856875" x2="55.9730125" y2="86.2225" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="31.336" x2="55.111234375" y2="85.351109375" width="0" layer="19" extent="1-1"/>
+<wire x1="56.57908125" y1="89.246515625" x2="56.2864" y2="87.6224" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GLC">
 <contactref element="TP11" pad="TP"/>
 <contactref element="U$24" pad="G"/>
-<contactref element="TP26" pad="TP"/>
 <contactref element="IC1" pad="20"/>
 <wire x1="88.1708" y1="116.8428" x2="87.9958" y2="117.2718" width="0.3048" layer="1"/>
 <wire x1="55.818340625" y1="84.644003125" x2="63.1698" y2="91.9954625" width="0.3048" layer="1"/>
@@ -6015,19 +5972,16 @@ einem neuen Namen ab.</description>
 <wire x1="68.5038" y1="112.9538" x2="73.3298" y2="117.7798" width="0.4064" layer="1"/>
 <wire x1="73.3298" y1="117.7798" x2="87.2338" y2="117.7798" width="0.4064" layer="1"/>
 <wire x1="87.2338" y1="117.7798" x2="88.1708" y2="116.8428" width="0.4064" layer="1"/>
-<wire x1="-98.298" y1="71.336" x2="55.818340625" y2="84.644003125" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="146.336" x2="-98.298" y2="71.336" width="0" layer="19" extent="1-1"/>
+<wire x1="63.1698" y1="91.9988" x2="61.1124" y2="90.6654" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GHC" airwireshidden="yes">
 <contactref element="TP9" pad="TP"/>
 <contactref element="U$23" pad="G"/>
-<contactref element="TP24" pad="TP"/>
 <contactref element="IC1" pad="18"/>
 <wire x1="90.8558" y1="96.1448" x2="89.1228" y2="94.4118" width="0.3048" layer="1"/>
 <wire x1="67.000353125" y1="94.4118" x2="56.52545" y2="83.936896875" width="0.3048" layer="1"/>
 <wire x1="89.1228" y1="94.4118" x2="67.000353125" y2="94.4118" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="61.336" x2="56.52545" y2="83.936896875" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="136.336" x2="-98.298" y2="61.336" width="0" layer="19" extent="1-1"/>
+<wire x1="56.52545" y1="83.936896875" x2="62.8904" y2="89.6062" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VSENVM">
 <contactref element="U$2" pad="23"/>
@@ -6072,14 +6026,16 @@ einem neuen Namen ab.</description>
 <wire x1="57.79171875" y1="100.9358" x2="58.412771875" y2="99.7841" width="0.3048" layer="1"/>
 <contactref element="U$2" pad="29"/>
 <wire x1="57.79171875" y1="100.9358" x2="59.6184375" y2="102.01483125" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="171.336" x2="57.79171875" y2="100.9358" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.758" y1="172.606" x2="57.79171875" y2="100.9358" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOA">
 <contactref element="R10" pad="2"/>
 <contactref element="IC1" pad="25"/>
-<wire x1="53.34346875" y1="86.058215625" x2="53.0098" y2="86.391884375" width="0.3048" layer="1"/>
-<wire x1="53.0098" y1="103.710321875" x2="53.804878125" y2="104.5054" width="0.3048" layer="1"/>
-<wire x1="53.0098" y1="86.391884375" x2="53.0098" y2="103.710321875" width="0.3048" layer="1"/>
+<wire x1="53.34346875" y1="86.058215625" x2="52.959" y2="86.442684375" width="0.3048" layer="1"/>
+<wire x1="52.959" y1="103.659521875" x2="53.804878125" y2="104.5054" width="0.3048" layer="1"/>
+<wire x1="52.959" y1="86.442684375" x2="52.959" y2="103.659521875" width="0.3048" layer="1"/>
+<contactref element="TP18" pad="TP"/>
+<wire x1="53.34346875" y1="86.058215625" x2="52.8828" y2="91.4146" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOB">
 <contactref element="TP1" pad="TP"/>
@@ -6090,7 +6046,7 @@ einem neuen Namen ab.</description>
 <wire x1="54.2798" y1="90.6018" x2="54.2798" y2="101.500521875" width="0.3048" layer="1"/>
 <wire x1="54.2798" y1="101.500521875" x2="55.074878125" y2="102.2956" width="0.3048" layer="1"/>
 <wire x1="54.7878" y1="86.4418875" x2="54.7878" y2="90.0938" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="21.336" x2="54.404128125" y2="86.058215625" width="0" layer="19" extent="1-1"/>
+<wire x1="54.404128125" y1="86.058215625" x2="54.356" y2="89.7128" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOC">
 <contactref element="TP2" pad="TP"/>
@@ -6099,7 +6055,7 @@ einem neuen Namen ab.</description>
 <wire x1="54.75768125" y1="85.7046625" x2="55.2958" y2="86.24278125" width="0.3048" layer="1"/>
 <wire x1="55.2958" y1="99.062121875" x2="56.319478125" y2="100.0858" width="0.3048" layer="1"/>
 <wire x1="55.2958" y1="86.24278125" x2="55.2958" y2="99.062121875" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="26.336" x2="54.75768125" y2="85.7046625" width="0" layer="19" extent="1-1"/>
+<wire x1="54.75768125" y1="85.7046625" x2="55.372" y2="91.106" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VGLS">
 <contactref element="C16" pad="2"/>
@@ -6130,7 +6086,7 @@ einem neuen Namen ab.</description>
 <contactref element="IC1" pad="7"/>
 <wire x1="58.624" y1="77.7364375" x2="58.1297125" y2="77.7364375" width="0.3048" layer="1"/>
 <wire x1="58.1297125" y1="77.7364375" x2="56.52545" y2="79.3407" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="81.336" x2="56.52545" y2="79.3407" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.726" y1="150.0176" x2="56.52545" y2="79.3407" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INLB">
 <contactref element="U$2" pad="37"/>
@@ -6526,14 +6482,14 @@ einem neuen Namen ab.</description>
 <wire x1="57.694834375" y1="118.682765625" x2="52.92814375" y2="118.682765625" width="0.508" layer="15"/>
 <wire x1="64.9478" y1="111.4298" x2="57.694834375" y2="118.682765625" width="0.508" layer="15"/>
 <wire x1="51.7652" y1="86.5886" x2="64.9478" y2="99.7712" width="0.508" layer="15"/>
+<wire x1="64.9478" y1="99.822" x2="64.9478" y2="99.7458" width="0" layer="19" extent="1-1"/>
 <wire x1="51.7652" y1="86.5886" x2="64.9478" y2="99.7458" width="0" layer="19" extent="1-1"/>
 <wire x1="49.0982" y1="88.519" x2="51.7652" y2="86.5886" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-32.512" x2="52.6363625" y2="85.351109375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="TP39" pad="TP"/>
 <contactref element="U$2" pad="8"/>
-<wire x1="-98.298" y1="211.336" x2="60.54814375" y2="105.4845375" width="0" layer="19" extent="1-1"/>
+<wire x1="-96.6978" y1="194.0386" x2="60.54814375" y2="105.4845375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="TP38" pad="TP"/>
@@ -6556,9 +6512,9 @@ einem neuen Namen ab.</description>
 <wire x1="58.3438" y1="67.0908" x2="58.0438" y2="66.7908" width="0.3048" layer="1"/>
 <wire x1="58.0438" y1="66.7908" x2="58.0438" y2="63.6318" width="1.524" layer="1"/>
 <wire x1="58.0438" y1="63.6318" x2="57.8358" y2="63.4238" width="1.524" layer="1"/>
-<wire x1="58.0438" y1="66.7908" x2="58.2038" y2="70.9858" width="0" layer="19" extent="1-1"/>
+<wire x1="55.818340625" y1="78.63359375" x2="58.8264" y2="75.3848" width="0" layer="19" extent="1-1"/>
 <wire x1="56.4978" y1="63.3558" x2="57.8358" y2="63.4238" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.298" y1="91.336" x2="55.818340625" y2="78.63359375" width="0" layer="19" extent="1-1"/>
+<wire x1="58.2038" y1="70.9858" x2="58.0438" y2="66.7908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="C1" pad="1"/>
@@ -6589,7 +6545,7 @@ einem neuen Namen ab.</description>
 <contactref element="U$8" pad="B3"/>
 <contactref element="TP32" pad="TP"/>
 <contactref element="IC1" pad="9"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" thermals="no">
 <vertex x="90.2208" y="63.4238"/>
 <vertex x="90.2208" y="43.4848"/>
 <vertex x="90.4748" y="43.2308"/>
@@ -6758,8 +6714,7 @@ einem neuen Namen ab.</description>
 <via x="63.16591875" y="119.2022" extent="1-16" drill="0.35"/>
 <wire x1="121.82998125" y1="119.2022" x2="124.6378" y2="116.39438125" width="0.3048" layer="15"/>
 <wire x1="124.6378" y1="116.39438125" x2="124.6378" y2="62.6618" width="0.3048" layer="15"/>
-<wire x1="-98.298" y1="101.336" x2="-98.298" y2="176.336" width="0" layer="19" extent="1-1"/>
-<wire x1="57.23255625" y1="80.047809375" x2="-98.298" y2="101.336" width="0" layer="19" extent="1-1"/>
+<wire x1="57.23255625" y1="80.047809375" x2="64.7954" y2="72.7356" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BPHASE">
 <contactref element="U$22" pad="S1"/>
@@ -6779,7 +6734,7 @@ einem neuen Namen ab.</description>
 <contactref element="U$7" pad="B3"/>
 <contactref element="TP6" pad="TP"/>
 <contactref element="IC1" pad="16"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" thermals="no">
 <vertex x="90.2208" y="69.6468"/>
 <vertex x="90.2208" y="91.4908"/>
 <vertex x="90.4748" y="91.7448"/>
@@ -6953,8 +6908,7 @@ einem neuen Namen ab.</description>
 <wire x1="121.6406" y1="118.745" x2="67.1576" y2="118.745" width="0.3048" layer="15"/>
 <wire x1="64.7446" y1="116.332" x2="64.7446" y2="116.31048125" width="0.3048" layer="1"/>
 <wire x1="64.7446" y1="116.31048125" x2="63.92831875" y2="115.4942" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="121.336" x2="-98.298" y2="46.336" width="0" layer="19" extent="1-1"/>
-<wire x1="57.23255625" y1="83.2297875" x2="-98.298" y2="46.336" width="0" layer="19" extent="1-1"/>
+<wire x1="57.23255625" y1="83.2297875" x2="62.0776" y2="87.3762" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPHASE">
 <contactref element="U$23" pad="S1"/>
@@ -6974,7 +6928,7 @@ einem neuen Namen ab.</description>
 <contactref element="U$6" pad="B3"/>
 <contactref element="TP12" pad="TP"/>
 <contactref element="IC1" pad="19"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" thermals="no">
 <vertex x="90.2208" y="117.2718"/>
 <vertex x="90.2208" y="97.5868"/>
 <vertex x="90.4748" y="97.3328"/>
@@ -7134,8 +7088,7 @@ einem neuen Namen ab.</description>
 <wire x1="71.9328" y1="118.2878" x2="66.802" y2="113.157" width="0.3048" layer="15"/>
 <wire x1="66.802" y1="113.157" x2="66.802" y2="113.13548125" width="0.3048" layer="1"/>
 <wire x1="66.802" y1="113.13548125" x2="65.85871875" y2="112.1922" width="0.3048" layer="1"/>
-<wire x1="-98.298" y1="76.336" x2="-98.298" y2="126.336" width="0" layer="19" extent="1-1"/>
-<wire x1="56.171896875" y1="84.29045" x2="-98.298" y2="76.336" width="0" layer="19" extent="1-1"/>
+<wire x1="56.171896875" y1="84.29045" x2="68.453" y2="95.3606" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="F1" pad="B1"/>
@@ -7145,7 +7098,7 @@ einem neuen Namen ab.</description>
 <contactref element="U$16" pad="+3"/>
 <contactref element="U$16" pad="+4"/>
 <contactref element="TP16" pad="TP"/>
-<polygon width="0.4064" layer="1">
+<polygon width="0.4064" layer="1" thermals="no">
 <vertex x="59.8678" y="31.9278"/>
 <vertex x="59.8678" y="14.6558"/>
 <vertex x="76.1238" y="14.6558"/>
@@ -7169,7 +7122,6 @@ einem neuen Namen ab.</description>
 <vertex x="76.1238" y="14.6558"/>
 <vertex x="76.1238" y="31.9278"/>
 </polygon>
-<wire x1="63.6726" y1="29.1858" x2="-98.298" y2="96.336" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LDO" pad="2"/>
