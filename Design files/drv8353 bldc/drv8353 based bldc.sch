@@ -18842,10 +18842,8 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:26200/1" value="0.1uF"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="5K"/>
-<part name="L2" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0603-33NH" package3d_urn="urn:adsk.eagle:package:37574/1" value="DNP"/>
 <part name="L1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0603-33NH" package3d_urn="urn:adsk.eagle:package:37574/1" value="33nH/±5%/500mA"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="0"/>
-<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="0"/>
 <part name="U$3" library="REV BLDC" deviceset="CURRENT_SHUNT" device=""/>
 <part name="U$4" library="REV BLDC" deviceset="CURRENT_SHUNT" device=""/>
 <part name="U$5" library="REV BLDC" deviceset="CURRENT_SHUNT" device=""/>
@@ -18855,7 +18853,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
 <part name="TP40" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP41" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19091,10 +19088,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <attribute name="NAME" x="92.71" y="-122.9614" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.71" y="-127.762" size="1.778" layer="96"/>
 </instance>
-<instance part="L2" gate="G$1" x="-60.96" y="-96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="-58.42" y="-97.79" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-63.5" y="-95.25" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="L1" gate="G$1" x="-60.96" y="-83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="-58.42" y="-85.09" size="1.778" layer="95" rot="R270"/>
 </instance>
@@ -19102,17 +19095,9 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <attribute name="NAME" x="-49.53" y="-82.3214" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-49.53" y="-87.122" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="-45.72" y="-96.52" smashed="yes">
-<attribute name="NAME" x="-49.53" y="-95.0214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-49.53" y="-99.822" size="1.778" layer="96"/>
-</instance>
 <instance part="TP40" gate="G$1" x="-68.58" y="-81.28" smashed="yes">
 <attribute name="NAME" x="-69.85" y="-80.01" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="-67.31" y="-82.55" size="1.778" layer="97"/>
-</instance>
-<instance part="TP41" gate="G$1" x="-68.58" y="-93.98" smashed="yes">
-<attribute name="NAME" x="-69.85" y="-92.71" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-67.31" y="-95.25" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
@@ -19277,11 +19262,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="-83.82" x2="-35.56" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-35.56" y="-83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="-96.52" x2="-35.56" y2="-96.52" width="0.1524" layer="91"/>
-<label x="-35.56" y="-96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
@@ -19874,20 +19854,10 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <wire x1="-68.58" y1="-83.82" x2="-73.66" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="-68.58" y="-83.82"/>
 </segment>
-</net>
-<net name="PGA_GND" class="0">
 <segment>
 <wire x1="-68.58" y1="-119.38" x2="-73.66" y2="-119.38" width="0.1524" layer="91"/>
 <label x="-73.66" y="-119.38" size="1.778" layer="95" rot="R180"/>
 <pinref part="U$2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="-66.04" y1="-96.52" x2="-68.58" y2="-96.52" width="0.1524" layer="91"/>
-<label x="-83.82" y="-96.52" size="1.778" layer="95"/>
-<pinref part="TP41" gate="G$1" pin="TP"/>
-<wire x1="-68.58" y1="-96.52" x2="-73.66" y2="-96.52" width="0.1524" layer="91"/>
-<junction x="-68.58" y="-96.52"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -19944,13 +19914,6 @@ These vary by manufacturer, but we used the NPIS54LS footprint from here.</descr
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="-83.82" x2="-50.8" y2="-83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="-50.8" y1="-96.52" x2="-55.88" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ISENA" class="0">
