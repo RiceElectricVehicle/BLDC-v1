@@ -1,0 +1,28 @@
+2019-11-04 13:41:41 9312  [WARNING] Stackup Verifier: Signal layer Top was  0.00 oz, Set to  1.00 oz.
+2019-11-04 13:41:41 9312  [WARNING] Stackup Verifier: Signal layer Route2 was  0.00 oz, Set to  1.00 oz.
+2019-11-04 13:41:41 9312  [WARNING] Stackup Verifier: Signal layer Route15 was  0.00 oz, Set to  1.00 oz.
+2019-11-04 13:41:41 9312  [WARNING] Stackup Verifier: Signal layer Bottom was  0.00 oz, Set to  1.00 oz.
+2019-11-04 13:41:57 9312  [WARNING] Warning: One or more nets are completely unrouted.  Do you want to connect them using "virtual", Manhattan-style routing?  (Does not apply to power-supply nets.)  Note: This process will begin by determining the detailed routing status of every net on the board, which can be very time-consuming (especially if some power-supply nets are mistakenly identified as signal nets).  If you prefer to skip this process now, you can run it later using Edit > Connect Nets with Manhattan Routing. - The "No" button was selected
+2019-11-04 13:42:23 9312     [INFO] Opening Design: drv8353 based bldc.HYP
+2019-11-04 13:48:10 9312  [WARNING] Error: No IC output on selected net (i.e., no driver). Stopping.
+2019-11-04 13:56:18 9312     [INFO] HyperLynx: Text not found
+2019-11-04 13:57:39 9312  [WARNING] Current waveforms: Recording of buffer currents is turned off in Setup/Simulation Control. Do you want to turn it on?  (You need to rerun simulation to update current waveforms). - The "Yes" button was selected
+2019-11-04 14:00:28 9312  [WARNING] Warning: To analyze a power / ground net, use the power-integrity features on the Simulate PI or Export > Model menus.
+2019-11-04 14:00:43 9312     [INFO] This design's .HYP file was created by a PCB translator that did not record whether the physical information is sufficiently detailed for power-integrity analysis (especially metal areas and via clearances).  Most likely, the translator was an older version not upgraded for PI usage.  PI simulation may therefore produce less-accurate results.
+2019-11-04 14:01:05 9312  [WARNING] Prepare BoardData: One or more large pads were detected and converted into copper areas.
+2019-11-04 14:01:09 9312    [ERROR] Plane-Noise Simulation: Design does not contain valid signal sources. Nothing to simulate. Do you want to view log file? - The "No" button was selected
+2019-11-04 14:06:25 9312     [INFO] : Simulation messages for net: GHA
+2019-11-04 14:06:25 9312    [ERROR] Simulator: Simulation failed. Net: GHA
+2019-11-04 14:06:25 9312    [ERROR] Simulator: The simulator could not be started. CreatedProcess failed for : The system cannot find the path specified.  
+2019-11-04 14:06:25 9312    [ERROR] Simulator: *error*: Problem translating plot file  from HSPICE to WDB format.  Check that simulation succeeded. 
+2019-11-04 14:06:25 9312    [ERROR] Simulator: Could not read simulation run status file.  Check that hspice is in your path or that 'installdir' points to the location  of the hspice installation.  
+2019-11-04 14:06:25 9312    [ERROR] Simulator: No simulation output was written. 
+2019-11-04 14:06:36 9312     [INFO] : Simulation messages for net: GHA
+2019-11-04 14:06:36 9312     [INFO] Simulator: ** Note: (vasim-3801) Running Questa ADMS 13.2 Fri Feb 14 10:00:54 GMT 2014 +   on 0 586 6
+2019-11-04 14:09:28 9312     [INFO] HyperLynx: No supply nets are selected. Proceed anyway? - The "Yes" button was selected
+2019-11-04 14:09:35 10716     [INFO] Opening Schematic: Z:\Documents\eagle\projects\BLDC-v1\Design files\drv8353 bldc\GHA.ffs
+2019-11-04 14:10:09 10716     [INFO] Notice: Stimulus frequencies less than 4.0MHz may simulate very slowly! Press OK to continue with slow simulation. - The "OK" button was selected
+2019-11-04 14:12:38 9312  [WARNING] Close Thermal Session: Save thermal data (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2019-11-04 14:13:06 9312     [INFO] Close HyperLynx Session: Design file: drv8353 based bldc.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2019-11-04 14:13:09 9312     [INFO] Closing Design: drv8353 based bldc.HYP
+2019-11-04 14:13:10 9312     [INFO] ****** Closing HyperLynx 

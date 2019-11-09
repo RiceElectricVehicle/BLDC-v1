@@ -1,0 +1,21 @@
+<design>drv8353 based bldc.HYP</design>
+<message>HyperLynx v9.4.2</message>
+<message>11/04/19 14:00:54</message>
+<message>Design: drv8353 based bldc.HYP</message>
+<message>Plane-noise simulation.</message>
+<message></message>
+<info>Preparing Via Collector...</info>
+<debug>Removing ViaCollector data of previous session...</debug>
+<info>Preparing board geometry for PI simulation...</info>
+<info>Loading Stackup...</info>
+<info>Loading power supply nets data...</info>
+<info>Board geometry is prepared for PI simulation</info>
+<info>Collecting VRMs...</info>
+<info>No VRM pins are present in the board.</info>
+<debug>Memory status - allocated:630 address space used:4824 Mb</debug>
+<info>Collecting decoupling-capacitor circuits...</info>
+<info>Processing decoupling capacitors for all nets...</info>
+<info>Collecting power supply pins...</info>
+<info>0 of total 0 source power pins are successfully added.</info>
+<error>No valid sources are found. Nothing to do.</error>
+<error>Design does not contain valid signal sources. Nothing to simulate.</error>
