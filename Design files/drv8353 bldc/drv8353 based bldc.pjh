@@ -1,6 +1,8 @@
 [POWER_INTEGRITY]
 CapAutoGrouping=0
 AutoReferenceLayers=1
+ConvertLargePadsToAreas_Convert=1
+ConvertLargePadsToAreas_ApplyTo=1
 [EXPORT_TO_FFS]
 EXPAND_INTO_EBD=1
 EXPORT_VIA=0

@@ -26,3 +26,15 @@
 2019-11-04 14:13:06 9312     [INFO] Close HyperLynx Session: Design file: drv8353 based bldc.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
 2019-11-04 14:13:09 9312     [INFO] Closing Design: drv8353 based bldc.HYP
 2019-11-04 14:13:10 9312     [INFO] ****** Closing HyperLynx 
+2019-11-12 12:38:47 10072  [WARNING] Stackup Verifier: Signal layer Top was  0.00 oz, Set to  1.00 oz.
+2019-11-12 12:38:47 10072  [WARNING] Stackup Verifier: Signal layer Route2 was  0.00 oz, Set to  1.00 oz.
+2019-11-12 12:38:47 10072  [WARNING] Stackup Verifier: Signal layer Route15 was  0.00 oz, Set to  1.00 oz.
+2019-11-12 12:38:47 10072  [WARNING] Stackup Verifier: Signal layer Bottom was  0.00 oz, Set to  1.00 oz.
+2019-11-12 12:38:49 10072  [WARNING] Warning: One or more nets are completely unrouted.  Do you want to connect them using "virtual", Manhattan-style routing?  (Does not apply to power-supply nets.)  Note: This process will begin by determining the detailed routing status of every net on the board, which can be very time-consuming (especially if some power-supply nets are mistakenly identified as signal nets).  If you prefer to skip this process now, you can run it later using Edit > Connect Nets with Manhattan Routing. - The "No" button was selected
+2019-11-12 12:38:58 10072     [INFO] Opening Design: drv8353 based bldc.HYP
+2019-11-12 12:40:04 10072  [WARNING] Stackup Editor: Invalid thickness value. Layer thickness must be in the range 1 - 10000 um  (0.04 - 393.70 mils).
+2019-11-12 12:44:18 10072     [INFO] Notice: Please select a net.
+2019-11-12 12:46:19 10072  [WARNING] No driver on selected net. Press 'Cancel' to choose driver now. - The "OK" button was selected
+2019-11-12 12:47:26 10072     [INFO] Close HyperLynx Session: Design file: drv8353 based bldc.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Yes" button was selected
+2019-11-12 12:47:30 10072     [INFO] Closing Design: drv8353 based bldc.HYP
+2019-11-12 12:47:33 10072     [INFO] ****** Closing HyperLynx 
