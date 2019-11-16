@@ -464,6 +464,10 @@
 <smd name="I2" x="3.735" y="-1.145" dx="2.95" dy="7.62" layer="1" thermals="no"/>
 <smd name="E2" x="3.735" y="4.155" dx="2.95" dy="1.68" layer="1" thermals="no"/>
 <smd name="E1" x="-3.735" y="4.155" dx="2.95" dy="1.68" layer="1" thermals="no"/>
+<wire x1="-4.572" y1="4.699" x2="4.572" y2="4.699" width="0.127" layer="21"/>
+<wire x1="4.572" y1="4.699" x2="4.572" y2="-4.699" width="0.127" layer="21"/>
+<wire x1="4.572" y1="-4.699" x2="-4.572" y2="-4.699" width="0.127" layer="21"/>
+<wire x1="-4.572" y1="-4.699" x2="-4.572" y2="4.699" width="0.127" layer="21"/>
 </package>
 <package name="MINI-PP75">
 <pad name="B1" x="-6.1" y="-5.46" drill="2.53" rot="R270" thermals="no"/>
