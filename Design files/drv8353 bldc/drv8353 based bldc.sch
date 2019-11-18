@@ -245,10 +245,33 @@
 <package name="74404084331">
 <smd name="P$1" x="-3.1" y="0" dx="2.4" dy="7.5" layer="1"/>
 <smd name="P$2" x="3.1" y="0" dx="2.4" dy="7.5" layer="1"/>
+<wire x1="-4" y1="4" x2="-4" y2="-4" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4" x2="4" y2="-4" width="0.127" layer="21"/>
+<wire x1="4" y1="-4" x2="4" y2="4" width="0.127" layer="21"/>
+<wire x1="4" y1="4" x2="-4" y2="4" width="0.127" layer="21"/>
 </package>
 <package name="DFLS1200">
 <smd name="LINE" x="-1.1" y="0" dx="2.2" dy="1.4" layer="1"/>
 <smd name="GND" x="1.45" y="0" dx="0.9" dy="1.4" layer="1"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.413" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="-1.27" x2="-2.286" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="2.286" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.413" y1="1.27" x2="2.286" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.413" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="1.27" x2="-2.413" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.413" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.413" y1="1.27" x2="2.413" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-1.27" x2="2.286" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.286" y1="-1.27" x2="2.286" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.286" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-2.286" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="1.27" x2="-2.286" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="1.27" x2="-2.286" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
 </package>
 <package name="MINI-SB-50">
 <pad name="-2" x="0" y="-3.7465" drill="2.54" thermals="no"/>
@@ -259,7 +282,15 @@
 <pad name="+3" x="-6.096" y="3.7465" drill="2.54" thermals="no"/>
 <pad name="-1" x="-6.096" y="-3.7465" drill="2.54" thermals="no"/>
 <pad name="-3" x="-6.096" y="-14.6685" drill="2.54" thermals="no"/>
-<wire x1="17.78" y1="15.24" x2="17.78" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="17.78" y1="18" x2="17.78" y2="-18" width="0.127" layer="21"/>
+<wire x1="3" y1="17" x2="-9" y2="17" width="0.127" layer="21"/>
+<wire x1="-9" y1="17" x2="-9" y2="-17" width="0.127" layer="21"/>
+<wire x1="-9" y1="-17" x2="3" y2="-17" width="0.127" layer="21"/>
+<wire x1="3" y1="-17" x2="3" y2="17" width="0.127" layer="21"/>
+<wire x1="3" y1="-17" x2="3" y2="-18" width="0.127" layer="21"/>
+<wire x1="3" y1="-18" x2="18" y2="-18" width="0.127" layer="21"/>
+<wire x1="18" y1="18" x2="3" y2="18" width="0.127" layer="21"/>
+<wire x1="3" y1="18" x2="3" y2="17" width="0.127" layer="21"/>
 </package>
 <package name="SM_RADIAL_K16_1PRIMARY">
 <description>Original name &lt;b&gt;SM_RADIAL_K16&lt;/b&gt;&lt;p&gt;</description>
@@ -304,6 +335,18 @@
 <pad name="B1" x="6.35" y="0" drill="3.8608" thermals="no"/>
 <pad name="A1" x="-14.6812" y="0" drill="3.8608" thermals="no"/>
 <pad name="B2" x="14.6812" y="0" drill="3.8608" thermals="no"/>
+<wire x1="-15" y1="5" x2="-15" y2="-5" width="0.127" layer="21"/>
+<wire x1="-15" y1="-5" x2="15" y2="-5" width="0.127" layer="21"/>
+<wire x1="15" y1="-5" x2="15" y2="5" width="0.127" layer="21"/>
+<wire x1="15" y1="5" x2="-15" y2="5" width="0.127" layer="21"/>
+<wire x1="-17" y1="3" x2="-17" y2="-4" width="0.127" layer="21"/>
+<wire x1="-17" y1="-4" x2="-4" y2="-4" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4" x2="-4" y2="3" width="0.127" layer="21"/>
+<wire x1="-4" y1="3" x2="-17" y2="3" width="0.127" layer="21"/>
+<wire x1="4" y1="3" x2="4" y2="-4" width="0.127" layer="21"/>
+<wire x1="4" y1="-4" x2="17" y2="-4" width="0.127" layer="21"/>
+<wire x1="17" y1="-4" x2="17" y2="3" width="0.127" layer="21"/>
+<wire x1="17" y1="3" x2="4" y2="3" width="0.127" layer="21"/>
 </package>
 <package name="BOOSTER_DOCK">
 <description>&lt;b&gt;SAMTEC_SSQ-110-01-G-D&lt;/b&gt;&lt;br&gt;
@@ -449,7 +492,7 @@
 <wire x1="0" y1="-0.5" x2="-1" y2="0" width="0.2032" layer="51"/>
 <wire x1="-1" y1="0.5" x2="-1" y2="0" width="0.2032" layer="51"/>
 <wire x1="-1" y1="0" x2="-1" y2="-0.5" width="0.2032" layer="51"/>
-<smd name="1" x="-1.7" y="0" dx="1.6" dy="0.8" layer="1" thermals="no"/>
+<smd name="LINE" x="-1.7" y="0" dx="1.6" dy="0.8" layer="1" thermals="no"/>
 <smd name="2" x="1.7" y="0" dx="1.6" dy="0.8" layer="1" thermals="no"/>
 <text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
@@ -760,7 +803,7 @@
 <text x="-2.9464" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
 <text x="-4.4704" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="LINE" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1060,7 +1103,7 @@ unfilled</description>
 <device name="SOD123" package="SOD123">
 <connects>
 <connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="C" pad="LINE"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:26308/2"/>
@@ -1080,8 +1123,8 @@ unfilled</description>
 <devices>
 <device name="" package="SOD123">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="LINE" pad="LINE"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:26308/2"/>
@@ -20606,7 +20649,7 @@ www.radiohm.com</description>
 <junction x="139.7" y="-2.54"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <junction x="134.62" y="-2.54"/>
-<pinref part="U$1" gate="G$1" pin="C"/>
+<pinref part="U$1" gate="G$1" pin="LINE"/>
 <wire x1="127" y1="-5.08" x2="127" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="127" y="-2.54"/>
 </segment>
