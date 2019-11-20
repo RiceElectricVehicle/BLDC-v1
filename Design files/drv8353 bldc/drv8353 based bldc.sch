@@ -319,8 +319,8 @@
 <text x="-10.549990625" y="9.68890625" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="TPD4S010DQAR">
-<smd name="AGND" x="-0.4175" y="0" dx="0.565" dy="0.4" layer="1" roundness="25" thermals="no"/>
-<smd name="GND" x="0.4175" y="0" dx="0.565" dy="0.4" layer="1" roundness="25" thermals="no"/>
+<smd name="AGND" x="-0.4175" y="0" dx="0.565" dy="0.38" layer="1" roundness="25" thermals="no"/>
+<smd name="GND" x="0.4175" y="0" dx="0.565" dy="0.38" layer="1" roundness="25" thermals="no"/>
 <smd name="D1+" x="0.4175" y="0.5" dx="0.565" dy="0.2" layer="1" roundness="40" thermals="no"/>
 <smd name="D1-" x="0.4175" y="1" dx="0.565" dy="0.2" layer="1" roundness="40" thermals="no"/>
 <smd name="P$5" x="-0.4175" y="1" dx="0.565" dy="0.2" layer="1" roundness="40" thermals="no"/>
@@ -18461,7 +18461,7 @@ www.radiohm.com</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="vdrain" width="0" drill="0">
-<clearance class="1" value="0.254"/>
+<clearance class="1" value="0.2"/>
 </class>
 </classes>
 <parts>
