@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -3307,12 +3307,12 @@ einem neuen Namen ab.</description>
 <param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
 <param name="mtIsolate" value="0.1mm 0.5mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.1mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
+<param name="mdWireWire" value="0.2mm"/>
+<param name="mdWirePad" value="0.2mm"/>
+<param name="mdWireVia" value="0.2mm"/>
+<param name="mdPadPad" value="0.2mm"/>
+<param name="mdPadVia" value="0.2mm"/>
+<param name="mdViaVia" value="0.2mm"/>
 <param name="mdSmdPad" value="6mil"/>
 <param name="mdSmdVia" value="6mil"/>
 <param name="mdSmdSmd" value="6mil"/>
@@ -3321,8 +3321,8 @@ einem neuen Namen ab.</description>
 <param name="mdCopperDimension" value="15mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="10mil"/>
+<param name="msWidth" value="0.2mm"/>
+<param name="msDrill" value="0.2mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -3332,15 +3332,15 @@ einem neuen Namen ab.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="0.2mm"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMinPadInner" value="0.2mm"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="0.2mm"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="0.2mm"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="0.2mm"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -5468,6 +5468,10 @@ einem neuen Namen ab.</description>
 <wire x1="28.1758" y1="68.7944" x2="28.1758" y2="73.2824" width="0.4064" layer="1"/>
 <wire x1="28.1758" y1="73.2824" x2="28.1796" y2="73.2862" width="0.4064" layer="1"/>
 <wire x1="24.5636" y1="68.3582" x2="24.6398" y2="68.3582" width="0.508" layer="1"/>
+<wire x1="51.4858" y1="80.9498" x2="50.86859375" y2="79.69425625" width="0" layer="19" extent="1-1"/>
+<wire x1="59.6695625" y1="115.21495" x2="60.96" y2="113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="55.662825" y1="101.1909" x2="56.897225" y2="98.9091" width="0" layer="19" extent="1-1"/>
+<wire x1="54.408025" y1="103.3795" x2="55.662825" y2="101.1909" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SNA">
 <contactref element="TP35" pad="TP"/>
@@ -6095,7 +6099,7 @@ einem neuen Namen ab.</description>
 <signal name="VCC">
 <contactref element="IC1" pad="44"/>
 <contactref element="C17" pad="2"/>
-<wire x1="50.450021875" y1="76.47998125" x2="50.450021875" y2="76.951159375" width="0.3048" layer="1"/>
+<wire x1="50.450021875" y1="76.47998125" x2="50.450021875" y2="76.925759375" width="0.3048" layer="1"/>
 <wire x1="51.92925625" y1="78.63359375" x2="51.1302" y2="77.8345375" width="0.3048" layer="1"/>
 <wire x1="51.1302" y1="77.8345375" x2="51.1302" y2="77.1652" width="0.3048" layer="1"/>
 <wire x1="51.1302" y1="77.1652" x2="50.450021875" y2="76.485021875" width="0.3048" layer="1"/>
@@ -6163,7 +6167,6 @@ einem neuen Namen ab.</description>
 <polygon width="0.1524" layer="1" isolate="0.254" thermals="no">
 <vertex x="26.1138" y="64.486"/>
 <vertex x="26.1138" y="69.620875"/>
-<vertex x="56.9484" y="69.615428125"/>
 <vertex x="56.9484" y="69.615428125"/>
 <vertex x="56.9484" y="64.486"/>
 </polygon>
@@ -6947,7 +6950,6 @@ einem neuen Namen ab.</description>
 <via x="93.1418" y="103.3018" extent="1-16" drill="0.381"/>
 <via x="93.1418" y="100.7618" extent="1-16" drill="0.381"/>
 <via x="93.1418" y="98.2218" extent="1-16" drill="0.381"/>
-<via x="90.6018" y="108.3818" extent="1-16" drill="0.381"/>
 <via x="90.6018" y="105.8418" extent="1-16" drill="0.381"/>
 <polygon width="0.1524" layer="2">
 <vertex x="90.2208" y="117.2718"/>
