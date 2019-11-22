@@ -20,6 +20,10 @@ struct hall_sensor_t {
 // Function Prototypes
 //
 __interrupt void NFAULT_ISR(void);
+__interrupt void ENABLE_ISR(void);
+__interrupt void adcCISR(void);
+__interrupt void adcAISR(void);
+__interrupt void adcBISR(void);
 void setupGPIO(void);
 void initADC_Drive(void);
 void initADC_Input(void);
@@ -51,6 +55,17 @@ void main(void) {
 
 
 }
+
+void startDriveADCs(void){
+    EPWM_enableADCTrigger(EPWM1_BASE, EPWM_SOC_A);
+    EPWM_setTimeBaseCounterMode(EPWM1_BASE, EPWM_COUNTER_MODE_UP);
+    EPWM_enableADCTrigger(EPWM2_BASE, EPWM_SOC_A);
+    EPWM_setTimeBaseCounterMode(EPWM2_BASE, EPWM_COUNTER_MODE_UP);
+}
+void stopDriveADCs(void){
+
+}
+
 
 void setupGPIO(void) {
 
@@ -140,12 +155,16 @@ void initADC_Drive(void) {
      * Setup for ADCs and EPWM triggers used for capturing VSense and ISense
      */
 
+    Interrupt_register(INT_ADCC1, &adcCISR);
+    Interrupt_register(INT_ADCA1, &adcAISR);
+
+
 
     //
     // Set up ADC_C, triggered by EPWM1 SOCA
     //
     ADC_setVREF(ADCC_BASE, ADC_REFERENCE_INTERNAL, ADC_REFERENCE_3_3V);         // set ADC_C VREF to internal 3.3V (potentiometer ADC channel)
-    ADC_setPrescaler(ADCC_BASE, ADC_CLK_DIV_2_0);
+    ADC_setPrescaler(ADCC_BASE, ADC_CLK_DIV_1_0);
     ADC_setInterruptPulseMode(ADCC_BASE, ADC_PULSE_END_OF_CONV);
 
     ADC_enableConverter(ADCC_BASE);     // power on ADC
@@ -172,12 +191,11 @@ void initADC_Drive(void) {
     // Set up ADC_A, also triggered by EPWM1 SOCA
     //
     ADC_setVREF(ADCA_BASE, ADC_REFERENCE_INTERNAL, ADC_REFERENCE_3_3V);         // set ADC_C VREF to internal 3.3V (potentiometer ADC channel)
-    ADC_setPrescaler(ADCA_BASE, ADC_CLK_DIV_2_0);
+    ADC_setPrescaler(ADCA_BASE, ADC_CLK_DIV_1_0);
     ADC_setInterruptPulseMode(ADCA_BASE, ADC_PULSE_END_OF_CONV);
 
     ADC_enableConverter(ADCA_BASE);     // power on ADC A
     DEVICE_DELAY_US(1000);  // recommended delay to allow ADC to start up
-
 
     ADC_setupSOC(ADCA_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN0, 10);         // connect SOC0 of ADCC to EPWM1_SOCA signal
 
@@ -188,16 +206,47 @@ void initADC_Drive(void) {
 }
 
 void initADC_Input(void){
+    /*
+     * Setup ADC B used on Comm board
+     */
+
         ADC_setVREF(ADCB_BASE, ADC_REFERENCE_INTERNAL, ADC_REFERENCE_3_3V);         // set ADC_C VREF to internal 3.3V (potentiometer ADC channel)
         ADC_setPrescaler(ADCB_BASE, ADC_CLK_DIV_8_0);
         ADC_setInterruptPulseMode(ADCB_BASE, ADC_PULSE_END_OF_CONV);
 
         ADC_enableConverter(ADCB_BASE);     // power on ADC
         DEVICE_DELAY_US(1000);  // recommended delay to allow ADC to start up
+
+        EPWM_disableADCTrigger(EPWM2_BASE, EPWM_SOC_A);     // disable EPWM SOC-A
+        EPWM_setADCTriggerSource(EPWM2_BASE, EPWM_SOC_A, EPWM_SOC_TBCTR_U_CMPA);       // set ADC-C to trigger from EPWM2 SOC A count up event
+        EPWM_setADCTriggerEventPrescale(EPWM2_BASE, EPWM_SOC_A, 1);                    // configure SOC 1 prescaler (fires every time)
+
+        EPWM_setCounterCompareValue(EPWM2_BASE, EPWM_COUNTER_COMPARE_A, 0x0800);    // sets Compare A register value to 2048
+        EPWM_setTimeBasePeriod(EPWM2_BASE, 0x1000);                                 // sets timer period to 4096
+
+        EPWM_setTimeBaseCounterMode((EPWM1_BASE, EPWM_COUNTER_MODE_STOP_FREEZE);     // turn off the counter until later
+
+        ADC_setupSOC(ADCB_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM2_SOCA, ADC_CH_ADCIN0, 10);         // connect SOC0 of ADCC to EPWM1_SOCA signal
+
+        ADC_setInterruptSource(ADCB_BASE, ADC_INT_NUMBER1, ADC_SOC_NUMBER0);
+        ADC_enableInterrupt(ADCB_BASE, ADC_INT_NUMBER1);
+        ADC_clearInterruptStatus(ADCB_BASE, ADC_INT_NUMBER1);
 }
 
 __interrupt void NFAULT_ISR(void){
     // Executes on each falling edge of nFault
 
-    Interrupt_clearACKGroup(INTERRUPT_ACK_GROUP1);      // clear the interrupt flag
+    Interrupt_clearACKGroup(INTERRUPT_ACK_GROUP1);      // clear the interrupt flag for GPIO34
+}
+
+__interrupt void adcCISR(void){
+
+}
+
+__interrupt void adcAISR(void){
+
+}
+
+__interrupt void adcCISR(void){
+
 }
