@@ -136,6 +136,14 @@ void setupGPIO(void) {
 }
 
 void initADC_Drive(void) {
+    /*
+     * Setup for ADCs and EPWM triggers used for capturing VSense and ISense
+     */
+
+
+    //
+    // Set up ADC_C, triggered by EPWM1 SOCA
+    //
     ADC_setVREF(ADCC_BASE, ADC_REFERENCE_INTERNAL, ADC_REFERENCE_3_3V);         // set ADC_C VREF to internal 3.3V (potentiometer ADC channel)
     ADC_setPrescaler(ADCC_BASE, ADC_CLK_DIV_2_0);
     ADC_setInterruptPulseMode(ADCC_BASE, ADC_PULSE_END_OF_CONV);
@@ -143,10 +151,39 @@ void initADC_Drive(void) {
     ADC_enableConverter(ADCC_BASE);     // power on ADC
     DEVICE_DELAY_US(1000);  // recommended delay to allow ADC to start up
 
-    EPWM_disableADCTrigger(EPWM1_BASE, EPWM_SOC_A);     // disable EPWM SOC
-    EPWM_setADCTriggerSource(EPWM1_BASE, EPWM_SOC_A, EPWM_SOC_TBCTR_U_CMPA);       // set ADC to trigger from EPWM SOC 1
-    EPWM_setADCTriggerEventPrescale(EPWM1_BASE, EPWM_SOC_A, 1);                    // configure SOC 1 prescaler
+    EPWM_disableADCTrigger(EPWM1_BASE, EPWM_SOC_A);     // disable EPWM SOC-A
+    EPWM_setADCTriggerSource(EPWM1_BASE, EPWM_SOC_A, EPWM_SOC_TBCTR_U_CMPA);       // set ADC-C to trigger from EPWM1 SOC A count up event
+    EPWM_setADCTriggerEventPrescale(EPWM1_BASE, EPWM_SOC_A, 1);                    // configure SOC 1 prescaler (fires every time)
 
+    EPWM_setCounterCompareValue(EPWM1_BASE, EPWM_COUNTER_COMPARE_A, 0x0800);    // sets Compare A register value to 2048
+    EPWM_setTimeBasePeriod(EPWM1_BASE, 0x1000);                                 // sets timer period to 4096
+
+    EPWM_setTimeBaseCounterMode((EPWM1_BASE, EPWM_COUNTER_MODE_STOP_FREEZE);     // turn off the counter until later
+
+    ADC_setupSOC(ADCC_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN0, 10);         // connect SOC0 of ADCC to EPWM1_SOCA signal
+
+    ADC_setInterruptSource(ADCC_BASE, ADC_INT_NUMBER1, ADC_SOC_NUMBER0);
+    ADC_enableInterrupt(ADCC_BASE, ADC_INT_NUMBER1);
+    ADC_clearInterruptStatus(ADCC_BASE, ADC_INT_NUMBER1);
+
+
+
+    //
+    // Set up ADC_A, also triggered by EPWM1 SOCA
+    //
+    ADC_setVREF(ADCA_BASE, ADC_REFERENCE_INTERNAL, ADC_REFERENCE_3_3V);         // set ADC_C VREF to internal 3.3V (potentiometer ADC channel)
+    ADC_setPrescaler(ADCA_BASE, ADC_CLK_DIV_2_0);
+    ADC_setInterruptPulseMode(ADCA_BASE, ADC_PULSE_END_OF_CONV);
+
+    ADC_enableConverter(ADCA_BASE);     // power on ADC A
+    DEVICE_DELAY_US(1000);  // recommended delay to allow ADC to start up
+
+
+    ADC_setupSOC(ADCA_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN0, 10);         // connect SOC0 of ADCC to EPWM1_SOCA signal
+
+    ADC_setInterruptSource(ADCA_BASE, ADC_INT_NUMBER1, ADC_SOC_NUMBER0);
+    ADC_enableInterrupt(ADCA_BASE, ADC_INT_NUMBER1);
+    ADC_clearInterruptStatus(ADCA_BASE, ADC_INT_NUMBER1);
 
 }
 

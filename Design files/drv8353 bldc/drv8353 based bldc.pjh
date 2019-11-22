@@ -16,7 +16,7 @@ Minor=1
 TermWizTol=0
 VICVi=1
 IVCCi=1
-XtF=0
+XtF=1
 XtE=0
 XtV=1.500000e-001
 XtGp=1.270000e-003
@@ -142,7 +142,7 @@ NbrSwitchingType=2
 SimTimeAuto=1
 SimTime=1.000000e-008
 SimResAuto=1
-SimResolution=1.000000e-011
+SimResolution=9.000000e-010
 [Verify]
 DelayAndSI=1
 Xtalk=0
@@ -160,3 +160,6 @@ count=0
 PROMPTED=1
 [DIFF_PAIRS]
 GenerateDiffPairs=0
+[POPUPS]
+RestoreSessionPrompt=1
+RestoreSessionChoices=31

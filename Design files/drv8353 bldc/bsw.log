@@ -38,3 +38,30 @@
 2019-11-12 12:47:26 10072     [INFO] Close HyperLynx Session: Design file: drv8353 based bldc.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Yes" button was selected
 2019-11-12 12:47:30 10072     [INFO] Closing Design: drv8353 based bldc.HYP
 2019-11-12 12:47:33 10072     [INFO] ****** Closing HyperLynx 
+2019-11-17 23:26:10 8448     [INFO] Opening Design: drv8353 based bldc.HYP
+2019-11-17 23:26:15 8448     [INFO] Close HyperLynx Session: Design file: drv8353 based bldc.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2019-11-17 23:26:17 8448     [INFO] Closing Design: drv8353 based bldc.HYP
+2019-11-17 23:26:26 8448     [INFO] Opening Design: drv8353 based bldc.HYP
+2019-11-17 23:27:18 8448  [WARNING] No driver on selected net. Press 'Cancel' to choose driver now. - The "Cancel" button was selected
+2019-11-17 23:27:26 8448  [WARNING] No driver on selected net. Press 'Cancel' to choose driver now. - The "OK" button was selected
+2019-11-17 23:32:54 8448  [WARNING] No driver on selected net. Press 'Cancel' to choose driver now. - The "OK" button was selected
+2019-11-17 23:34:49 8448     [INFO] HyperLynx: Text not found
+2019-11-17 23:41:47 8448     [INFO] Notice: In BoardSim, .EBD models can only be assigned using the .REF or .QPL files
+2019-11-17 23:50:35 8448    [ERROR] Error: Number out of range! Using maximum default.
+2019-11-17 23:53:02 8448  [WARNING] Warning: No probes are enabled. Please enable at least one before simulating.
+2019-11-17 23:53:33 8448    [ERROR] No waveform is selected. Select waveform before attempting this command.
+2019-11-17 23:54:50 8448  [WARNING] HyperLynx: Invalid voltage value. Valid voltage range is: -999V to 999V.
+2019-11-17 23:54:54 8448  [WARNING] HyperLynx: Invalid voltage value. Valid voltage range is: -999V to 999V.
+2019-11-17 23:55:02 8448  [WARNING] HyperLynx: Invalid voltage value. Valid voltage range is: -999V to 999V.
+2019-11-17 23:56:47 8448  [WARNING] Assign Stimulus: Stimulus has been modified. Close the dialog without saving changes? - The "Yes" button was selected
+2019-11-17 23:58:40 8448  [WARNING] Assign Stimulus: Stimulus has been modified. Close the dialog without saving changes? - The "Yes" button was selected
+2019-11-17 23:59:41 8448  [WARNING] Warning: To analyze a power / ground net, use the power-integrity features on the Simulate PI or Export > Model menus.
+2019-11-17 23:59:45 8448  [WARNING] Warning: To analyze a power / ground net, use the power-integrity features on the Simulate PI or Export > Model menus.
+2019-11-17 23:59:54 8448  [WARNING] Warning: To analyze a power / ground net, use the power-integrity features on the Simulate PI or Export > Model menus.
+2019-11-18 00:01:26 8448  [WARNING] No driver on selected net. Press 'Cancel' to choose driver now. - The "Cancel" button was selected
+2019-11-18 00:04:36 8448  [WARNING] No driver on selected net. Press 'Cancel' to choose driver now. - The "OK" button was selected
+2019-11-18 00:12:43 8448    [ERROR] No waveform is selected. Select waveform before attempting this command.
+2019-11-18 00:15:58 8448    [ERROR] Fall Time: Not found.
+2019-11-18 00:16:42 8448     [INFO] Close HyperLynx Session: Design file: drv8353 based bldc.HYP Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Yes" button was selected
+2019-11-18 00:16:46 8448     [INFO] Closing Design: drv8353 based bldc.HYP
+2019-11-18 00:16:48 8448     [INFO] ****** Closing HyperLynx 

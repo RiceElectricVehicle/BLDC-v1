@@ -1,0 +1,36 @@
+HyperLynx Field Solver
+Design File: "Z:\Documents\eagle\projects\BLDC-v1\Design files\drv8353 bldc\drv8353 based bldc.HYP"
+Report File: "Z:\Documents\eagle\projects\BLDC-v1\Design files\drv8353 bldc\Coupling0002.TXT"
+
+---------------------- Electrical Data ---------------------
+
+Z0    =   27.214 ohms
+Delay =  136.157 ps
+L     =    3.705 nH
+C     =    5.003 pF
+
+------------------------ Physical Input Data -----------------------
+
+Coupling Region
+ Name:    Coupling0002
+ Length:  0.841in
+
+Position, Width, and Thickness are in English Units (mils).
+The X-Position is relative to the center of the trace.
+
+Field Solver Traces
+               Matrix
+               Index   Layer   X-Pos    Width  Comment
+GHA             1:1     Top     0.00    16.00  
+
+Field Solver Stackup 
+ Type   Thickness  Dielectric   Layer 
+Signal       2.70        1.00     Top  
+       Diel         3.90        4.80
+Plane        1.35        4.80     Route2  
+       Diel        19.65        4.80
+Signal       1.35        4.80     Route15  
+       Diel         3.90        4.80
+Plane        2.70        1.00     Bottom  
+
+--------------------------------------------------------------------

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19033,13 +19033,6 @@ www.radiohm.com</description>
 <wire x1="-12.7" y1="-68.58" x2="-20.32" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VSENA" class="0">
-<segment>
-<wire x1="-45.72" y1="-124.46" x2="-22.86" y2="-124.46" width="0.1524" layer="91"/>
-<label x="-22.86" y="-124.46" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="24"/>
-</segment>
-</net>
 <net name="GHB" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GHB"/>
@@ -19669,6 +19662,13 @@ www.radiohm.com</description>
 <wire x1="-68.58" y1="-119.38" x2="-73.66" y2="-119.38" width="0.1524" layer="91"/>
 <label x="-73.66" y="-119.38" size="1.778" layer="95" rot="R180"/>
 <pinref part="U$2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="VSENA" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="30"/>
+<wire x1="-45.72" y1="-139.7" x2="-22.86" y2="-139.7" width="0.1524" layer="91"/>
+<label x="-22.86" y="-139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
