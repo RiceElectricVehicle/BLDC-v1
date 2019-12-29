@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,8 +28,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -51,7 +51,7 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -668,10 +668,6 @@ metal electrode face (MELF)</description>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
 <package name="LEADFORM_PFF">
-<smd name="IP-2" x="-5.25" y="0" dx="9.5" dy="6" layer="1" roundness="75" rot="R180"/>
-<smd name="IP+2" x="5.25" y="0" dx="9.5" dy="6" layer="1" roundness="75" rot="R180"/>
-<smd name="IP-1" x="-5.25" y="0" dx="9.5" dy="6" layer="16" roundness="75" rot="R180"/>
-<smd name="IP+1" x="5.25" y="0" dx="9.5" dy="6" layer="16" roundness="75"/>
 <polygon width="0" layer="44">
 <vertex x="3" y="1"/>
 <vertex x="7" y="1" curve="-90"/>
@@ -688,38 +684,6 @@ metal electrode face (MELF)</description>
 <vertex x="-8" y="0" curve="-90"/>
 <vertex x="-7" y="1"/>
 </polygon>
-<pad name="IP-4" x="-3" y="2" drill="0.5" rot="R270"/>
-<pad name="IP-17" x="-7" y="2" drill="0.5" rot="R270"/>
-<pad name="IP-12" x="-7" y="-2" drill="0.5" rot="R270"/>
-<pad name="IP-9" x="-3" y="-2" drill="0.5" rot="R270"/>
-<pad name="IP+5" x="3" y="-2" drill="0.5" rot="R270"/>
-<pad name="IP+10" x="3" y="2" drill="0.5" rot="R270"/>
-<pad name="IP+13" x="7" y="2" drill="0.5" rot="R270"/>
-<pad name="IP+18" x="7" y="-2" drill="0.5" rot="R270"/>
-<pad name="IP+3" x="5.7" y="-2" drill="0.5" rot="R270"/>
-<pad name="IP+4" x="4.3" y="-2" drill="0.5" rot="R270"/>
-<pad name="IP+12" x="5.7" y="2" drill="0.5" rot="R270"/>
-<pad name="IP+11" x="4.3" y="2" drill="0.5" rot="R270"/>
-<pad name="IP-18" x="-5.7" y="2" drill="0.5" rot="R270"/>
-<pad name="IP-11" x="-5.7" y="-2" drill="0.5" rot="R270"/>
-<pad name="IP-10" x="-4.3" y="-2" drill="0.5" rot="R270"/>
-<pad name="IP-3" x="-4.3" y="2" drill="0.5" rot="R270"/>
-<pad name="IP+15" x="8.9" y="0.7" drill="0.5" rot="R270"/>
-<pad name="IP-6" x="-1.1" y="0.7" drill="0.5" rot="R270"/>
-<pad name="IP+16" x="8.9" y="-0.7" drill="0.5" rot="R270"/>
-<pad name="IP-7" x="-1.1" y="-0.7" drill="0.5" rot="R270"/>
-<pad name="IP+7" x="1.1" y="-0.7" drill="0.5" rot="R270"/>
-<pad name="IP+8" x="1.1" y="0.7" drill="0.5" rot="R270"/>
-<pad name="IP-14" x="-8.9" y="-0.7" drill="0.5" rot="R270"/>
-<pad name="IP-15" x="-8.9" y="0.7" drill="0.5" rot="R270"/>
-<pad name="IP+17" x="8.2" y="-1.7" drill="0.5" rot="R270"/>
-<pad name="IP-8" x="-1.8" y="-1.7" drill="0.5" rot="R270"/>
-<pad name="IP+14" x="8.2" y="1.7" drill="0.5" rot="R270"/>
-<pad name="IP-5" x="-1.8" y="1.7" drill="0.5" rot="R270"/>
-<pad name="IP+9" x="1.8" y="1.7" drill="0.5" rot="R270"/>
-<pad name="IP+6" x="1.8" y="-1.7" drill="0.5" rot="R270"/>
-<pad name="IP-13" x="-8.2" y="-1.7" drill="0.5" rot="R270"/>
-<pad name="IP-16" x="-8.2" y="1.7" drill="0.5" rot="R270"/>
 <pad name="GND" x="0" y="-21.4" drill="0.8" diameter="1.5"/>
 <pad name="VIOUT" x="1.91" y="-21.4" drill="0.8" diameter="1.5"/>
 <pad name="VCC" x="-1.91" y="-21.4" drill="0.8" diameter="1.5"/>
@@ -735,6 +699,8 @@ metal electrode face (MELF)</description>
 <wire x1="-3" y1="-14.1" x2="-7" y2="-14.1" width="0.127" layer="21"/>
 <wire x1="-7" y1="-14.1" x2="-7" y2="1" width="0.127" layer="21"/>
 <wire x1="-7" y1="1" x2="-3" y2="1" width="0.127" layer="21"/>
+<pad name="+" x="3" y="0" drill="0.6" diameter="4" shape="offset"/>
+<pad name="-" x="-3" y="0" drill="0.6" diameter="4" shape="offset" rot="R180"/>
 </package>
 </packages>
 <packages3d>
@@ -1236,6 +1202,34 @@ metal electrode face (MELF)</description>
 <pin name="INHC" x="35.56" y="17.78" length="middle" rot="R270"/>
 <pin name="INLB" x="38.1" y="17.78" length="middle" rot="R270"/>
 </symbol>
+<symbol name="DUAL-ZENER">
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="-1.905" x2="2.032" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<text x="-2.9464" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.4704" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="END1" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="MIDDLE" x="5.08" y="2.54" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="11.43" y1="1.905" x2="8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="8.89" y1="0" x2="11.43" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-1.905" x2="11.43" y2="0" width="0.254" layer="94"/>
+<wire x1="11.43" y1="0" x2="11.43" y2="1.905" width="0.254" layer="94"/>
+<wire x1="8.763" y1="-1.905" x2="8.763" y2="1.905" width="0.254" layer="94"/>
+<wire x1="8.763" y1="1.905" x2="8.128" y2="1.905" width="0.254" layer="94"/>
+<wire x1="8.763" y1="-1.905" x2="9.398" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="11.43" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<text x="13.1064" y="-2.6416" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="14.6304" y="4.4958" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<pin name="END2" x="12.7" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="1.27" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="8.89" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DRV8353RSRGZT" prefix="IC">
@@ -1708,8 +1702,8 @@ unfilled</description>
 <device name="" package="LEADFORM_PFF">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="I+" pad="IP+1 IP+2 IP+3 IP+4 IP+5 IP+6 IP+7 IP+8 IP+9 IP+10 IP+11 IP+12 IP+13 IP+14 IP+15 IP+16 IP+17 IP+18"/>
-<connect gate="G$1" pin="I-" pad="IP-1 IP-2 IP-3 IP-4 IP-5 IP-6 IP-7 IP-8 IP-9 IP-10 IP-11 IP-12 IP-13 IP-14 IP-15 IP-16 IP-17 IP-18"/>
+<connect gate="G$1" pin="I+" pad="+"/>
+<connect gate="G$1" pin="I-" pad="-"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 <connect gate="G$1" pin="VIOUT" pad="VIOUT"/>
 </connects>
@@ -1787,6 +1781,26 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv8353r"&gt; Datasheet &lt;/a&gt;
 <attribute name="MOUSER_PART_NUMBER" value="595-DRV8353RSRGZT" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-DRV8353RSRGZT" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZENER_PACK">
+<gates>
+<gate name="G$1" symbol="DUAL-ZENER" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="END1" pad="1"/>
+<connect gate="G$1" pin="END2" pad="2"/>
+<connect gate="G$1" pin="MIDDLE" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28738/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
