@@ -357,10 +357,6 @@ UsedLibrary="C:/Users/kjdix/Documents/EAGLE/libraries/through holes.lbr"
 UsedLibrary="REV BLDC.lbr"
 
 [Win_1]
-Type="Control Panel"
-Number=0
-
-[Win_2]
 Type="Schematic Editor"
 Number=2
 File="drv8353 based bldc.sch"
@@ -406,7 +402,7 @@ Layer=91
 Views=" 1: -66.7924 -109.717 100.575 26.4649"
 Sheet="1"
 
-[Win_3]
+[Win_2]
 Type="Board Editor"
 Number=1
 File="drv8353 based bldc.brd"
@@ -450,8 +446,12 @@ AddLevel=2
 PadsSameType=0
 Layer=1
 
+[Win_3]
+Type="Control Panel"
+Number=0
+
 [Desktop]
-Screen="2834 3240"
+Screen="1920 1080"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
