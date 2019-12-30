@@ -392,9 +392,9 @@
 <wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="5.08" y2="10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<pin name="+" x="-7.62" y="5.08"/>
-<pin name="-" x="-7.62" y="-2.54"/>
-<wire x1="0" y1="7.62" x2="0" y2="2.54" width="0.254" layer="94"/>
+<pin name="+" x="-10.16" y="-2.54"/>
+<pin name="-" x="-10.16" y="5.08"/>
+<wire x1="0" y1="0" x2="0" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
@@ -10510,8 +10510,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="45.72" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="40.64" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 <junction x="2.54" y="40.64"/>
-<pinref part="U$16" gate="G$1" pin="-"/>
-<wire x1="71.12" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="45.72" x2="10.16" y2="40.64" width="0.1524" layer="91"/>
 <junction x="10.16" y="40.64"/>
@@ -10524,6 +10522,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U$18" gate="G$1" pin="-"/>
 <pinref part="U$19" gate="G$1" pin="-"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
+<pinref part="U$16" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="VSENVM" class="0">
@@ -10543,11 +10542,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$15" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<pinref part="U$16" gate="G$1" pin="+"/>
 <wire x1="66.04" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="TP16" gate="G$1" pin="TP"/>
-<wire x1="68.58" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
 <junction x="68.58" y="71.12"/>
+<pinref part="U$16" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="CPHASE" class="0">
