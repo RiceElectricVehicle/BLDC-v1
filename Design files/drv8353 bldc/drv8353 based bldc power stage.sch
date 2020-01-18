@@ -6200,6 +6200,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="-0.146" y="-1.495" radius="0.1194" width="0.254" layer="25"/>
 <wire x1="0" y1="10.375" x2="0" y2="8.043" width="0.254" layer="21"/>
 <wire x1="9.9" y1="10.375" x2="9.9" y2="8.043" width="0.254" layer="21"/>
+<smd name="2" x="2.55" y="1.098" dx="0.8" dy="0.5" layer="1" rot="R90" thermals="no"/>
+<smd name="10" x="2.05" y="0.098" dx="2.8" dy="0.6" layer="1" rot="R90" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -6250,7 +6252,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connects>
 <connect gate="G$1" pin="D" pad="9 16 17 18 19"/>
 <connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="3 4 5 6 7 8 11 12 13 14 15"/>
+<connect gate="G$1" pin="S" pad="2 3 4 5 6 7 8 10 11 12 13 14 15"/>
 </connects>
 <technologies>
 <technology name=""/>
