@@ -432,6 +432,69 @@
 <smd name="5V" x="1.27" y="52.07" dx="2.54" dy="1.27" layer="1"/>
 <smd name="GND" x="2.54" y="-9.906" dx="5.08" dy="5.08" layer="1"/>
 </package>
+<package name="DRIVER_STAGE_CONNECTION">
+<smd name="GHA" x="1.27" y="0.762" dx="2.54" dy="1.27" layer="1"/>
+<smd name="APHASE" x="1.27" y="2.54" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GLA" x="1.27" y="4.318" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SLA" x="1.27" y="6.096" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SLB" x="1.27" y="7.874" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GLB" x="1.27" y="9.652" dx="2.54" dy="1.27" layer="1"/>
+<smd name="BPHASE" x="1.27" y="11.43" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GHB" x="1.27" y="13.208" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GHC" x="1.27" y="14.986" dx="2.54" dy="1.27" layer="1"/>
+<smd name="CPHASE" x="1.27" y="16.764" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GLC" x="1.27" y="18.542" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SLC" x="1.27" y="20.32" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SOA" x="1.27" y="22.098" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SOB" x="1.27" y="23.876" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SOC" x="1.27" y="25.654" dx="2.54" dy="1.27" layer="1"/>
+<smd name="CPHASE2" x="1.27" y="41.91" dx="2.54" dy="1.27" layer="1"/>
+<smd name="BPHASE2" x="1.27" y="44.45" dx="2.54" dy="1.27" layer="1"/>
+<smd name="APHASE2" x="1.27" y="46.99" dx="2.54" dy="1.27" layer="1"/>
+<smd name="VDRAIN2" x="1.27" y="49.53" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GND2" x="2.54" y="33.782" dx="5.08" dy="12.7" layer="1"/>
+<smd name="VDRAIN" x="2.54" y="-3.556" dx="5.08" dy="5.08" layer="1"/>
+<smd name="5V" x="1.27" y="52.07" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GND" x="2.54" y="-9.906" dx="5.08" dy="5.08" layer="1"/>
+<pad name="5VH" x="1.27" y="52.07" drill="0.762" shape="square"/>
+<pad name="VDRAIN2H" x="1.27" y="49.53" drill="0.762" shape="square"/>
+<pad name="APHASE2H" x="1.27" y="46.99" drill="0.762" shape="square"/>
+<pad name="BPHASE2H" x="1.27" y="44.45" drill="0.762" shape="square"/>
+<pad name="CPHASE2H" x="1.27" y="41.91" drill="0.762" shape="square"/>
+<pad name="SOCH" x="1.27" y="25.654" drill="0.762" shape="square"/>
+<pad name="SOBH" x="1.27" y="23.876" drill="0.762" shape="square"/>
+<pad name="SOAH" x="1.27" y="22.098" drill="0.762" shape="square"/>
+<pad name="SLCH" x="1.27" y="20.32" drill="0.762" shape="square"/>
+<pad name="GLCH" x="1.27" y="18.542" drill="0.762" shape="square"/>
+<pad name="CPHASEH" x="1.27" y="16.764" drill="0.762" shape="square"/>
+<pad name="GHCH" x="1.27" y="14.986" drill="0.762" shape="square"/>
+<pad name="GHBH" x="1.27" y="13.208" drill="0.762" shape="square"/>
+<pad name="BPHASEH" x="1.27" y="11.43" drill="0.762" shape="square"/>
+<pad name="GLBH" x="1.27" y="9.652" drill="0.762" shape="square"/>
+<pad name="SLBH" x="1.27" y="7.874" drill="0.762" shape="square"/>
+<pad name="SLAH" x="1.27" y="6.096" drill="0.762" shape="square"/>
+<pad name="GLAH" x="1.27" y="4.318" drill="0.762" shape="square"/>
+<pad name="APHASEH" x="1.27" y="2.54" drill="0.762" shape="square"/>
+<pad name="GHAH" x="1.27" y="0.762" drill="0.762" shape="square"/>
+<pad name="VDRAINH3" x="1.27" y="-2.286" drill="1.524" shape="square"/>
+<pad name="VDRAINH4" x="3.81" y="-2.286" drill="1.524" shape="square"/>
+<pad name="VDRAINH2" x="3.81" y="-4.826" drill="1.524" shape="square"/>
+<pad name="VDRAINH1" x="1.27" y="-4.826" drill="1.524" shape="square"/>
+<pad name="GNDH3" x="1.27" y="-8.636" drill="1.524" shape="square"/>
+<pad name="GNDH4" x="3.81" y="-8.636" drill="1.524" shape="square"/>
+<pad name="GNDH2" x="3.81" y="-11.176" drill="1.524" shape="square"/>
+<pad name="GNDH1" x="1.27" y="-11.176" drill="1.524" shape="square"/>
+<pad name="GND2H9" x="1.27" y="38.862" drill="1.524" shape="square"/>
+<pad name="GND2H7" x="1.27" y="36.322" drill="1.524" shape="square"/>
+<pad name="GND2H5" x="1.27" y="33.782" drill="1.524" shape="square"/>
+<pad name="GND2H3" x="1.27" y="31.242" drill="1.524" shape="square"/>
+<pad name="GND2H1" x="1.27" y="28.702" drill="1.524" shape="square"/>
+<pad name="GND2H2" x="3.81" y="28.702" drill="1.524" shape="square"/>
+<pad name="GND2H4" x="3.81" y="31.242" drill="1.524" shape="square"/>
+<pad name="GND2H6" x="3.81" y="33.782" drill="1.524" shape="square"/>
+<pad name="GND2H8" x="3.81" y="36.322" drill="1.524" shape="square"/>
+<pad name="GND2H10" x="3.81" y="38.862" drill="1.524" shape="square"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOD123" urn="urn:adsk.eagle:package:26308/2" type="model">
@@ -847,7 +910,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv8353r"&gt; Datasheet &lt;/a&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER_STAGE_CONNECTOR">
+<deviceset name="DRIVER_STAGE_CONNECTOR">
 <gates>
 <gate name="G$1" symbol="BOARD_CONNECTION" x="0" y="0"/>
 </gates>
@@ -876,6 +939,35 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv8353r"&gt; Datasheet &lt;/a&gt;
 <connect gate="G$1" pin="SOC" pad="SOC"/>
 <connect gate="G$1" pin="VDRAIN" pad="VDRAIN"/>
 <connect gate="G$1" pin="VDRAIN2" pad="VDRAIN2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DRIVER" package="DRIVER_STAGE_CONNECTION">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V 5VH"/>
+<connect gate="G$1" pin="APHASE" pad="APHASE APHASEH"/>
+<connect gate="G$1" pin="APHASE2" pad="APHASE2 APHASE2H"/>
+<connect gate="G$1" pin="BPHASE" pad="BPHASE BPHASEH"/>
+<connect gate="G$1" pin="BPHASE2" pad="BPHASE2 BPHASE2H"/>
+<connect gate="G$1" pin="CPHASE" pad="CPHASE CPHASEH"/>
+<connect gate="G$1" pin="CPHASE2" pad="CPHASE2 CPHASE2H"/>
+<connect gate="G$1" pin="GHA" pad="GHA GHAH"/>
+<connect gate="G$1" pin="GHB" pad="GHB GHBH"/>
+<connect gate="G$1" pin="GHC" pad="GHC GHCH"/>
+<connect gate="G$1" pin="GLA" pad="GLA GLAH"/>
+<connect gate="G$1" pin="GLB" pad="GLB GLBH"/>
+<connect gate="G$1" pin="GLC" pad="GLC GLCH"/>
+<connect gate="G$1" pin="GND" pad="GND GND2 GND2H1 GND2H2 GND2H3 GND2H4 GND2H5 GND2H6 GND2H7 GND2H8 GND2H9 GND2H10 GNDH1 GNDH2 GNDH3 GNDH4"/>
+<connect gate="G$1" pin="SLA" pad="SLA SLAH"/>
+<connect gate="G$1" pin="SLB" pad="SLB SLBH"/>
+<connect gate="G$1" pin="SLC" pad="SLC SLCH"/>
+<connect gate="G$1" pin="SOA" pad="SOA SOAH"/>
+<connect gate="G$1" pin="SOB" pad="SOB SOBH"/>
+<connect gate="G$1" pin="SOC" pad="SOC SOCH"/>
+<connect gate="G$1" pin="VDRAIN" pad="VDRAIN VDRAINH1 VDRAINH2 VDRAINH3 VDRAINH4"/>
+<connect gate="G$1" pin="VDRAIN2" pad="VDRAIN2 VDRAIN2H"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18138,7 +18230,6 @@ www.radiohm.com</description>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="TP17" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="383k"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="9.76k"/>
 <part name="TP20" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
@@ -18146,8 +18237,6 @@ www.radiohm.com</description>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="9.76k"/>
 <part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value=".047uF"/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="383k"/>
-<part name="TP21" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP22" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="383k"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="9.76k"/>
 <part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value=".047uF"/>
@@ -18171,18 +18260,6 @@ www.radiohm.com</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP32" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP33" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP34" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP36" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="383k"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="9.76k"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.047 uF"/>
@@ -18209,7 +18286,7 @@ www.radiohm.com</description>
 <part name="TP19" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="U$1" library="REV BLDC" deviceset="ZENER" device="" package3d_urn="urn:adsk.eagle:package:26308/2"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="U$3" library="REV BLDC" deviceset="POWER_STAGE_CONNECTOR" device=""/>
+<part name="U$3" library="REV BLDC" deviceset="DRIVER_STAGE_CONNECTOR" device="DRIVER"/>
 </parts>
 <sheets>
 <sheet>
@@ -18329,54 +18406,6 @@ www.radiohm.com</description>
 <instance part="SUPPLY8" gate="GND" x="-12.7" y="-25.4" smashed="yes">
 <attribute name="VALUE" x="-14.605" y="-28.575" size="1.778" layer="96"/>
 </instance>
-<instance part="TP5" gate="G$1" x="-5.08" y="-86.36" smashed="yes">
-<attribute name="NAME" x="-6.35" y="-85.09" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-3.81" y="-87.63" size="1.778" layer="97"/>
-</instance>
-<instance part="TP6" gate="G$1" x="-10.16" y="-91.44" smashed="yes">
-<attribute name="NAME" x="-11.43" y="-90.17" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-8.89" y="-92.71" size="1.778" layer="97"/>
-</instance>
-<instance part="TP7" gate="G$1" x="-7.62" y="-88.9" smashed="yes">
-<attribute name="NAME" x="-8.89" y="-87.63" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-6.35" y="-90.17" size="1.778" layer="97"/>
-</instance>
-<instance part="TP8" gate="G$1" x="-12.7" y="-93.98" smashed="yes">
-<attribute name="NAME" x="-13.97" y="-92.71" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-11.43" y="-95.25" size="1.778" layer="97"/>
-</instance>
-<instance part="TP9" gate="G$1" x="-15.24" y="-96.52" smashed="yes">
-<attribute name="NAME" x="-16.51" y="-95.25" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-13.97" y="-97.79" size="1.778" layer="97"/>
-</instance>
-<instance part="TP10" gate="G$1" x="48.26" y="-91.44" smashed="yes">
-<attribute name="NAME" x="46.99" y="-90.17" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="49.53" y="-92.71" size="1.778" layer="97"/>
-</instance>
-<instance part="TP11" gate="G$1" x="50.8" y="-93.98" smashed="yes">
-<attribute name="NAME" x="49.53" y="-92.71" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="52.07" y="-95.25" size="1.778" layer="97"/>
-</instance>
-<instance part="TP12" gate="G$1" x="53.34" y="-96.52" smashed="yes">
-<attribute name="NAME" x="52.07" y="-95.25" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="54.61" y="-97.79" size="1.778" layer="97"/>
-</instance>
-<instance part="TP32" gate="G$1" x="-5.08" y="-63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-3.81" y="-64.77" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="-6.35" y="-62.23" size="1.778" layer="97" rot="R180"/>
-</instance>
-<instance part="TP33" gate="G$1" x="-7.62" y="-66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="-3.81" y="-67.31" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="-8.89" y="-64.77" size="1.778" layer="97" rot="R180"/>
-</instance>
-<instance part="TP34" gate="G$1" x="-10.16" y="-68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="-3.81" y="-69.85" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="-11.43" y="-67.31" size="1.778" layer="97" rot="R180"/>
-</instance>
-<instance part="TP36" gate="G$1" x="-2.54" y="-60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="-3.81" y="-62.23" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="-3.81" y="-59.69" size="1.778" layer="97" rot="R180"/>
-</instance>
 <instance part="U$2" gate="G$1" x="-68.58" y="-116.84" smashed="yes"/>
 <instance part="SV1" gate="A" x="-71.12" y="-50.8" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-69.85" y="-43.18" size="1.778" layer="96" rot="R180"/>
@@ -18426,11 +18455,8 @@ www.radiohm.com</description>
 <net name="SLA" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SLA"/>
-<wire x1="-2.54" y1="-66.04" x2="-10.16" y2="-66.04" width="0.1524" layer="91"/>
 <label x="-17.78" y="-66.04" size="1.778" layer="95"/>
-<pinref part="TP34" gate="G$1" pin="TP"/>
-<junction x="-10.16" y="-66.04"/>
-<wire x1="-10.16" y1="-66.04" x2="-17.78" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-66.04" x2="-17.78" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SLB" class="0">
@@ -18439,7 +18465,6 @@ www.radiohm.com</description>
 <wire x1="7.62" y1="-83.82" x2="7.62" y2="-88.9" width="0.1524" layer="91"/>
 <label x="-2.54" y="-88.9" size="1.778" layer="95"/>
 <wire x1="7.62" y1="-88.9" x2="-5.08" y2="-88.9" width="0.1524" layer="91"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="SLC" class="0">
@@ -18448,36 +18473,27 @@ www.radiohm.com</description>
 <wire x1="25.4" y1="-83.82" x2="25.4" y2="-93.98" width="0.1524" layer="91"/>
 <label x="35.56" y="-93.98" size="1.778" layer="95"/>
 <wire x1="25.4" y1="-93.98" x2="48.26" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="TP10" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="APHASE" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SHA"/>
-<wire x1="-2.54" y1="-60.96" x2="-5.08" y2="-60.96" width="0.1524" layer="91"/>
 <label x="-12.7" y="-60.96" size="1.778" layer="95"/>
-<pinref part="TP32" gate="G$1" pin="TP"/>
-<junction x="-5.08" y="-60.96"/>
-<wire x1="-5.08" y1="-60.96" x2="-12.7" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-60.96" x2="-12.7" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GHA" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GHA"/>
 <label x="-10.16" y="-58.42" size="1.778" layer="95"/>
-<pinref part="TP36" gate="G$1" pin="TP"/>
-<junction x="-2.54" y="-58.42"/>
 <wire x1="-2.54" y1="-58.42" x2="-10.16" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GLA" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="GLA"/>
-<wire x1="-2.54" y1="-63.5" x2="-7.62" y2="-63.5" width="0.1524" layer="91"/>
 <label x="-15.24" y="-63.5" size="1.778" layer="95"/>
-<pinref part="TP33" gate="G$1" pin="TP"/>
-<junction x="-7.62" y="-63.5"/>
-<wire x1="-7.62" y1="-63.5" x2="-15.24" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-63.5" x2="-15.24" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -18590,7 +18606,6 @@ www.radiohm.com</description>
 <wire x1="15.24" y1="-83.82" x2="15.24" y2="-96.52" width="0.1524" layer="91"/>
 <label x="-2.54" y="-96.52" size="1.778" layer="95"/>
 <wire x1="15.24" y1="-96.52" x2="-12.7" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="VSENB" class="0">
@@ -18606,7 +18621,6 @@ www.radiohm.com</description>
 <wire x1="10.16" y1="-83.82" x2="10.16" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-2.54" y="-91.44" size="1.778" layer="95"/>
 <wire x1="10.16" y1="-91.44" x2="-7.62" y2="-91.44" width="0.1524" layer="91"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="BPHASE" class="0">
@@ -18615,7 +18629,6 @@ www.radiohm.com</description>
 <wire x1="12.7" y1="-83.82" x2="12.7" y2="-93.98" width="0.1524" layer="91"/>
 <label x="-2.54" y="-93.98" size="1.778" layer="95"/>
 <wire x1="12.7" y1="-93.98" x2="-10.16" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="TP6" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="VDRAIN" class="1">
@@ -18667,7 +18680,6 @@ www.radiohm.com</description>
 <wire x1="22.86" y1="-83.82" x2="22.86" y2="-96.52" width="0.1524" layer="91"/>
 <label x="35.56" y="-96.52" size="1.778" layer="95"/>
 <wire x1="22.86" y1="-96.52" x2="50.8" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="TP11" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="CPHASE" class="0">
@@ -18676,7 +18688,6 @@ www.radiohm.com</description>
 <wire x1="20.32" y1="-83.82" x2="20.32" y2="-99.06" width="0.1524" layer="91"/>
 <label x="35.56" y="-99.06" size="1.778" layer="95"/>
 <wire x1="20.32" y1="-99.06" x2="53.34" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="TP12" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="GHC" class="0">
@@ -18685,7 +18696,6 @@ www.radiohm.com</description>
 <wire x1="17.78" y1="-83.82" x2="17.78" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-2.54" y="-99.06" size="1.778" layer="95"/>
 <wire x1="17.78" y1="-99.06" x2="-15.24" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="TP9" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="VSENVM" class="0">
@@ -19185,10 +19195,6 @@ www.radiohm.com</description>
 <frame x1="-96.52" y1="-45.72" x2="162.56" y2="132.08" columns="3" rows="2" layer="97"/>
 </plain>
 <instances>
-<instance part="TP17" gate="G$1" x="-30.48" y="48.26" smashed="yes">
-<attribute name="NAME" x="-31.75" y="49.53" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="-29.21" y="46.99" size="1.778" layer="97"/>
-</instance>
 <instance part="R24" gate="G$1" x="-38.1" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="-39.5986" y="26.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-34.798" y="26.67" size="1.778" layer="96" rot="R90"/>
@@ -19216,14 +19222,6 @@ www.radiohm.com</description>
 <instance part="R27" gate="G$1" x="45.72" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.2214" y="26.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="49.022" y="26.67" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="TP21" gate="G$1" x="53.34" y="48.26" smashed="yes">
-<attribute name="NAME" x="52.07" y="49.53" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="54.61" y="46.99" size="1.778" layer="97"/>
-</instance>
-<instance part="TP22" gate="G$1" x="134.62" y="48.26" smashed="yes">
-<attribute name="NAME" x="133.35" y="49.53" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="135.89" y="46.99" size="1.778" layer="97"/>
 </instance>
 <instance part="R28" gate="G$1" x="127" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.5014" y="26.67" size="1.778" layer="95" rot="R90"/>
@@ -19434,14 +19432,11 @@ www.radiohm.com</description>
 </net>
 <net name="APHASE" class="0">
 <segment>
-<pinref part="TP17" gate="G$1" pin="TP"/>
-<wire x1="-30.48" y1="45.72" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
 <label x="-35.56" y="38.1" size="1.778" layer="95"/>
 <wire x1="-38.1" y1="45.72" x2="-45.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="45.72" x2="-55.88" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="-38.1" y1="35.56" x2="-38.1" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-38.1" y="45.72"/>
 <wire x1="-45.72" y1="45.72" x2="-45.72" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-45.72" y="45.72"/>
 </segment>
@@ -19449,7 +19444,6 @@ www.radiohm.com</description>
 <net name="BPHASE" class="0">
 <segment>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="TP21" gate="G$1" pin="TP"/>
 <wire x1="27.94" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
@@ -19463,7 +19457,6 @@ www.radiohm.com</description>
 </net>
 <net name="CPHASE" class="0">
 <segment>
-<pinref part="TP22" gate="G$1" pin="TP"/>
 <wire x1="104.14" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
@@ -19528,7 +19521,7 @@ www.radiohm.com</description>
 <attribute name="NAME" x="201.93" y="-1.905" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.93" y="-12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="76.2" y="45.72" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="73.66" y="40.64" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -19581,6 +19574,11 @@ www.radiohm.com</description>
 <pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="7.62" x2="195.58" y2="10.16" width="0.1524" layer="91"/>
 <label x="198.12" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<wire x1="66.04" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
+<label x="43.18" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSENVM" class="0">
@@ -19719,6 +19717,143 @@ www.radiohm.com</description>
 <wire x1="2.54" y1="68.58" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <label x="2.54" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="VDRAIN2"/>
+<wire x1="66.04" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
+<label x="43.18" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="VDRAIN"/>
+<wire x1="66.04" y1="12.7" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
+<label x="43.18" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GHA" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="GHA"/>
+<wire x1="66.04" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
+<label x="43.18" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GLA" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="GLA"/>
+<wire x1="66.04" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<label x="43.18" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLA" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="SLA"/>
+<wire x1="66.04" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
+<label x="43.18" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLB" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="SLB"/>
+<wire x1="66.04" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
+<label x="43.18" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GLB" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="GLB"/>
+<wire x1="66.04" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
+<label x="43.18" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GHB" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="GHB"/>
+<wire x1="66.04" y1="35.56" x2="53.34" y2="35.56" width="0.1524" layer="91"/>
+<label x="43.18" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GHC" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="GHC"/>
+<wire x1="66.04" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
+<label x="43.18" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GLC" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="GLC"/>
+<wire x1="66.04" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
+<label x="43.18" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLC" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="SLC"/>
+<wire x1="66.04" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="43.18" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SOC" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="SOC"/>
+<wire x1="66.04" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<label x="43.18" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SOB" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="SOB"/>
+<wire x1="66.04" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
+<label x="43.18" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SOA" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="SOA"/>
+<wire x1="66.04" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
+<label x="43.18" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CPHASE" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="CPHASE2"/>
+<wire x1="66.04" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<label x="43.18" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="CPHASE"/>
+<wire x1="66.04" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
+<label x="43.18" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BPHASE" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="BPHASE2"/>
+<wire x1="66.04" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
+<label x="43.18" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="BPHASE"/>
+<wire x1="66.04" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
+<label x="43.18" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="APHASE" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="APHASE2"/>
+<wire x1="66.04" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<label x="43.18" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="APHASE"/>
+<wire x1="66.04" y1="20.32" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
+<label x="43.18" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="5V"/>
+<wire x1="66.04" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
+<label x="50.8" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

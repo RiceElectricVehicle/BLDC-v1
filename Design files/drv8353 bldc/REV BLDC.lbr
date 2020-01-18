@@ -727,6 +727,69 @@ metal electrode face (MELF)</description>
 <smd name="5V" x="1.27" y="52.07" dx="2.54" dy="1.27" layer="1"/>
 <smd name="GND" x="2.54" y="-9.906" dx="5.08" dy="5.08" layer="1"/>
 </package>
+<package name="DRIVER_STAGE_CONNECTION">
+<smd name="GHA" x="1.27" y="0.762" dx="2.54" dy="1.27" layer="1"/>
+<smd name="APHASE" x="1.27" y="2.54" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GLA" x="1.27" y="4.318" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SLA" x="1.27" y="6.096" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SLB" x="1.27" y="7.874" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GLB" x="1.27" y="9.652" dx="2.54" dy="1.27" layer="1"/>
+<smd name="BPHASE" x="1.27" y="11.43" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GHB" x="1.27" y="13.208" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GHC" x="1.27" y="14.986" dx="2.54" dy="1.27" layer="1"/>
+<smd name="CPHASE" x="1.27" y="16.764" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GLC" x="1.27" y="18.542" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SLC" x="1.27" y="20.32" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SOA" x="1.27" y="22.098" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SOB" x="1.27" y="23.876" dx="2.54" dy="1.27" layer="1"/>
+<smd name="SOC" x="1.27" y="25.654" dx="2.54" dy="1.27" layer="1"/>
+<smd name="CPHASE2" x="1.27" y="41.91" dx="2.54" dy="1.27" layer="1"/>
+<smd name="BPHASE2" x="1.27" y="44.45" dx="2.54" dy="1.27" layer="1"/>
+<smd name="APHASE2" x="1.27" y="46.99" dx="2.54" dy="1.27" layer="1"/>
+<smd name="VDRAIN2" x="1.27" y="49.53" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GND2" x="2.54" y="33.782" dx="5.08" dy="12.7" layer="1"/>
+<smd name="VDRAIN" x="2.54" y="-3.556" dx="5.08" dy="5.08" layer="1"/>
+<smd name="5V" x="1.27" y="52.07" dx="2.54" dy="1.27" layer="1"/>
+<smd name="GND" x="2.54" y="-9.906" dx="5.08" dy="5.08" layer="1"/>
+<pad name="5VH" x="1.27" y="52.07" drill="0.762" shape="square"/>
+<pad name="VDRAIN2H" x="1.27" y="49.53" drill="0.762" shape="square"/>
+<pad name="APHASE2H" x="1.27" y="46.99" drill="0.762" shape="square"/>
+<pad name="BPHASE2H" x="1.27" y="44.45" drill="0.762" shape="square"/>
+<pad name="CPHASE2H" x="1.27" y="41.91" drill="0.762" shape="square"/>
+<pad name="SOCH" x="1.27" y="25.654" drill="0.762" shape="square"/>
+<pad name="SOBH" x="1.27" y="23.876" drill="0.762" shape="square"/>
+<pad name="SOAH" x="1.27" y="22.098" drill="0.762" shape="square"/>
+<pad name="SLCH" x="1.27" y="20.32" drill="0.762" shape="square"/>
+<pad name="GLCH" x="1.27" y="18.542" drill="0.762" shape="square"/>
+<pad name="CPHASEH" x="1.27" y="16.764" drill="0.762" shape="square"/>
+<pad name="GHCH" x="1.27" y="14.986" drill="0.762" shape="square"/>
+<pad name="GHBH" x="1.27" y="13.208" drill="0.762" shape="square"/>
+<pad name="BPHASEH" x="1.27" y="11.43" drill="0.762" shape="square"/>
+<pad name="GLBH" x="1.27" y="9.652" drill="0.762" shape="square"/>
+<pad name="SLBH" x="1.27" y="7.874" drill="0.762" shape="square"/>
+<pad name="SLAH" x="1.27" y="6.096" drill="0.762" shape="square"/>
+<pad name="GLAH" x="1.27" y="4.318" drill="0.762" shape="square"/>
+<pad name="APHASEH" x="1.27" y="2.54" drill="0.762" shape="square"/>
+<pad name="GHAH" x="1.27" y="0.762" drill="0.762" shape="square"/>
+<pad name="VDRAINH3" x="1.27" y="-2.286" drill="1.524" shape="square"/>
+<pad name="VDRAINH4" x="3.81" y="-2.286" drill="1.524" shape="square"/>
+<pad name="VDRAINH2" x="3.81" y="-4.826" drill="1.524" shape="square"/>
+<pad name="VDRAINH1" x="1.27" y="-4.826" drill="1.524" shape="square"/>
+<pad name="GNDH3" x="1.27" y="-8.636" drill="1.524" shape="square"/>
+<pad name="GNDH4" x="3.81" y="-8.636" drill="1.524" shape="square"/>
+<pad name="GNDH2" x="3.81" y="-11.176" drill="1.524" shape="square"/>
+<pad name="GNDH1" x="1.27" y="-11.176" drill="1.524" shape="square"/>
+<pad name="GND2H9" x="1.27" y="38.862" drill="1.524" shape="square"/>
+<pad name="GND2H7" x="1.27" y="36.322" drill="1.524" shape="square"/>
+<pad name="GND2H5" x="1.27" y="33.782" drill="1.524" shape="square"/>
+<pad name="GND2H3" x="1.27" y="31.242" drill="1.524" shape="square"/>
+<pad name="GND2H1" x="1.27" y="28.702" drill="1.524" shape="square"/>
+<pad name="GND2H2" x="3.81" y="28.702" drill="1.524" shape="square"/>
+<pad name="GND2H4" x="3.81" y="31.242" drill="1.524" shape="square"/>
+<pad name="GND2H6" x="3.81" y="33.782" drill="1.524" shape="square"/>
+<pad name="GND2H8" x="3.81" y="36.322" drill="1.524" shape="square"/>
+<pad name="GND2H10" x="3.81" y="38.862" drill="1.524" shape="square"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MELF-MLL34" urn="urn:adsk.eagle:package:26305/2" type="model">
@@ -1887,6 +1950,71 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv8353r"&gt; Datasheet &lt;/a&gt;
 <connect gate="G$1" pin="SOC" pad="SOC"/>
 <connect gate="G$1" pin="VDRAIN" pad="VDRAIN"/>
 <connect gate="G$1" pin="VDRAIN2" pad="VDRAIN2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DRIVER_STAGE_CONNECTOR">
+<gates>
+<gate name="G$1" symbol="BOARD_CONNECTION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWER_STAGE_CONNECTION">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="APHASE" pad="APHASE"/>
+<connect gate="G$1" pin="APHASE2" pad="APHASE2"/>
+<connect gate="G$1" pin="BPHASE" pad="BPHASE"/>
+<connect gate="G$1" pin="BPHASE2" pad="BPHASE2"/>
+<connect gate="G$1" pin="CPHASE" pad="CPHASE"/>
+<connect gate="G$1" pin="CPHASE2" pad="CPHASE2"/>
+<connect gate="G$1" pin="GHA" pad="GHA"/>
+<connect gate="G$1" pin="GHB" pad="GHB"/>
+<connect gate="G$1" pin="GHC" pad="GHC"/>
+<connect gate="G$1" pin="GLA" pad="GLA"/>
+<connect gate="G$1" pin="GLB" pad="GLB"/>
+<connect gate="G$1" pin="GLC" pad="GLC"/>
+<connect gate="G$1" pin="GND" pad="GND GND2"/>
+<connect gate="G$1" pin="SLA" pad="SLA"/>
+<connect gate="G$1" pin="SLB" pad="SLB"/>
+<connect gate="G$1" pin="SLC" pad="SLC"/>
+<connect gate="G$1" pin="SOA" pad="SOA"/>
+<connect gate="G$1" pin="SOB" pad="SOB"/>
+<connect gate="G$1" pin="SOC" pad="SOC"/>
+<connect gate="G$1" pin="VDRAIN" pad="VDRAIN"/>
+<connect gate="G$1" pin="VDRAIN2" pad="VDRAIN2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DRIVER" package="DRIVER_STAGE_CONNECTION">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V 5VH"/>
+<connect gate="G$1" pin="APHASE" pad="APHASE APHASEH"/>
+<connect gate="G$1" pin="APHASE2" pad="APHASE2 APHASE2H"/>
+<connect gate="G$1" pin="BPHASE" pad="BPHASE BPHASEH"/>
+<connect gate="G$1" pin="BPHASE2" pad="BPHASE2 BPHASE2H"/>
+<connect gate="G$1" pin="CPHASE" pad="CPHASE CPHASEH"/>
+<connect gate="G$1" pin="CPHASE2" pad="CPHASE2 CPHASE2H"/>
+<connect gate="G$1" pin="GHA" pad="GHA GHAH"/>
+<connect gate="G$1" pin="GHB" pad="GHB GHBH"/>
+<connect gate="G$1" pin="GHC" pad="GHC GHCH"/>
+<connect gate="G$1" pin="GLA" pad="GLA GLAH"/>
+<connect gate="G$1" pin="GLB" pad="GLB GLBH"/>
+<connect gate="G$1" pin="GLC" pad="GLC GLCH"/>
+<connect gate="G$1" pin="GND" pad="GND GND2 GND2H1 GND2H2 GND2H3 GND2H4 GND2H5 GND2H6 GND2H7 GND2H8 GND2H9 GND2H10 GNDH1 GNDH2 GNDH3 GNDH4"/>
+<connect gate="G$1" pin="SLA" pad="SLA SLAH"/>
+<connect gate="G$1" pin="SLB" pad="SLB SLBH"/>
+<connect gate="G$1" pin="SLC" pad="SLC SLCH"/>
+<connect gate="G$1" pin="SOA" pad="SOA SOAH"/>
+<connect gate="G$1" pin="SOB" pad="SOB SOBH"/>
+<connect gate="G$1" pin="SOC" pad="SOC SOCH"/>
+<connect gate="G$1" pin="VDRAIN" pad="VDRAIN VDRAINH1 VDRAINH2 VDRAINH3 VDRAINH4"/>
+<connect gate="G$1" pin="VDRAIN2" pad="VDRAIN2 VDRAIN2H"/>
 </connects>
 <technologies>
 <technology name=""/>

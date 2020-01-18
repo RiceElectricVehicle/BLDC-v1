@@ -2060,8 +2060,8 @@ design rules under a new name.</description>
 </polygon>
 <polygon width="0" layer="16" thermals="no">
 <vertex x="16.256" y="66.802"/>
-<vertex x="26.162" y="66.802"/>
-<vertex x="26.162" y="57.658"/>
+<vertex x="17.526" y="66.802"/>
+<vertex x="17.526" y="57.658"/>
 <vertex x="16.256" y="57.658"/>
 </polygon>
 <polygon width="0" layer="16" thermals="no">
@@ -2170,7 +2170,7 @@ design rules under a new name.</description>
 <vertex x="6.604" y="48.26"/>
 <vertex x="6.604" y="50.292"/>
 </polygon>
-<polygon width="0" layer="16">
+<polygon width="0" layer="16" thermals="no">
 <vertex x="14.224" y="130.81"/>
 <vertex x="14.224" y="37.338"/>
 <vertex x="36.068" y="37.338"/>
@@ -2182,7 +2182,7 @@ design rules under a new name.</description>
 <vertex x="18.034" y="130.81"/>
 <vertex x="0.254" y="130.81"/>
 </polygon>
-<polygon width="0" layer="2">
+<polygon width="0" layer="2" thermals="no">
 <vertex x="14.224" y="130.81"/>
 <vertex x="14.224" y="37.338"/>
 <vertex x="36.068" y="37.338"/>
