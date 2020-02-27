@@ -9415,10 +9415,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B03B-HCMKS.pd
 <segment>
 <pinref part="IC1" gate="G$1" pin="VDD1"/>
 <wire x1="-2.54" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="17.78" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="17.78" x2="-2.54" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="30.48" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
@@ -9426,14 +9423,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B03B-HCMKS.pd
 <label x="43.18" y="25.4" size="1.778" layer="95"/>
 <pinref part="SV3" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="25.4" x2="53.34" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="17.78" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ECLK" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VIB"/>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="22.86" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="15.24" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="17.78" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="-5.08" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
@@ -9442,22 +9439,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B03B-HCMKS.pd
 <pinref part="SV3" gate="G$1" pin="4"/>
 <junction x="48.26" y="-5.08"/>
 <wire x1="48.26" y1="-5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="17.78" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="5"/>
+<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EMISO" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="5.08" x2="40.64" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="5.08" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
 <label x="43.18" y="12.7" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="VOD"/>
 <wire x1="58.42" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="SV3" gate="G$1" pin="6"/>
-<wire x1="43.18" y1="12.7" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
 <junction x="43.18" y="12.7"/>
 <wire x1="43.18" y1="-5.08" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="12.7" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="12.7" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="0" y1="2.54" x2="0" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="7"/>
+<wire x1="0" y1="10.16" x2="2.54" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EGND" class="0">
@@ -9485,20 +9487,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B03B-HCMKS.pd
 </net>
 <net name="EMOSI" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="2.54" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="15.24" x2="-2.54" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="7.62" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="7.62" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VIA"/>
 <wire x1="58.42" y1="20.32" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="20.32" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-5.08" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
 <junction x="50.8" y="20.32"/>
 <label x="43.18" y="20.32" size="1.778" layer="95"/>
 <pinref part="SV3" gate="G$1" pin="3"/>
 <junction x="50.8" y="-5.08"/>
 <wire x1="50.8" y1="-5.08" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="0" y1="20.32" x2="0" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="0" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9694,14 +9694,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/B03B-HCMKS.pd
 <segment>
 <pinref part="IC1" gate="G$1" pin="VIC"/>
 <wire x1="58.42" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="15.24" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="15.24" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="38.1" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
 <label x="43.18" y="15.24" size="1.778" layer="95"/>
 <pinref part="SV3" gate="G$1" pin="5"/>
 <wire x1="45.72" y1="-5.08" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
 <junction x="45.72" y="15.24"/>
+<pinref part="J3" gate="G$1" pin="6"/>
+<wire x1="22.86" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="12.7" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS" class="0">
