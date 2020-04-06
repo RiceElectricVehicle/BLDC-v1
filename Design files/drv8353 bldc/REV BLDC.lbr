@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -667,6 +667,24 @@ metal electrode face (MELF)</description>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="ACS78X">
+<smd name="NC1" x="2.8" y="0" dx="0.9" dy="0.6" layer="1"/>
+<smd name="NC2" x="-2.8" y="0" dx="0.9" dy="0.6" layer="1"/>
+<smd name="IP-" x="-1.5" y="2.35" dx="1.8" dy="1.7" layer="1"/>
+<smd name="IP+" x="1.5" y="2.35" dx="1.8" dy="1.7" layer="1"/>
+<smd name="VCC" x="-1.6" y="-2.5" dx="0.5" dy="1.6" layer="1"/>
+<smd name="GND" x="0" y="-2.5" dx="0.5" dy="1.6" layer="1"/>
+<smd name="VOUT" x="1.6" y="-2.5" dx="0.5" dy="1.6" layer="1"/>
+<wire x1="-3" y1="-1" x2="-3" y2="-2.4" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-2.4" x2="-2.5" y2="-2.4" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1" x2="3" y2="-2.4" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.4" x2="2.5" y2="-2.4" width="0.1524" layer="21"/>
+<wire x1="3" y1="1" x2="3" y2="2.4" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.4" x2="2.7" y2="2.4" width="0.1524" layer="21"/>
+<wire x1="-0.3" y1="2.4" x2="0.3" y2="2.4" width="0.1524" layer="21"/>
+<wire x1="-2.7" y1="2.4" x2="-3" y2="2.4" width="0.1524" layer="21"/>
+<wire x1="-3" y1="2.4" x2="-3" y2="1" width="0.1524" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MELF-MLL34" urn="urn:adsk.eagle:package:26305/2" type="model">
@@ -1099,6 +1117,19 @@ metal electrode face (MELF)</description>
 <text x="-4.4704" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
 <pin name="LINE" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="ALLEGROSMDHALL">
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
+<pin name="GND" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="VOUT" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="VCC" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="NC1" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="NC2" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="IP+" x="-10.16" y="5.08" length="middle"/>
+<pin name="IP-" x="-10.16" y="-5.08" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1558,6 +1589,27 @@ unfilled</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:26308/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACS78X">
+<gates>
+<gate name="A" symbol="ALLEGROSMDHALL" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ACS78X">
+<connects>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="IP+" pad="IP+"/>
+<connect gate="A" pin="IP-" pad="IP-"/>
+<connect gate="A" pin="NC1" pad="NC1"/>
+<connect gate="A" pin="NC2" pad="NC2"/>
+<connect gate="A" pin="VCC" pad="VCC"/>
+<connect gate="A" pin="VOUT" pad="VOUT"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
