@@ -17201,8 +17201,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <smd name="D11" x="4.775" y="5.815" dx="1.65" dy="0.65" layer="1" rot="R90"/>
 <smd name="D12" x="-4.775" y="0.59" dx="2.9" dy="0.65" layer="1" rot="R90"/>
 <smd name="D13" x="4.775" y="0.59" dx="2.9" dy="0.65" layer="1" rot="R90"/>
-<text x="-0.437" y="0.744" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<text x="-0.437" y="0.744" size="1.27" layer="25" align="center">&gt;NAME</text>
 <wire x1="-4.9" y1="5.19" x2="4.9" y2="5.19" width="0.2" layer="51"/>
 <wire x1="4.9" y1="5.19" x2="4.9" y2="-5.19" width="0.2" layer="51"/>
 <wire x1="4.9" y1="-5.19" x2="-4.9" y2="-5.19" width="0.2" layer="51"/>
@@ -20504,6 +20502,8 @@ Source: www.kingbright.com</description>
 <wire x1="93.98" y1="7.62" x2="99.06" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="7.62" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="17.78" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
+<wire x1="104.14" y1="25.4" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="APHASE" class="0">
@@ -20619,6 +20619,8 @@ Source: www.kingbright.com</description>
 <pinref part="U$13" gate="G$1" pin="END2"/>
 <wire x1="91.44" y1="45.72" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
 <junction x="91.44" y="48.26"/>
+<pinref part="Q6" gate="G$1" pin="D"/>
+<wire x1="104.14" y1="35.56" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
