@@ -18880,6 +18880,7 @@ Source: www.kingbright.com</description>
 <part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:26200/1"/>
 <part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:26200/1"/>
 <part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:26200/1"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -19090,6 +19091,10 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY14" gate="GND" x="-78.74" y="5.08" smashed="yes" rot="R270"/>
 <instance part="SUPPLY9" gate="GND" x="30.48" y="-35.56" smashed="yes" rot="R270"/>
 <instance part="SUPPLY25" gate="GND" x="116.84" y="-91.44" smashed="yes" rot="R90"/>
+<instance part="R4" gate="G$1" x="116.84" y="-132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.3414" y="-135.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.142" y="-135.89" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19580,11 +19585,6 @@ Source: www.kingbright.com</description>
 </net>
 <net name="ENABLE" class="0">
 <segment>
-<wire x1="114.3" y1="-127" x2="119.38" y2="-127" width="0.1524" layer="91"/>
-<label x="119.38" y="-127" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="11"/>
-</segment>
-<segment>
 <wire x1="-12.7" y1="-27.94" x2="-12.7" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-12.7" y="-25.4" size="1.778" layer="95" rot="R90"/>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -19601,6 +19601,11 @@ Source: www.kingbright.com</description>
 <pinref part="U1" gate="A" pin="ENABLE"/>
 <wire x1="50.8" y1="-45.72" x2="35.56" y2="-45.72" width="0.1524" layer="91"/>
 <label x="25.4" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="-137.16" x2="127" y2="-137.16" width="0.1524" layer="91"/>
+<label x="119.38" y="-137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -19877,6 +19882,13 @@ Source: www.kingbright.com</description>
 <pinref part="U1" gate="A" pin="VGLS"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="-40.64" x2="45.72" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="11"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="-127" x2="116.84" y2="-127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
