@@ -4244,8 +4244,8 @@ einem neuen Namen ab.</description>
 <polygon width="0.3048" layer="1" thermals="no" rank="2">
 <vertex x="3.6658" y="138.5288"/>
 <vertex x="3.6658" y="37.7228"/>
-<vertex x="61.9458" y="37.7228"/>
-<vertex x="61.9458" y="138.5288"/>
+<vertex x="65.5018" y="37.7228"/>
+<vertex x="65.5018" y="138.5288"/>
 </polygon>
 <contactref element="C2" pad="2"/>
 <contactref element="C3" pad="2"/>
